@@ -2,14 +2,22 @@ SystemID SNES
 001062	b	u	0	WRAM	Current HP
 001E50	b	u	0	WRAM	Max HP
 001063	w	u	0	WRAM	Zam
-001E43	b	u	0	WRAM	
-001E44	b	u	0	WRAM	
-001E45	b	u	0	WRAM	
 001E51	b	b	0	WRAM	Fire/Blazon Power (Not Ultimate)
-001E52	b	b	0	WRAM	Ultimate - Jar 2
-001E53	b	b	0	WRAM	Jar 3 - Talismans
+001E52	b	b	0	WRAM	Ultimate - Scroll 2
+001E53	b	b	0	WRAM	Scroll 3 - Talismans
 001E54	w	b	0	WRAM	Max HP+
-001E55	b	u	0	WRAM	
-001E54	w	u	0	WRAM	
 001054	b	b	0	WRAM	Selected Form, 0 is Firebrand and the 1 position is craz
+001031	w	u	0	WRAM	Horizontal Position (Coarse)
+001034	w	u	0	WRAM	Vertical Position (Coarse)
+0000C0	b	u	0	WRAM	Viewport?
+001E30	b	u	0	WRAM	Scroll 1 Contents
+001E31	b	u	0	WRAM	Scroll 2 Contents
+001E32	b	u	0	WRAM	Scroll 3 Contents
+001E33	b	u	0	WRAM	Scroll 4 Contents
+001E34	b	u	0	WRAM	Scroll 5 Contents
+001E35	b	u	0	WRAM	Jar 1 Contents
+001E36	b	u	0	WRAM	Jar 2 Contents
+001E37	b	u	0	WRAM	Jar 3 Contents
+001E38	b	u	0	WRAM	Jar 4 Contents
+001E39	b	u	0	WRAM	Jar 5 Contents
 
