@@ -3,21 +3,39 @@ SystemID SNES
 001E50	b	u	0	WRAM	Max HP
 001063	w	u	0	WRAM	Zam
 001E51	b	b	0	WRAM	Fire/Blazon Power (Not Ultimate)
-001E52	b	b	0	WRAM	Ultimate - Scroll 2
-001E53	b	b	0	WRAM	Scroll 3 - Talismans
+001E52	b	b	0	WRAM	Ultimate - Urn 2
+001E53	b	b	0	WRAM	Urn 3 - Talismans
 001E54	w	b	0	WRAM	Max HP+
 001054	b	b	0	WRAM	Selected Form, 0 is Firebrand and the 1 position is craz
-001031	w	u	0	WRAM	Horizontal Position (Coarse)
-001034	w	u	0	WRAM	Vertical Position (Coarse)
-0000C0	b	u	0	WRAM	Viewport?
-001E30	b	u	0	WRAM	Scroll 1 Contents
-001E31	b	u	0	WRAM	Scroll 2 Contents
-001E32	b	u	0	WRAM	Scroll 3 Contents
-001E33	b	u	0	WRAM	Scroll 4 Contents
-001E34	b	u	0	WRAM	Scroll 5 Contents
-001E35	b	u	0	WRAM	Jar 1 Contents
-001E36	b	u	0	WRAM	Jar 2 Contents
-001E37	b	u	0	WRAM	Jar 3 Contents
-001E38	b	u	0	WRAM	Jar 4 Contents
-001E39	b	u	0	WRAM	Jar 5 Contents
+0000C0	w	u	0	WRAM	Viewport X (Coarse)
+0000C4	w	u	0	WRAM	Viewport Y (Coarse)
+001030	b	u	0	WRAM	Firebrand ?
+001031	w	u	0	WRAM	Firebrand X (Coarse)
+001033	b	u	0	WRAM	Firebrand ?
+001034	w	u	0	WRAM	Firebrand Y (Coarse)
+001E30	b	u	0	WRAM	Vellum 1 Contents
+001E31	b	u	0	WRAM	Vellum 2 Contents
+001E32	b	u	0	WRAM	Vellum 3 Contents
+001E33	b	u	0	WRAM	Vellum 4 Contents
+001E34	b	u	0	WRAM	Vellum 5 Contents
+001E35	b	u	0	WRAM	Urn 1 Contents
+001E36	b	u	0	WRAM	Urn 2 Contents
+001E37	b	u	0	WRAM	Urn 3 Contents
+001E38	b	u	0	WRAM	Urn 4 Contents
+001E39	b	u	0	WRAM	Urn 5 Contents
+001300	w	u	0	WRAM	Spawn 1 Existence ?
+001330	b	u	0	WRAM	
+001331	w	u	0	WRAM	Spawn 1 X (Coarse)
+001333	b	u	0	WRAM	
+001334	w	u	0	WRAM	Spawn 1 Y (Coarse)
+001338	b	u	0	WRAM	Spawn 1 Timer ?
+001381	w	u	0	WRAM	Enemy X Position (Coarse)
+001384	w	u	0	WRAM	Enemy Y Position (Coarse)
+001388	w	u	0	WRAM	Enemy Timer ?
+001421	w	u	0	WRAM	YAE X (Coarse)
+001424	w	u	0	WRAM	YAE Y (Coarse)
+001428	w	u	0	WRAM	YAE Timer ?
+0014C1	w	u	0	WRAM	Another Enemy X Position (Coarse)
+0014C4	w	u	0	WRAM	Another Enemy Y Position (Coarse)
+0014C8	w	u	0	WRAM	Another Enemy Timer ?
 

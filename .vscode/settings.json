@@ -1,0 +1,7 @@
+{
+  "Lua.diagnostics.globals": [
+    "items",
+    "bitflag",
+    "read"
+  ]
+}

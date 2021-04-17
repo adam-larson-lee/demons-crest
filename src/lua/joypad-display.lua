@@ -1,4 +1,4 @@
-function displayInputs()
+function joypadDisplay()
 
   local xCoord = 0;
   local yCoord = 189;
@@ -53,6 +53,6 @@ function displayInputs()
 end
 
 while true do
-  displayInputs()
+  joypadDisplay()
   emu.frameadvance()
 end
