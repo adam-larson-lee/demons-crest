@@ -1,18 +1,32 @@
 SystemID SNES
-001062	b	u	0	WRAM	Current HP
-001E50	b	u	0	WRAM	Max HP
-001063	w	u	0	WRAM	Zam
-001E51	b	b	0	WRAM	Fire/Blazon Power (Not Ultimate)
-001E52	b	b	0	WRAM	Ultimate - Urn 2
-001E53	b	b	0	WRAM	Urn 3 - Talismans
-001E54	w	b	0	WRAM	Max HP+
-001054	b	b	0	WRAM	Selected Form, 0 is Firebrand and the 1 position is craz
 0000C0	w	u	0	WRAM	Viewport X (Coarse)
 0000C4	w	u	0	WRAM	Viewport Y (Coarse)
+001000	b	u	0	WRAM	Firebrand Status
 001030	b	u	0	WRAM	Firebrand ?
 001031	w	u	0	WRAM	Firebrand X (Coarse)
-001033	b	u	0	WRAM	Firebrand ?
 001034	w	u	0	WRAM	Firebrand Y (Coarse)
+00103B	b	u	0	WRAM	Projectiles In Air (Count for Max)
+001054	b	b	0	WRAM	Selected Form, 0 is Firebrand and the 1 position is craz
+001062	b	u	0	WRAM	Current HP
+001063	w	u	0	WRAM	Zam
+001077	b	u	0	WRAM	Projectiles In Air (Count)
+001300	b	u	0	WRAM	1 Status
+001300	b	u	0	WRAM	Spawn 1 Status
+001331	w	u	0	WRAM	Spawn 1 X (Coarse)
+001333	b	u	0	WRAM	
+001334	w	u	0	WRAM	Spawn 1 Y (Coarse)
+001336	b	u	0	WRAM	HP
+001336	b	b	0	WRAM	HP, msb flipped on some bosses during iframes
+001338	b	u	0	WRAM	Spawn 1 Current Action?
+001348	b	u	0	WRAM	Invincible... Sometimes?
+00134D	b	u	0	WRAM	Boss IFrame Timer (Belth?)
+001350	b	u	0	WRAM	2 Status
+0013A0	b	u	0	WRAM	3 Status
+0013F0	b	u	0	WRAM	4 Status
+001440	b	u	0	WRAM	5 Status
+001490	b	u	0	WRAM	6 Status
+0014E0	b	u	0	WRAM	7 Status
+001DD5	b	u	0	WRAM	Boss IFrame Counter (Arma?)
 001E30	b	u	0	WRAM	Vellum 1 Contents
 001E31	b	u	0	WRAM	Vellum 2 Contents
 001E32	b	u	0	WRAM	Vellum 3 Contents
@@ -23,19 +37,10 @@ SystemID SNES
 001E37	b	u	0	WRAM	Urn 3 Contents
 001E38	b	u	0	WRAM	Urn 4 Contents
 001E39	b	u	0	WRAM	Urn 5 Contents
-001300	w	u	0	WRAM	Spawn 1 Existence ?
-001330	b	u	0	WRAM	
-001331	w	u	0	WRAM	Spawn 1 X (Coarse)
-001333	b	u	0	WRAM	
-001334	w	u	0	WRAM	Spawn 1 Y (Coarse)
-001338	b	u	0	WRAM	Spawn 1 Timer ?
-001381	w	u	0	WRAM	Enemy X Position (Coarse)
-001384	w	u	0	WRAM	Enemy Y Position (Coarse)
-001388	w	u	0	WRAM	Enemy Timer ?
-001421	w	u	0	WRAM	YAE X (Coarse)
-001424	w	u	0	WRAM	YAE Y (Coarse)
-001428	w	u	0	WRAM	YAE Timer ?
-0014C1	w	u	0	WRAM	Another Enemy X Position (Coarse)
-0014C4	w	u	0	WRAM	Another Enemy Y Position (Coarse)
-0014C8	w	u	0	WRAM	Another Enemy Timer ?
+001E50	b	u	0	WRAM	Max HP
+001E51	b	b	0	WRAM	Fire/Blazon Power (Not Ultimate)
+001E52	b	b	0	WRAM	Ultimate - Urn 2
+001E53	b	b	0	WRAM	Urn 3 - Talismans
+001E54	w	b	0	WRAM	Max HP+
+001DD7	b	u	0	WRAM	Boss IFrame Timer (Hippo?)
 

@@ -1,42 +1,23 @@
 require 'mem.read'
+require 'object.objects'
 
 local function hitboxes()
 
-  local viewport = {
-    x = read(0x0000C0, 2),
-    y = read(0x0000C4, 2),
+  --the comments are just observations, i still have no idea what these flags mean
+  local statusColors = {
+    [16] = 'White', --firerband
+    [18] = 'Blue', --jars and items from jars... and items from enemies sometimes? and arma 1 projectiles? and firebrand projectile collision?
+    [22] = 'Red', --enemies... most of the time?
+    [86] = 'Yellow', --hippogriff before you headbutt?
+    [146] = 'Purple', --items from enemies... sometimes?
+    [150] = 'Green', --spawn points, enemies... sometimes?
+    [210] = 'Black', --dying enemies?
   }
 
-local function hitbox(aliveAddress, xAddress, yAddress, color)
-    return {
-      isAlive = function ()
-        if (aliveAddress > 0) then
-          return read(aliveAddress, 1) > 0
-        else
-          return true
-        end
-      end,
-      getX = function ()
-        return read(xAddress, 2) - viewport.x
-      end,
-      getY = function ()
-        return read(yAddress, 2) - viewport.y
-      end,
-      color = color,
-    }
-end
-
-  local hitboxes = {
-    hitbox(0, 0x001031, 0x001034, 'White'),
-    hitbox(0x001300, 0x001331, 0x001334, 'Green'),
-    hitbox(0, 0x001381, 0x001384, 'Yellow'),
-    hitbox(0, 0x001421, 0x001424, 'Red'),
-    hitbox(0, 0x0014C1, 0x0014C4, 'Purple'),
-  }
-
-  for i,box in ipairs(hitboxes) do
-    if (box.isAlive()) then
-      gui.drawBox(box.getX() - 2, box.getY() - 2, box.getX() + 2, box.getY() + 2, box.color)
+  for j,obj in ipairs(objects) do
+    if (obj.isAlive()) then
+      gui.drawBox(obj.getX() - 5, obj.getY() - 4, obj.getX() + 5, obj.getY() + 4, statusColors[obj.getStatus()], 'White')
+      gui.drawText(obj.getX() - 6, obj.getY() - 2, j - 1, 'Black', nil, 8, 'Lucida Console')
     end
   end
 end
