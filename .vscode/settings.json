@@ -4,6 +4,10 @@
     "objects",
     "items",
     "bitflag",
-    "read"
+    "read",
+    "hud",
+    "objectHp",
+    "emu",
+    "joypadDisplay"
   ]
 }

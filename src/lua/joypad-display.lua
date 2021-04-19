@@ -52,7 +52,9 @@ function joypadDisplay()
 
 end
 
-while true do
-  joypadDisplay()
-  emu.frameadvance()
+if (not hud) then
+  while true do
+    joypadDisplay()
+    emu.frameadvance()
+  end
 end

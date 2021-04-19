@@ -6,7 +6,11 @@ local function object(address)
       return read(address, 1) > 0
     end,
     getHp = function ()
-      return read(address + 0x36, 1)
+      hp = read(address + 0x36, 1)
+      if (hp >= 0x80) then
+        hp = hp - 0x80
+      end
+      return hp
     end,
     getX = function ()
       return read(address + 0x31, 2) - viewport.getX()

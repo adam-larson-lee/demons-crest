@@ -10,7 +10,6 @@ SystemID SNES
 001062	b	u	0	WRAM	Current HP
 001063	w	u	0	WRAM	Zam
 001077	b	u	0	WRAM	Projectiles In Air (Count)
-001300	b	u	0	WRAM	1 Status
 001300	b	u	0	WRAM	Spawn 1 Status
 001331	w	u	0	WRAM	Spawn 1 X (Coarse)
 001333	b	u	0	WRAM	
