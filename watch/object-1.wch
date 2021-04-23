@@ -1,15 +1,15 @@
 SystemID SNES
-001300	b	u	0	WRAM	Status ?
+001300	b	u	0	WRAM	Status ? (1 Spawning)
 001301	b	u	0	WRAM	
 001302	b	u	0	WRAM	this might be the object id
 001303	b	u	0	WRAM	
-001304	b	u	0	WRAM	
+001304	b	u	0	WRAM	Grounded/Airborn (4/0)
 001305	b	u	0	WRAM	
 001306	b	u	0	WRAM	this causes bouncing on somulo health
-001307	b	u	0	WRAM	
+001307	b	u	0	WRAM	Contact Damage
 001308	b	u	0	WRAM	something to do with the sprite
-001309	b	u	0	WRAM	
-00130A	b	u	0	WRAM	
+001309	b	u	0	WRAM	Movement Direction (1 = Right, 2 = Left)
+00130A	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left)
 00130B	b	u	0	WRAM	this makes the colors go crazy
 00130C	b	u	0	WRAM	
 00130D	b	u	0	WRAM	
@@ -29,7 +29,7 @@ SystemID SNES
 00131B	b	u	0	WRAM	
 00131C	b	u	0	WRAM	
 00131D	b	u	0	WRAM	
-000200	b	u	0	WRAM	
+00131E	b	u	0	WRAM	
 00131F	b	u	0	WRAM	
 001320	w	u	0	WRAM	X Movement Speed
 001322	b	u	0	WRAM	
@@ -50,12 +50,12 @@ SystemID SNES
 001331	w	u	0	WRAM	X (Coarse)
 001333	b	u	0	WRAM	
 001334	w	u	0	WRAM	Y (Coarse)
-001336	b	u	0	WRAM	
+001336	b	u	0	WRAM	HP
 001337	b	u	0	WRAM	
 001338	b	u	0	WRAM	
 001339	b	u	0	WRAM	
 00133A	b	u	0	WRAM	timer on level switch when picking up health?
-00133B	b	u	0	WRAM	
+00133B	b	u	0	WRAM	Despawn Timers
 00133C	b	u	0	WRAM	
 00133D	b	u	0	WRAM	
 00133E	b	u	0	WRAM	

@@ -42,4 +42,5 @@ SystemID SNES
 001E53	b	b	0	WRAM	Urn 3 - Talismans
 001E54	w	b	0	WRAM	Max HP+
 001DD7	b	u	0	WRAM	Boss IFrame Timer (Hippo?)
+001028	w	u	0	WRAM	Firebrand Hitbox ?
 
