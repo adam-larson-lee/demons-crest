@@ -8,7 +8,7 @@ SystemID SNES
 001306	b	u	0	WRAM	this causes bouncing on somulo health
 001307	b	u	0	WRAM	Contact Damage
 001308	b	u	0	WRAM	something to do with the sprite
-001309	b	u	0	WRAM	Movement Direction (1 = Right, 2 = Left)
+001309	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left)
 00130A	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left)
 00130B	b	u	0	WRAM	this makes the colors go crazy
 00130C	b	u	0	WRAM	

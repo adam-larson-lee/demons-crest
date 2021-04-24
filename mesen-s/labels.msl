@@ -3,9 +3,14 @@ WORK:1034:firebrand_y
 WORK:103C:firebrand_iframe_timer
 WORK:1062:firebrand_current_hp
 WORK:1063:zam
+WORK:10B1:projectile_1_x
+WORK:10B4:projectile_1_y
 WORK:1300:object_1_status
-WORK:1331:object_1_x
+WORK:1309:object_1_movement_direction:1 = Right, 2 = Left
+WORK:1320:object_1_move_speed
+WORK:1331-1332:object_1_x
 WORK:1334:object_1_y
+WORK:1336:object_1_hp
 WORK:1431:object_3_x
 SPCRAM:00F0:TEST:Testing functions
 SPCRAM:00F1:CONTROL:I/O and Timer Control

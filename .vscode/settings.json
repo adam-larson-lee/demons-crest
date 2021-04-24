@@ -8,6 +8,9 @@
     "hud",
     "objectHp",
     "emu",
-    "joypadDisplay"
+    "joypadDisplay",
+    "memory",
+    "wram",
+    "rom"
   ]
 }

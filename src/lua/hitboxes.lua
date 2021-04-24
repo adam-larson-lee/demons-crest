@@ -16,8 +16,9 @@ local function hitboxes()
 
   for j,obj in ipairs(objects) do
     if (obj.isAlive()) then
-      gui.drawBox(obj.getX() - 5, obj.getY() - 4, obj.getX() + 5, obj.getY() + 4, statusColors[obj.getStatus()], 'White')
-      gui.drawText(obj.getX() - 6, obj.getY() - 2, j - 1, 'Black', nil, 8, 'Lucida Console')
+      gui.drawBox(obj.getX() - obj.getXHitbox(), obj.getY() - obj.topHitbox(), obj.getX() + obj.getXHitbox(), obj.getY() + obj.bottomHitbox(), 'White')
+      gui.drawText(obj.getX() - 4, obj.getY() - obj.topHitbox() - 6, j - 1, 'White', nil, 8, 'Lucida Console')
+      gui.drawPixel(obj.getX(), obj.getY(), 'Red')
     end
   end
 end

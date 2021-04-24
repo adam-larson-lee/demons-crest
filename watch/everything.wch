@@ -43,4 +43,10 @@ SystemID SNES
 001E54	w	b	0	WRAM	Max HP+
 001DD7	b	u	0	WRAM	Boss IFrame Timer (Hippo?)
 001028	w	u	0	WRAM	Firebrand Hitbox ?
+0010B1	w	u	0	WRAM	Projectile 1 X (Coarse)
+00109C	w	u	0	WRAM	Projectile 1 X (Coarse) Copy
+00109E	b	u	0	WRAM	Projectile 1 Y Relative to View?
+001092	w	u	0	WRAM	Projectile 1 Y Relative to View?
+001080	b	u	0	WRAM	Projectile 1 Status
+0010D0	b	u	0	WRAM	Projectile 2 Status
 
