@@ -1,4 +1,4 @@
-require 'mem.read'
+dofile('../util/read.lua')
 
 viewport = {
   getX = function ()

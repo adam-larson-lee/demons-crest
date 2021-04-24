@@ -1,4 +1,4 @@
-require 'viewport.viewport'
+dofile('../viewport/viewport.lua')
 
 local function object(address)
   return {

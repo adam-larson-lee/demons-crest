@@ -1,4 +1,4 @@
-function joypadDisplay()
+function joypadHud()
 
   local xCoord = 0;
   local yCoord = 189;
@@ -54,7 +54,7 @@ end
 
 if (not hud) then
   while true do
-    joypadDisplay()
+    joypadHud()
     emu.frameadvance()
   end
 end

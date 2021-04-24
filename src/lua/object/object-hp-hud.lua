@@ -1,7 +1,7 @@
-require 'object.objects'
-require 'draw.draw-box'
+dofile('../object/objects.lua')
+dofile('../util/draw-box.lua')
 
-function objectHp()
+function objectHpHud()
   for i,obj in ipairs(objects) do
     if (obj.isAlive() and obj.getHp() > 0) then
       for hp = 0, obj.getHp() - 1 do
@@ -13,7 +13,7 @@ end
 
 if (not hud) then
   while true do
-    objectHp()
+    objectHpHud()
     emu.frameadvance()
   end
 end

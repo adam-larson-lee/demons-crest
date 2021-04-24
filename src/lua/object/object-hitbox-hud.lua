@@ -1,7 +1,7 @@
-require 'mem.read'
-require 'object.objects'
+dofile('../util/read.lua')
+dofile('../object/objects.lua')
 
-local function hitboxes()
+local function objectHitboxHud()
 
   --the comments are just observations, i still have no idea what these flags mean
   local statusColors = {
@@ -24,6 +24,6 @@ local function hitboxes()
 end
 
 while true do
-  hitboxes()
+  objectHitboxHud()
   emu.frameadvance()
 end

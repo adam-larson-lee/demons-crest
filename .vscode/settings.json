@@ -6,9 +6,9 @@
     "bitflag",
     "read",
     "hud",
-    "objectHp",
+    "objectHpHud",
     "emu",
-    "joypadDisplay",
+    "joypadHud",
     "memory",
     "wram",
     "rom"
