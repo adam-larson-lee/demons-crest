@@ -1,5 +1,3 @@
-dofile('../viewport/viewport.lua')
-
 local function object(address)
   return {
     isAlive = function ()

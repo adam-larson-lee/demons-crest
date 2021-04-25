@@ -1,7 +1,4 @@
-dofile('../util/read.lua')
-dofile('../object/objects.lua')
-
-local function objectHitboxHud()
+function displayObjectHitboxes()
 
   --the comments are just observations, i still have no idea what these flags mean
   local statusColors = {
@@ -21,9 +18,4 @@ local function objectHitboxHud()
       gui.drawPixel(obj.getX(), obj.getY(), 'Red')
     end
   end
-end
-
-while true do
-  objectHitboxHud()
-  emu.frameadvance()
 end

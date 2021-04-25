@@ -1,16 +1,13 @@
 {
   "Lua.diagnostics.globals": [
-    "viewport",
-    "objects",
-    "items",
-    "bitflag",
-    "read",
-    "hud",
-    "objectHpHud",
     "emu",
-    "joypadHud",
-    "memory",
-    "wram",
-    "rom"
+    "gui",
+    "objects",
+    "displayJoypad",
+    "displayFirebrandHp",
+    "displayObjectHitboxes",
+    "firebrand",
+    "drawText",
+    "displayEnemyHp"
   ]
 }

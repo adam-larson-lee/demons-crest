@@ -1,5 +1,3 @@
-dofile('../util/read.lua')
-
 viewport = {
   getX = function ()
     return wram(0x0000C0, 2)
