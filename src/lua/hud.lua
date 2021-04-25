@@ -1,7 +1,7 @@
 require 'global-require'
 
 while true do
-  gui.clearGraphics()
+  clearGui()
 
   displayJoypad()
   displayFirebrandHp()

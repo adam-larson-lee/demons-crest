@@ -8,6 +8,7 @@
     "displayObjectHitboxes",
     "firebrand",
     "drawText",
-    "displayEnemyHp"
+    "displayEnemyHp",
+    "clearGui"
   ]
 }
