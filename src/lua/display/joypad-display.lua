@@ -3,19 +3,19 @@ function displayJoypad()
   local xCoord = 0;
   local yCoord = 0;
 
-  local function button(name, display, draw)
+  local function button(name, display, drawMethod)
     return {
       name = name,
       display = display == nil and name or display,
       isPressed = function (self)
-        return joypad.get(1)[self.name]
+        return input.isPressed(self.name)
       end,
       draw = function (self, x, y)
         if (self:isPressed()) then
-          if (not draw) then
-            drawText(x, y, self.display)
+          if (not drawMethod) then
+            draw.text(x, y, self.display)
           else
-            draw(x, y)
+            drawMethod(x, y)
           end
         end        
       end
@@ -25,43 +25,43 @@ function displayJoypad()
   local function directionalButton(name)
 
     local function drawLeftButton(x, y)
-      gui.drawLine(x + 6, y + 2, x + 3, y + 2, 'White')
-      gui.drawLine(x + 3, y + 2, x + 3, y, 'White')
-      gui.drawLine(x + 3, y, x, y + 3, 'White')
-      gui.drawLine(x, y + 3, x + 3, y + 6, 'White')
-      gui.drawLine(x + 3, y + 6, x + 3, y + 4, 'White')
-      gui.drawLine(x + 3, y + 4, x + 6, y + 4, 'White')
-      gui.drawLine(x + 6, y + 4, x + 6, y + 2, 'White')
+      draw.line(x + 6, y + 2, x + 3, y + 2, 'White')
+      draw.line(x + 3, y + 2, x + 3, y, 'White')
+      draw.line(x + 3, y, x, y + 3, 'White')
+      draw.line(x, y + 3, x + 3, y + 6, 'White')
+      draw.line(x + 3, y + 6, x + 3, y + 4, 'White')
+      draw.line(x + 3, y + 4, x + 6, y + 4, 'White')
+      draw.line(x + 6, y + 4, x + 6, y + 2, 'White')
     end
 
     local function drawRightButton(x, y)
-      gui.drawLine(x, y + 2, x + 3, y + 2, 'White')
-      gui.drawLine(x + 3, y + 2, x + 3, y, 'White')
-      gui.drawLine(x + 3, y, x + 6, y + 3, 'White')
-      gui.drawLine(x + 6, y + 3, x + 3, y + 6, 'White')
-      gui.drawLine(x + 3, y + 6, x + 3, y + 4, 'White')
-      gui.drawLine(x + 3, y + 4, x, y + 4, 'White')
-      gui.drawLine(x, y + 4, x, y + 2, 'White')
+      draw.line(x, y + 2, x + 3, y + 2, 'White')
+      draw.line(x + 3, y + 2, x + 3, y, 'White')
+      draw.line(x + 3, y, x + 6, y + 3, 'White')
+      draw.line(x + 6, y + 3, x + 3, y + 6, 'White')
+      draw.line(x + 3, y + 6, x + 3, y + 4, 'White')
+      draw.line(x + 3, y + 4, x, y + 4, 'White')
+      draw.line(x, y + 4, x, y + 2, 'White')
     end
 
     local function drawUpButton(x, y)
-      gui.drawLine(x + 2, y + 6, x + 2, y + 3, 'White')
-      gui.drawLine(x + 2, y + 3, x, y + 3, 'White')
-      gui.drawLine(x, y + 3, x + 3, y, 'White')
-      gui.drawLine(x + 3, y, x + 6, y + 3, 'White')
-      gui.drawLine(x + 6, y + 3, x + 4, y + 3, 'White')
-      gui.drawLine(x + 4, y + 3, x + 4, y + 6, 'White')
-      gui.drawLine(x + 4, y + 6, x + 2, y + 6, 'White')
+      draw.line(x + 2, y + 6, x + 2, y + 3, 'White')
+      draw.line(x + 2, y + 3, x, y + 3, 'White')
+      draw.line(x, y + 3, x + 3, y, 'White')
+      draw.line(x + 3, y, x + 6, y + 3, 'White')
+      draw.line(x + 6, y + 3, x + 4, y + 3, 'White')
+      draw.line(x + 4, y + 3, x + 4, y + 6, 'White')
+      draw.line(x + 4, y + 6, x + 2, y + 6, 'White')
     end
 
     local function drawDownButton(x, y)
-      gui.drawLine(x + 4, y, x + 4, y + 3, 'White')
-      gui.drawLine(x + 4, y + 3, x + 6, y + 3, 'White')
-      gui.drawLine(x + 6, y + 3, x + 3, y + 6, 'White')
-      gui.drawLine(x + 3, y + 6, x, y + 3, 'White')
-      gui.drawLine(x, y + 3, x + 2, y + 3, 'White')
-      gui.drawLine(x + 2, y + 3, x + 2, y, 'White')
-      gui.drawLine(x + 2, y, x + 4, y, 'White')
+      draw.line(x + 4, y, x + 4, y + 3, 'White')
+      draw.line(x + 4, y + 3, x + 6, y + 3, 'White')
+      draw.line(x + 6, y + 3, x + 3, y + 6, 'White')
+      draw.line(x + 3, y + 6, x, y + 3, 'White')
+      draw.line(x, y + 3, x + 2, y + 3, 'White')
+      draw.line(x + 2, y + 3, x + 2, y, 'White')
+      draw.line(x + 2, y, x + 4, y, 'White')
     end
 
     local drawMethods = {

@@ -1,12 +1,19 @@
 require 'global-require'
 
-while true do
-  clearGui()
+local displayHud = function ()
+    displayJoypad()
+    displayFirebrandHp()
+    displayEnemyHp()
+    -- displayObjectHitboxes()
+end
 
-  displayJoypad()
-  displayFirebrandHp()
-  displayEnemyHp()
-  -- displayObjectHitboxes()
-
-  emu.frameadvance()
+if (emu.frameadvance) then
+  while true do
+    clearGui()
+    displayHud()
+    emu.frameadvance()
+  end
+else
+  -- mesen-s
+  emu.addEventCallback(displayHud, emu.eventType.endFrame);
 end

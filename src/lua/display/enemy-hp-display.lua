@@ -17,9 +17,9 @@ function displayEnemyHp()
   if (closestObject >= 0) then
     local closestObjectHp = objects[closestObject].getHp()
     if (closestObjectHp <= 9) then
-      drawText(188, 0, closestObjectHp)
+      draw.text(188, 0, closestObjectHp)
     else
-      drawText(185, 0, closestObjectHp)
+      draw.text(185, 0, closestObjectHp)
     end
   end
 end

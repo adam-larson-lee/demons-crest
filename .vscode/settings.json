@@ -9,6 +9,15 @@
     "firebrand",
     "drawText",
     "displayEnemyHp",
-    "clearGui"
+    "clearGui",
+    "color",
+    "drawBox",
+    "input",
+    "joypad",
+    "wram",
+    "rom",
+    "isPressed",
+    "drawLine",
+    "draw"
   ]
 }
