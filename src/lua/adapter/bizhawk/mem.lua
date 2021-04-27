@@ -10,10 +10,11 @@ local function read(domain, address, bytes)
   return 0
 end
 
-function wram(address, bytes)
-  return read('WRAM', address, bytes);
-end
-
-function rom(address, bytes)
-  return read('CARTROM', address, bytes);
-end
+mem = {
+  wram = function(address, bytes)
+    return read('WRAM', address, bytes);
+  end,
+  rom = function(address, bytes)
+    return read('CARTROM', address, bytes);
+  end
+}

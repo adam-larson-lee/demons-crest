@@ -1,7 +1,7 @@
 function displayJoypad()
 
   local xCoord = 0;
-  local yCoord = 0;
+  local yCoord = 1;
 
   local function button(name, display, drawMethod)
     return {
@@ -25,43 +25,43 @@ function displayJoypad()
   local function directionalButton(name)
 
     local function drawLeftButton(x, y)
-      draw.line(x + 6, y + 2, x + 3, y + 2, 'White')
-      draw.line(x + 3, y + 2, x + 3, y, 'White')
-      draw.line(x + 3, y, x, y + 3, 'White')
-      draw.line(x, y + 3, x + 3, y + 6, 'White')
-      draw.line(x + 3, y + 6, x + 3, y + 4, 'White')
-      draw.line(x + 3, y + 4, x + 6, y + 4, 'White')
-      draw.line(x + 6, y + 4, x + 6, y + 2, 'White')
+      draw.line(x + 6, y + 2, x + 3, y + 2, draw.color.white)
+      draw.line(x + 3, y + 2, x + 3, y, draw.color.white)
+      draw.line(x + 3, y, x, y + 3, draw.color.white)
+      draw.line(x, y + 3, x + 3, y + 6, draw.color.white)
+      draw.line(x + 3, y + 6, x + 3, y + 4, draw.color.white)
+      draw.line(x + 3, y + 4, x + 6, y + 4, draw.color.white)
+      draw.line(x + 6, y + 4, x + 6, y + 2, draw.color.white)
     end
 
     local function drawRightButton(x, y)
-      draw.line(x, y + 2, x + 3, y + 2, 'White')
-      draw.line(x + 3, y + 2, x + 3, y, 'White')
-      draw.line(x + 3, y, x + 6, y + 3, 'White')
-      draw.line(x + 6, y + 3, x + 3, y + 6, 'White')
-      draw.line(x + 3, y + 6, x + 3, y + 4, 'White')
-      draw.line(x + 3, y + 4, x, y + 4, 'White')
-      draw.line(x, y + 4, x, y + 2, 'White')
+      draw.line(x, y + 2, x + 3, y + 2, draw.color.white)
+      draw.line(x + 3, y + 2, x + 3, y, draw.color.white)
+      draw.line(x + 3, y, x + 6, y + 3, draw.color.white)
+      draw.line(x + 6, y + 3, x + 3, y + 6, draw.color.white)
+      draw.line(x + 3, y + 6, x + 3, y + 4, draw.color.white)
+      draw.line(x + 3, y + 4, x, y + 4, draw.color.white)
+      draw.line(x, y + 4, x, y + 2, draw.color.white)
     end
 
     local function drawUpButton(x, y)
-      draw.line(x + 2, y + 6, x + 2, y + 3, 'White')
-      draw.line(x + 2, y + 3, x, y + 3, 'White')
-      draw.line(x, y + 3, x + 3, y, 'White')
-      draw.line(x + 3, y, x + 6, y + 3, 'White')
-      draw.line(x + 6, y + 3, x + 4, y + 3, 'White')
-      draw.line(x + 4, y + 3, x + 4, y + 6, 'White')
-      draw.line(x + 4, y + 6, x + 2, y + 6, 'White')
+      draw.line(x + 2, y + 6, x + 2, y + 3, draw.color.white)
+      draw.line(x + 2, y + 3, x, y + 3, draw.color.white)
+      draw.line(x, y + 3, x + 3, y, draw.color.white)
+      draw.line(x + 3, y, x + 6, y + 3, draw.color.white)
+      draw.line(x + 6, y + 3, x + 4, y + 3, draw.color.white)
+      draw.line(x + 4, y + 3, x + 4, y + 6, draw.color.white)
+      draw.line(x + 4, y + 6, x + 2, y + 6, draw.color.white)
     end
 
     local function drawDownButton(x, y)
-      draw.line(x + 4, y, x + 4, y + 3, 'White')
-      draw.line(x + 4, y + 3, x + 6, y + 3, 'White')
-      draw.line(x + 6, y + 3, x + 3, y + 6, 'White')
-      draw.line(x + 3, y + 6, x, y + 3, 'White')
-      draw.line(x, y + 3, x + 2, y + 3, 'White')
-      draw.line(x + 2, y + 3, x + 2, y, 'White')
-      draw.line(x + 2, y, x + 4, y, 'White')
+      draw.line(x + 4, y, x + 4, y + 3, draw.color.white)
+      draw.line(x + 4, y + 3, x + 6, y + 3, draw.color.white)
+      draw.line(x + 6, y + 3, x + 3, y + 6, draw.color.white)
+      draw.line(x + 3, y + 6, x, y + 3, draw.color.white)
+      draw.line(x, y + 3, x + 2, y + 3, draw.color.white)
+      draw.line(x + 2, y + 3, x + 2, y, draw.color.white)
+      draw.line(x + 2, y, x + 4, y, draw.color.white)
     end
 
     local drawMethods = {

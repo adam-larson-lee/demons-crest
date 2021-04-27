@@ -13,9 +13,9 @@ function displayObjectHitboxes()
 
   for j,obj in ipairs(objects) do
     if (obj.isAlive()) then
-      draw.box(obj.getX() - obj.getXHitbox(), obj.getY() - obj.topHitbox(), obj.getX() + obj.getXHitbox(), obj.getY() + obj.bottomHitbox(), 'White')
-      draw.text(obj.getX() - 4, obj.getY() - obj.topHitbox() - 6, j - 1, 'White', nil, 8, 'Lucida Console')
-      draw.pixel(obj.getX(), obj.getY(), 'Red')
+      draw.box(obj.getX() - obj.getXHitbox(), obj.getY() - obj.topHitbox(), obj.getXHitbox() * 2, obj.topHitbox() + obj.bottomHitbox(), draw.color.white)
+      draw.text(obj.getX() - 4, obj.getY() - obj.topHitbox() - 6, j - 1)
+      draw.pixel(obj.getX(), obj.getY(), draw.color.red)
     end
   end
 end

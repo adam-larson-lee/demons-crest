@@ -1,4 +1,5 @@
-dofile('../util/read.lua')
+dofile('../adapter/bizhawk/mem.lua')
+dofile('../util/viewport.lua')
 dofile('../object/objects.lua')
 
 selectedObject = -1;
@@ -27,8 +28,8 @@ local function objectDetailHud()
       gui.drawText(0, 45, obj.getX() .. ', ' .. obj.getY(), 'White', nil, 8, 'Lucida Console')
       gui.drawText(0, 55, 'Status ' .. obj.getStatus(), 'White', nil, 8, 'Lucida Console')
       gui.drawText(0, 65, 'HP ' .. obj.getHp(), 'White', nil, 8, 'Lucida Console')
-      gui.drawBox(obj.getX() - obj.getXHitbox(), obj.getY() - obj.topHitbox(), obj.getX() + obj.getXHitbox(), obj.getY() + obj.bottomHitbox(), 'White')
-      gui.drawPixel(obj.getX(), obj.getY(), 'Red')
+      gui.drawBox(obj.getRelativeX() - obj.getXHitbox(), obj.getRelativeY() - obj.topHitbox(), obj.getRelativeX() + obj.getXHitbox(), obj.getRelativeY() + obj.bottomHitbox(), 'White')
+      gui.drawPixel(obj.getRelativeX(), obj.getRelativeY(), 'Red')
     else
       selectedObject = -1
       gui.clearGraphics()

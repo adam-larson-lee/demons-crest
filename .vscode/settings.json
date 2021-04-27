@@ -18,6 +18,12 @@
     "rom",
     "isPressed",
     "drawLine",
-    "draw"
+    "draw",
+    "mem",
+    "memory",
+    "viewport",
+    "mouse",
+    "displayOptions",
+    "display"
   ]
 }

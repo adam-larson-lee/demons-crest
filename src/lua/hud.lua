@@ -1,15 +1,20 @@
 require 'global-require'
 
 local displayHud = function ()
+    displayOptions()
+
     displayJoypad()
     displayFirebrandHp()
     displayEnemyHp()
-    -- displayObjectHitboxes()
+    
+    if (display.hitboxes.enabled) then
+      displayObjectHitboxes()
+    end
 end
 
 if (emu.frameadvance) then
   while true do
-    clearGui()
+    draw.clear()
     displayHud()
     emu.frameadvance()
   end
