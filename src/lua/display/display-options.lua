@@ -1,4 +1,7 @@
 display = {
+  joypad = {
+    enabled = true
+  },
   hitboxes = {
     enabled = false
   }

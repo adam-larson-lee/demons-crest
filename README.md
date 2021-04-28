@@ -1,13 +1,15 @@
-# demons-crest
+# Demon's Crest
 
 This is a collection of Demon's Crest related resources.
 
-# Lua Scripts
+## Emulator HUD
 
-Currently Lua scripts are only supported on Bizhawk. Perhaps in the future we'll do more to support other emulators.
+The emulator HUD is a utility you can use to display a bunch of in game information to help you with learning, practicing or debugging the game.
 
-[Bizhawk](src/lua/bizhawk/README.md)
+[Installation](src/lua/README.md)
 
-## Documentation
+## Other Resources
+
+[Demon's Crest Randomizer](https://github.com/FredYeye/Demon-s-Crest-Rando)
 
 [SNES Machine Instruction Set](https://wiki.superfamicom.org/65816-reference)

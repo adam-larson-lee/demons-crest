@@ -7,6 +7,7 @@ local function read(domain, address, bytes)
   if (methods[bytes]) then
     return methods[bytes](address, domain)
   end
+  
   return 0
 end
 

@@ -2,8 +2,8 @@ draw = {
   color = {
     white = 'White',
     black = 'Black',
-    red = 'Red',
-    green = 'Green'
+    green = 'Green',
+    red = 'Red'
   },
   box = function(x, y, width, height, borderColor, fillColor)
     gui.drawBox(x, y, x + width, y + height, borderColor, fillColor)
@@ -18,6 +18,5 @@ draw = {
     gui.drawText(x, y, text, 'White', nil, 8, 'Lucida Console')
   end,
   clear = function()
-    gui.clearGraphics()
   end
 }

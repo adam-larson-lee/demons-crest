@@ -3,7 +3,10 @@ require 'global-require'
 local displayHud = function ()
     displayOptions()
 
-    displayJoypad()
+    if (display.joypad.enabled) then
+      displayJoypad()
+    end
+    
     displayFirebrandHp()
     displayEnemyHp()
     

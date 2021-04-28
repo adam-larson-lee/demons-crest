@@ -1,18 +1,24 @@
+local emulator = {
+  mesens = false,
+  snes9xrr = false,
+  bizhawk = false
+}
+
 if (not gui) then --mesen-s
-  require 'adapter.mesen-s.emu.clear'
-  require 'adapter.mesen-s.emu.color'
-  require 'adapter.mesen-s.emu.draw-box'
-  require 'adapter.mesen-s.emu.draw-line'
-  require 'adapter.mesen-s.emu.draw-text'
-  require 'adapter.mesen-s.emu.input'
-  require 'adapter.mesen-s.emu.read'
+  emulator.mesens = true
+  require 'adapter.mesen-s.draw'
+  require 'adapter.mesen-s.input'
+  require 'adapter.mesen-s.mem'
+  require 'adapter.mesen-s.mouse'
 elseif (gui.box) then --snex9x-rr
+  emulator.snes9xrr = true
   require 'adapter.snes9x-rr.noop.clear'
   require 'adapter.snes9x-rr.gui.color'
   require 'adapter.snes9x-rr.gui.draw-box'
   require 'adapter.snes9x-rr.gui.draw-text'
   require 'adapter.snes9x-rr.memory.read'
 else --bizhawk'
+  emulator.bizhawk = true
   require 'adapter.bizhawk.draw'
   require 'adapter.bizhawk.input'
   require 'adapter.bizhawk.mem'
@@ -30,3 +36,7 @@ require 'display.firebrand-hp-display'
 require 'display.enemy-hp-display'
 require 'display.object-hitbox-display'
 require 'display.display-options'
+
+if (emulator.mesens) then
+  display.joypad.enabled = false
+end

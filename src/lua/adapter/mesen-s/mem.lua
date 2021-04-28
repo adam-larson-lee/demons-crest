@@ -10,10 +10,11 @@ local function read(type, address, bytes)
   return 0
 end
 
-function wram(address, bytes)
-  return read(emu.memType['workRam'], address, bytes);
-end
-
-function rom(address, bytes)
-  return read(emu.memType['prgRom'], address, bytes);
-end
+mem = {
+  wram = function(address, bytes)
+    return read(emu.memType['workRam'], address, bytes);
+  end,
+  rom = function(address, bytes)
+    return read(emu.memType['prgRom'], address, bytes);
+  end
+}
