@@ -26,8 +26,12 @@ function displayOptions()
 
   if (display.objectDetails.enabled) then
     draw.box(120, 1, 8, 8, draw.color.green)
+    draw.line(122, 5, 124, 7, draw.color.green)
+    draw.line(124, 7, 126, 3, draw.color.green)
   else
     draw.box(120, 1, 8, 8, draw.color.white)
+    draw.line(122, 5, 124, 7, draw.color.white)
+    draw.line(124, 7, 126, 3, draw.color.white)
   end
 
   if (debounce == 0) then

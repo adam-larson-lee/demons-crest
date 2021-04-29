@@ -1,0 +1,2311 @@
+SystemID SNES
+001300	b	u	0	WRAM	Status ? (1 Spawning) 
+001301	b	u	0	WRAM	
+001302	b	u	0	WRAM	this might be the object id 
+001303	b	u	0	WRAM	
+001304	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001305	b	u	0	WRAM	
+001306	b	u	0	WRAM	this causes bouncing on somulo health 
+001307	b	u	0	WRAM	Contact Damage 
+001308	b	u	0	WRAM	something to do with the sprite 
+001309	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00130a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00130b	b	u	0	WRAM	this makes the colors go crazy 
+00130c	b	u	0	WRAM	
+00130d	b	u	0	WRAM	
+00130e	b	u	0	WRAM	some kind of timer 
+00130f	b	u	0	WRAM	
+001310	w	u	0	WRAM	X (Coarse) Copy 
+001311	b	u	0	WRAM	
+001312	b	u	0	WRAM	Some Y Attribute 
+001313	b	u	0	WRAM	
+001314	b	u	0	WRAM	changing graphics 
+001315	b	u	0	WRAM	changing graphics 
+001316	b	u	0	WRAM	
+001317	b	u	0	WRAM	
+001318	b	u	0	WRAM	
+001319	b	u	0	WRAM	
+00131a	b	u	0	WRAM	
+00131b	b	u	0	WRAM	
+00131c	b	u	0	WRAM	
+00131d	b	u	0	WRAM	
+00131e	b	u	0	WRAM	
+00131f	b	u	0	WRAM	
+001320	w	u	0	WRAM	X Movement Speed 
+001322	b	u	0	WRAM	
+001323	b	u	0	WRAM	
+001324	b	u	0	WRAM	
+001325	b	u	0	WRAM	
+001326	b	u	0	WRAM	
+001327	b	u	0	WRAM	
+001328	b	u	0	WRAM	if this value changes you hit the thing 
+001329	b	u	0	WRAM	if this value changes you hit the thing 
+00132a	b	u	0	WRAM	if this value changes it falls through the floor 
+00132b	b	u	0	WRAM	if this value changes it falls through the floor 
+00132c	b	u	0	WRAM	
+00132d	b	u	0	WRAM	
+00132e	b	u	0	WRAM	
+00132f	b	u	0	WRAM	
+001330	b	u	0	WRAM	
+001331	w	u	0	WRAM	X (Coarse) 
+001333	b	u	0	WRAM	
+001334	w	u	0	WRAM	Y (Coarse) 
+001336	b	u	0	WRAM	HP 
+001337	b	u	0	WRAM	
+001338	b	u	0	WRAM	
+001339	b	u	0	WRAM	
+00133a	b	u	0	WRAM	timer on level switch when picking up health? 
+00133b	b	u	0	WRAM	Despawn Timers 
+00133c	b	u	0	WRAM	
+00133d	b	u	0	WRAM	
+00133e	b	u	0	WRAM	
+00133f	b	u	0	WRAM	
+001340	b	u	0	WRAM	
+001341	b	u	0	WRAM	
+001342	b	u	0	WRAM	
+001343	b	u	0	WRAM	
+001344	b	u	0	WRAM	
+001345	b	u	0	WRAM	
+001346	b	u	0	WRAM	
+001347	b	u	0	WRAM	
+001348	b	u	0	WRAM	
+001349	b	u	0	WRAM	
+00134a	b	u	0	WRAM	
+00134b	b	u	0	WRAM	
+00134c	b	u	0	WRAM	
+00134d	b	u	0	WRAM	
+00134e	b	u	0	WRAM	
+00134f	b	u	0	WRAM	
+001350	b	u	0	WRAM	Status ? (1 Spawning) 
+001351	b	u	0	WRAM	
+001352	b	u	0	WRAM	this might be the object id 
+001353	b	u	0	WRAM	
+001354	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001355	b	u	0	WRAM	
+001356	b	u	0	WRAM	this causes bouncing on somulo health 
+001357	b	u	0	WRAM	Contact Damage 
+001358	b	u	0	WRAM	something to do with the sprite 
+001359	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00135a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00135b	b	u	0	WRAM	this makes the colors go crazy 
+00135c	b	u	0	WRAM	
+00135d	b	u	0	WRAM	
+00135e	b	u	0	WRAM	some kind of timer 
+00135f	b	u	0	WRAM	
+001360	w	u	0	WRAM	X (Coarse) Copy 
+001361	b	u	0	WRAM	
+001362	b	u	0	WRAM	Some Y Attribute 
+001363	b	u	0	WRAM	
+001364	b	u	0	WRAM	changing graphics 
+001365	b	u	0	WRAM	changing graphics 
+001366	b	u	0	WRAM	
+001367	b	u	0	WRAM	
+001368	b	u	0	WRAM	
+001369	b	u	0	WRAM	
+00136a	b	u	0	WRAM	
+00136b	b	u	0	WRAM	
+00136c	b	u	0	WRAM	
+00136d	b	u	0	WRAM	
+00136e	b	u	0	WRAM	
+00136f	b	u	0	WRAM	
+001370	w	u	0	WRAM	X Movement Speed 
+001372	b	u	0	WRAM	
+001373	b	u	0	WRAM	
+001374	b	u	0	WRAM	
+001375	b	u	0	WRAM	
+001376	b	u	0	WRAM	
+001377	b	u	0	WRAM	
+001378	b	u	0	WRAM	if this value changes you hit the thing 
+001379	b	u	0	WRAM	if this value changes you hit the thing 
+00137a	b	u	0	WRAM	if this value changes it falls through the floor 
+00137b	b	u	0	WRAM	if this value changes it falls through the floor 
+00137c	b	u	0	WRAM	
+00137d	b	u	0	WRAM	
+00137e	b	u	0	WRAM	
+00137f	b	u	0	WRAM	
+001380	b	u	0	WRAM	
+001381	w	u	0	WRAM	X (Coarse) 
+001383	b	u	0	WRAM	
+001384	w	u	0	WRAM	Y (Coarse) 
+001386	b	u	0	WRAM	HP 
+001387	b	u	0	WRAM	
+001388	b	u	0	WRAM	
+001389	b	u	0	WRAM	
+00138a	b	u	0	WRAM	timer on level switch when picking up health? 
+00138b	b	u	0	WRAM	Despawn Timers 
+00138c	b	u	0	WRAM	
+00138d	b	u	0	WRAM	
+00138e	b	u	0	WRAM	
+00138f	b	u	0	WRAM	
+001390	b	u	0	WRAM	
+001391	b	u	0	WRAM	
+001392	b	u	0	WRAM	
+001393	b	u	0	WRAM	
+001394	b	u	0	WRAM	
+001395	b	u	0	WRAM	
+001396	b	u	0	WRAM	
+001397	b	u	0	WRAM	
+001398	b	u	0	WRAM	
+001399	b	u	0	WRAM	
+00139a	b	u	0	WRAM	
+00139b	b	u	0	WRAM	
+00139c	b	u	0	WRAM	
+00139d	b	u	0	WRAM	
+00139e	b	u	0	WRAM	
+00139f	b	u	0	WRAM	
+0013a0	b	u	0	WRAM	Status ? (1 Spawning) 
+0013a1	b	u	0	WRAM	
+0013a2	b	u	0	WRAM	this might be the object id 
+0013a3	b	u	0	WRAM	
+0013a4	b	u	0	WRAM	Grounded/Airborn (4/0) 
+0013a5	b	u	0	WRAM	
+0013a6	b	u	0	WRAM	this causes bouncing on somulo health 
+0013a7	b	u	0	WRAM	Contact Damage 
+0013a8	b	u	0	WRAM	something to do with the sprite 
+0013a9	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+0013aa	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+0013ab	b	u	0	WRAM	this makes the colors go crazy 
+0013ac	b	u	0	WRAM	
+0013ad	b	u	0	WRAM	
+0013ae	b	u	0	WRAM	some kind of timer 
+0013af	b	u	0	WRAM	
+0013b0	w	u	0	WRAM	X (Coarse) Copy 
+0013b1	b	u	0	WRAM	
+0013b2	b	u	0	WRAM	Some Y Attribute 
+0013b3	b	u	0	WRAM	
+0013b4	b	u	0	WRAM	changing graphics 
+0013b5	b	u	0	WRAM	changing graphics 
+0013b6	b	u	0	WRAM	
+0013b7	b	u	0	WRAM	
+0013b8	b	u	0	WRAM	
+0013b9	b	u	0	WRAM	
+0013ba	b	u	0	WRAM	
+0013bb	b	u	0	WRAM	
+0013bc	b	u	0	WRAM	
+0013bd	b	u	0	WRAM	
+0013be	b	u	0	WRAM	
+0013bf	b	u	0	WRAM	
+0013c0	w	u	0	WRAM	X Movement Speed 
+0013c2	b	u	0	WRAM	
+0013c3	b	u	0	WRAM	
+0013c4	b	u	0	WRAM	
+0013c5	b	u	0	WRAM	
+0013c6	b	u	0	WRAM	
+0013c7	b	u	0	WRAM	
+0013c8	b	u	0	WRAM	if this value changes you hit the thing 
+0013c9	b	u	0	WRAM	if this value changes you hit the thing 
+0013ca	b	u	0	WRAM	if this value changes it falls through the floor 
+0013cb	b	u	0	WRAM	if this value changes it falls through the floor 
+0013cc	b	u	0	WRAM	
+0013cd	b	u	0	WRAM	
+0013ce	b	u	0	WRAM	
+0013cf	b	u	0	WRAM	
+0013d0	b	u	0	WRAM	
+0013d1	w	u	0	WRAM	X (Coarse) 
+0013d3	b	u	0	WRAM	
+0013d4	w	u	0	WRAM	Y (Coarse) 
+0013d6	b	u	0	WRAM	HP 
+0013d7	b	u	0	WRAM	
+0013d8	b	u	0	WRAM	
+0013d9	b	u	0	WRAM	
+0013da	b	u	0	WRAM	timer on level switch when picking up health? 
+0013db	b	u	0	WRAM	Despawn Timers 
+0013dc	b	u	0	WRAM	
+0013dd	b	u	0	WRAM	
+0013de	b	u	0	WRAM	
+0013df	b	u	0	WRAM	
+0013e0	b	u	0	WRAM	
+0013e1	b	u	0	WRAM	
+0013e2	b	u	0	WRAM	
+0013e3	b	u	0	WRAM	
+0013e4	b	u	0	WRAM	
+0013e5	b	u	0	WRAM	
+0013e6	b	u	0	WRAM	
+0013e7	b	u	0	WRAM	
+0013e8	b	u	0	WRAM	
+0013e9	b	u	0	WRAM	
+0013ea	b	u	0	WRAM	
+0013eb	b	u	0	WRAM	
+0013ec	b	u	0	WRAM	
+0013ed	b	u	0	WRAM	
+0013ee	b	u	0	WRAM	
+0013ef	b	u	0	WRAM	
+0013f0	b	u	0	WRAM	Status ? (1 Spawning) 
+0013f1	b	u	0	WRAM	
+0013f2	b	u	0	WRAM	this might be the object id 
+0013f3	b	u	0	WRAM	
+0013f4	b	u	0	WRAM	Grounded/Airborn (4/0) 
+0013f5	b	u	0	WRAM	
+0013f6	b	u	0	WRAM	this causes bouncing on somulo health 
+0013f7	b	u	0	WRAM	Contact Damage 
+0013f8	b	u	0	WRAM	something to do with the sprite 
+0013f9	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+0013fa	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+0013fb	b	u	0	WRAM	this makes the colors go crazy 
+0013fc	b	u	0	WRAM	
+0013fd	b	u	0	WRAM	
+0013fe	b	u	0	WRAM	some kind of timer 
+0013ff	b	u	0	WRAM	
+001400	w	u	0	WRAM	X (Coarse) Copy 
+001401	b	u	0	WRAM	
+001402	b	u	0	WRAM	Some Y Attribute 
+001403	b	u	0	WRAM	
+001404	b	u	0	WRAM	changing graphics 
+001405	b	u	0	WRAM	changing graphics 
+001406	b	u	0	WRAM	
+001407	b	u	0	WRAM	
+001408	b	u	0	WRAM	
+001409	b	u	0	WRAM	
+00140a	b	u	0	WRAM	
+00140b	b	u	0	WRAM	
+00140c	b	u	0	WRAM	
+00140d	b	u	0	WRAM	
+00140e	b	u	0	WRAM	
+00140f	b	u	0	WRAM	
+001410	w	u	0	WRAM	X Movement Speed 
+001412	b	u	0	WRAM	
+001413	b	u	0	WRAM	
+001414	b	u	0	WRAM	
+001415	b	u	0	WRAM	
+001416	b	u	0	WRAM	
+001417	b	u	0	WRAM	
+001418	b	u	0	WRAM	if this value changes you hit the thing 
+001419	b	u	0	WRAM	if this value changes you hit the thing 
+00141a	b	u	0	WRAM	if this value changes it falls through the floor 
+00141b	b	u	0	WRAM	if this value changes it falls through the floor 
+00141c	b	u	0	WRAM	
+00141d	b	u	0	WRAM	
+00141e	b	u	0	WRAM	
+00141f	b	u	0	WRAM	
+001420	b	u	0	WRAM	
+001421	w	u	0	WRAM	X (Coarse) 
+001423	b	u	0	WRAM	
+001424	w	u	0	WRAM	Y (Coarse) 
+001426	b	u	0	WRAM	HP 
+001427	b	u	0	WRAM	
+001428	b	u	0	WRAM	
+001429	b	u	0	WRAM	
+00142a	b	u	0	WRAM	timer on level switch when picking up health? 
+00142b	b	u	0	WRAM	Despawn Timers 
+00142c	b	u	0	WRAM	
+00142d	b	u	0	WRAM	
+00142e	b	u	0	WRAM	
+00142f	b	u	0	WRAM	
+001430	b	u	0	WRAM	
+001431	b	u	0	WRAM	
+001432	b	u	0	WRAM	
+001433	b	u	0	WRAM	
+001434	b	u	0	WRAM	
+001435	b	u	0	WRAM	
+001436	b	u	0	WRAM	
+001437	b	u	0	WRAM	
+001438	b	u	0	WRAM	
+001439	b	u	0	WRAM	
+00143a	b	u	0	WRAM	
+00143b	b	u	0	WRAM	
+00143c	b	u	0	WRAM	
+00143d	b	u	0	WRAM	
+00143e	b	u	0	WRAM	
+00143f	b	u	0	WRAM	
+001440	b	u	0	WRAM	Status ? (1 Spawning) 
+001441	b	u	0	WRAM	
+001442	b	u	0	WRAM	this might be the object id 
+001443	b	u	0	WRAM	
+001444	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001445	b	u	0	WRAM	
+001446	b	u	0	WRAM	this causes bouncing on somulo health 
+001447	b	u	0	WRAM	Contact Damage 
+001448	b	u	0	WRAM	something to do with the sprite 
+001449	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00144a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00144b	b	u	0	WRAM	this makes the colors go crazy 
+00144c	b	u	0	WRAM	
+00144d	b	u	0	WRAM	
+00144e	b	u	0	WRAM	some kind of timer 
+00144f	b	u	0	WRAM	
+001450	w	u	0	WRAM	X (Coarse) Copy 
+001451	b	u	0	WRAM	
+001452	b	u	0	WRAM	Some Y Attribute 
+001453	b	u	0	WRAM	
+001454	b	u	0	WRAM	changing graphics 
+001455	b	u	0	WRAM	changing graphics 
+001456	b	u	0	WRAM	
+001457	b	u	0	WRAM	
+001458	b	u	0	WRAM	
+001459	b	u	0	WRAM	
+00145a	b	u	0	WRAM	
+00145b	b	u	0	WRAM	
+00145c	b	u	0	WRAM	
+00145d	b	u	0	WRAM	
+00145e	b	u	0	WRAM	
+00145f	b	u	0	WRAM	
+001460	w	u	0	WRAM	X Movement Speed 
+001462	b	u	0	WRAM	
+001463	b	u	0	WRAM	
+001464	b	u	0	WRAM	
+001465	b	u	0	WRAM	
+001466	b	u	0	WRAM	
+001467	b	u	0	WRAM	
+001468	b	u	0	WRAM	if this value changes you hit the thing 
+001469	b	u	0	WRAM	if this value changes you hit the thing 
+00146a	b	u	0	WRAM	if this value changes it falls through the floor 
+00146b	b	u	0	WRAM	if this value changes it falls through the floor 
+00146c	b	u	0	WRAM	
+00146d	b	u	0	WRAM	
+00146e	b	u	0	WRAM	
+00146f	b	u	0	WRAM	
+001470	b	u	0	WRAM	
+001471	w	u	0	WRAM	X (Coarse) 
+001473	b	u	0	WRAM	
+001474	w	u	0	WRAM	Y (Coarse) 
+001476	b	u	0	WRAM	HP 
+001477	b	u	0	WRAM	
+001478	b	u	0	WRAM	
+001479	b	u	0	WRAM	
+00147a	b	u	0	WRAM	timer on level switch when picking up health? 
+00147b	b	u	0	WRAM	Despawn Timers 
+00147c	b	u	0	WRAM	
+00147d	b	u	0	WRAM	
+00147e	b	u	0	WRAM	
+00147f	b	u	0	WRAM	
+001480	b	u	0	WRAM	
+001481	b	u	0	WRAM	
+001482	b	u	0	WRAM	
+001483	b	u	0	WRAM	
+001484	b	u	0	WRAM	
+001485	b	u	0	WRAM	
+001486	b	u	0	WRAM	
+001487	b	u	0	WRAM	
+001488	b	u	0	WRAM	
+001489	b	u	0	WRAM	
+00148a	b	u	0	WRAM	
+00148b	b	u	0	WRAM	
+00148c	b	u	0	WRAM	
+00148d	b	u	0	WRAM	
+00148e	b	u	0	WRAM	
+00148f	b	u	0	WRAM	
+001490	b	u	0	WRAM	Status ? (1 Spawning) 
+001491	b	u	0	WRAM	
+001492	b	u	0	WRAM	this might be the object id 
+001493	b	u	0	WRAM	
+001494	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001495	b	u	0	WRAM	
+001496	b	u	0	WRAM	this causes bouncing on somulo health 
+001497	b	u	0	WRAM	Contact Damage 
+001498	b	u	0	WRAM	something to do with the sprite 
+001499	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00149a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00149b	b	u	0	WRAM	this makes the colors go crazy 
+00149c	b	u	0	WRAM	
+00149d	b	u	0	WRAM	
+00149e	b	u	0	WRAM	some kind of timer 
+00149f	b	u	0	WRAM	
+0014a0	w	u	0	WRAM	X (Coarse) Copy 
+0014a1	b	u	0	WRAM	
+0014a2	b	u	0	WRAM	Some Y Attribute 
+0014a3	b	u	0	WRAM	
+0014a4	b	u	0	WRAM	changing graphics 
+0014a5	b	u	0	WRAM	changing graphics 
+0014a6	b	u	0	WRAM	
+0014a7	b	u	0	WRAM	
+0014a8	b	u	0	WRAM	
+0014a9	b	u	0	WRAM	
+0014aa	b	u	0	WRAM	
+0014ab	b	u	0	WRAM	
+0014ac	b	u	0	WRAM	
+0014ad	b	u	0	WRAM	
+0014ae	b	u	0	WRAM	
+0014af	b	u	0	WRAM	
+0014b0	w	u	0	WRAM	X Movement Speed 
+0014b2	b	u	0	WRAM	
+0014b3	b	u	0	WRAM	
+0014b4	b	u	0	WRAM	
+0014b5	b	u	0	WRAM	
+0014b6	b	u	0	WRAM	
+0014b7	b	u	0	WRAM	
+0014b8	b	u	0	WRAM	if this value changes you hit the thing 
+0014b9	b	u	0	WRAM	if this value changes you hit the thing 
+0014ba	b	u	0	WRAM	if this value changes it falls through the floor 
+0014bb	b	u	0	WRAM	if this value changes it falls through the floor 
+0014bc	b	u	0	WRAM	
+0014bd	b	u	0	WRAM	
+0014be	b	u	0	WRAM	
+0014bf	b	u	0	WRAM	
+0014c0	b	u	0	WRAM	
+0014c1	w	u	0	WRAM	X (Coarse) 
+0014c3	b	u	0	WRAM	
+0014c4	w	u	0	WRAM	Y (Coarse) 
+0014c6	b	u	0	WRAM	HP 
+0014c7	b	u	0	WRAM	
+0014c8	b	u	0	WRAM	
+0014c9	b	u	0	WRAM	
+0014ca	b	u	0	WRAM	timer on level switch when picking up health? 
+0014cb	b	u	0	WRAM	Despawn Timers 
+0014cc	b	u	0	WRAM	
+0014cd	b	u	0	WRAM	
+0014ce	b	u	0	WRAM	
+0014cf	b	u	0	WRAM	
+0014d0	b	u	0	WRAM	
+0014d1	b	u	0	WRAM	
+0014d2	b	u	0	WRAM	
+0014d3	b	u	0	WRAM	
+0014d4	b	u	0	WRAM	
+0014d5	b	u	0	WRAM	
+0014d6	b	u	0	WRAM	
+0014d7	b	u	0	WRAM	
+0014d8	b	u	0	WRAM	
+0014d9	b	u	0	WRAM	
+0014da	b	u	0	WRAM	
+0014db	b	u	0	WRAM	
+0014dc	b	u	0	WRAM	
+0014dd	b	u	0	WRAM	
+0014de	b	u	0	WRAM	
+0014df	b	u	0	WRAM	
+0014e0	b	u	0	WRAM	Status ? (1 Spawning) 
+0014e1	b	u	0	WRAM	
+0014e2	b	u	0	WRAM	this might be the object id 
+0014e3	b	u	0	WRAM	
+0014e4	b	u	0	WRAM	Grounded/Airborn (4/0) 
+0014e5	b	u	0	WRAM	
+0014e6	b	u	0	WRAM	this causes bouncing on somulo health 
+0014e7	b	u	0	WRAM	Contact Damage 
+0014e8	b	u	0	WRAM	something to do with the sprite 
+0014e9	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+0014ea	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+0014eb	b	u	0	WRAM	this makes the colors go crazy 
+0014ec	b	u	0	WRAM	
+0014ed	b	u	0	WRAM	
+0014ee	b	u	0	WRAM	some kind of timer 
+0014ef	b	u	0	WRAM	
+0014f0	w	u	0	WRAM	X (Coarse) Copy 
+0014f1	b	u	0	WRAM	
+0014f2	b	u	0	WRAM	Some Y Attribute 
+0014f3	b	u	0	WRAM	
+0014f4	b	u	0	WRAM	changing graphics 
+0014f5	b	u	0	WRAM	changing graphics 
+0014f6	b	u	0	WRAM	
+0014f7	b	u	0	WRAM	
+0014f8	b	u	0	WRAM	
+0014f9	b	u	0	WRAM	
+0014fa	b	u	0	WRAM	
+0014fb	b	u	0	WRAM	
+0014fc	b	u	0	WRAM	
+0014fd	b	u	0	WRAM	
+0014fe	b	u	0	WRAM	
+0014ff	b	u	0	WRAM	
+001500	w	u	0	WRAM	X Movement Speed 
+001502	b	u	0	WRAM	
+001503	b	u	0	WRAM	
+001504	b	u	0	WRAM	
+001505	b	u	0	WRAM	
+001506	b	u	0	WRAM	
+001507	b	u	0	WRAM	
+001508	b	u	0	WRAM	if this value changes you hit the thing 
+001509	b	u	0	WRAM	if this value changes you hit the thing 
+00150a	b	u	0	WRAM	if this value changes it falls through the floor 
+00150b	b	u	0	WRAM	if this value changes it falls through the floor 
+00150c	b	u	0	WRAM	
+00150d	b	u	0	WRAM	
+00150e	b	u	0	WRAM	
+00150f	b	u	0	WRAM	
+001510	b	u	0	WRAM	
+001511	w	u	0	WRAM	X (Coarse) 
+001513	b	u	0	WRAM	
+001514	w	u	0	WRAM	Y (Coarse) 
+001516	b	u	0	WRAM	HP 
+001517	b	u	0	WRAM	
+001518	b	u	0	WRAM	
+001519	b	u	0	WRAM	
+00151a	b	u	0	WRAM	timer on level switch when picking up health? 
+00151b	b	u	0	WRAM	Despawn Timers 
+00151c	b	u	0	WRAM	
+00151d	b	u	0	WRAM	
+00151e	b	u	0	WRAM	
+00151f	b	u	0	WRAM	
+001520	b	u	0	WRAM	
+001521	b	u	0	WRAM	
+001522	b	u	0	WRAM	
+001523	b	u	0	WRAM	
+001524	b	u	0	WRAM	
+001525	b	u	0	WRAM	
+001526	b	u	0	WRAM	
+001527	b	u	0	WRAM	
+001528	b	u	0	WRAM	
+001529	b	u	0	WRAM	
+00152a	b	u	0	WRAM	
+00152b	b	u	0	WRAM	
+00152c	b	u	0	WRAM	
+00152d	b	u	0	WRAM	
+00152e	b	u	0	WRAM	
+00152f	b	u	0	WRAM	
+001530	b	u	0	WRAM	Status ? (1 Spawning) 
+001531	b	u	0	WRAM	
+001532	b	u	0	WRAM	this might be the object id 
+001533	b	u	0	WRAM	
+001534	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001535	b	u	0	WRAM	
+001536	b	u	0	WRAM	this causes bouncing on somulo health 
+001537	b	u	0	WRAM	Contact Damage 
+001538	b	u	0	WRAM	something to do with the sprite 
+001539	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00153a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00153b	b	u	0	WRAM	this makes the colors go crazy 
+00153c	b	u	0	WRAM	
+00153d	b	u	0	WRAM	
+00153e	b	u	0	WRAM	some kind of timer 
+00153f	b	u	0	WRAM	
+001540	w	u	0	WRAM	X (Coarse) Copy 
+001541	b	u	0	WRAM	
+001542	b	u	0	WRAM	Some Y Attribute 
+001543	b	u	0	WRAM	
+001544	b	u	0	WRAM	changing graphics 
+001545	b	u	0	WRAM	changing graphics 
+001546	b	u	0	WRAM	
+001547	b	u	0	WRAM	
+001548	b	u	0	WRAM	
+001549	b	u	0	WRAM	
+00154a	b	u	0	WRAM	
+00154b	b	u	0	WRAM	
+00154c	b	u	0	WRAM	
+00154d	b	u	0	WRAM	
+00154e	b	u	0	WRAM	
+00154f	b	u	0	WRAM	
+001550	w	u	0	WRAM	X Movement Speed 
+001552	b	u	0	WRAM	
+001553	b	u	0	WRAM	
+001554	b	u	0	WRAM	
+001555	b	u	0	WRAM	
+001556	b	u	0	WRAM	
+001557	b	u	0	WRAM	
+001558	b	u	0	WRAM	if this value changes you hit the thing 
+001559	b	u	0	WRAM	if this value changes you hit the thing 
+00155a	b	u	0	WRAM	if this value changes it falls through the floor 
+00155b	b	u	0	WRAM	if this value changes it falls through the floor 
+00155c	b	u	0	WRAM	
+00155d	b	u	0	WRAM	
+00155e	b	u	0	WRAM	
+00155f	b	u	0	WRAM	
+001560	b	u	0	WRAM	
+001561	w	u	0	WRAM	X (Coarse) 
+001563	b	u	0	WRAM	
+001564	w	u	0	WRAM	Y (Coarse) 
+001566	b	u	0	WRAM	HP 
+001567	b	u	0	WRAM	
+001568	b	u	0	WRAM	
+001569	b	u	0	WRAM	
+00156a	b	u	0	WRAM	timer on level switch when picking up health? 
+00156b	b	u	0	WRAM	Despawn Timers 
+00156c	b	u	0	WRAM	
+00156d	b	u	0	WRAM	
+00156e	b	u	0	WRAM	
+00156f	b	u	0	WRAM	
+001570	b	u	0	WRAM	
+001571	b	u	0	WRAM	
+001572	b	u	0	WRAM	
+001573	b	u	0	WRAM	
+001574	b	u	0	WRAM	
+001575	b	u	0	WRAM	
+001576	b	u	0	WRAM	
+001577	b	u	0	WRAM	
+001578	b	u	0	WRAM	
+001579	b	u	0	WRAM	
+00157a	b	u	0	WRAM	
+00157b	b	u	0	WRAM	
+00157c	b	u	0	WRAM	
+00157d	b	u	0	WRAM	
+00157e	b	u	0	WRAM	
+00157f	b	u	0	WRAM	
+001580	b	u	0	WRAM	Status ? (1 Spawning) 
+001581	b	u	0	WRAM	
+001582	b	u	0	WRAM	this might be the object id 
+001583	b	u	0	WRAM	
+001584	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001585	b	u	0	WRAM	
+001586	b	u	0	WRAM	this causes bouncing on somulo health 
+001587	b	u	0	WRAM	Contact Damage 
+001588	b	u	0	WRAM	something to do with the sprite 
+001589	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00158a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00158b	b	u	0	WRAM	this makes the colors go crazy 
+00158c	b	u	0	WRAM	
+00158d	b	u	0	WRAM	
+00158e	b	u	0	WRAM	some kind of timer 
+00158f	b	u	0	WRAM	
+001590	w	u	0	WRAM	X (Coarse) Copy 
+001591	b	u	0	WRAM	
+001592	b	u	0	WRAM	Some Y Attribute 
+001593	b	u	0	WRAM	
+001594	b	u	0	WRAM	changing graphics 
+001595	b	u	0	WRAM	changing graphics 
+001596	b	u	0	WRAM	
+001597	b	u	0	WRAM	
+001598	b	u	0	WRAM	
+001599	b	u	0	WRAM	
+00159a	b	u	0	WRAM	
+00159b	b	u	0	WRAM	
+00159c	b	u	0	WRAM	
+00159d	b	u	0	WRAM	
+00159e	b	u	0	WRAM	
+00159f	b	u	0	WRAM	
+0015a0	w	u	0	WRAM	X Movement Speed 
+0015a2	b	u	0	WRAM	
+0015a3	b	u	0	WRAM	
+0015a4	b	u	0	WRAM	
+0015a5	b	u	0	WRAM	
+0015a6	b	u	0	WRAM	
+0015a7	b	u	0	WRAM	
+0015a8	b	u	0	WRAM	if this value changes you hit the thing 
+0015a9	b	u	0	WRAM	if this value changes you hit the thing 
+0015aa	b	u	0	WRAM	if this value changes it falls through the floor 
+0015ab	b	u	0	WRAM	if this value changes it falls through the floor 
+0015ac	b	u	0	WRAM	
+0015ad	b	u	0	WRAM	
+0015ae	b	u	0	WRAM	
+0015af	b	u	0	WRAM	
+0015b0	b	u	0	WRAM	
+0015b1	w	u	0	WRAM	X (Coarse) 
+0015b3	b	u	0	WRAM	
+0015b4	w	u	0	WRAM	Y (Coarse) 
+0015b6	b	u	0	WRAM	HP 
+0015b7	b	u	0	WRAM	
+0015b8	b	u	0	WRAM	
+0015b9	b	u	0	WRAM	
+0015ba	b	u	0	WRAM	timer on level switch when picking up health? 
+0015bb	b	u	0	WRAM	Despawn Timers 
+0015bc	b	u	0	WRAM	
+0015bd	b	u	0	WRAM	
+0015be	b	u	0	WRAM	
+0015bf	b	u	0	WRAM	
+0015c0	b	u	0	WRAM	
+0015c1	b	u	0	WRAM	
+0015c2	b	u	0	WRAM	
+0015c3	b	u	0	WRAM	
+0015c4	b	u	0	WRAM	
+0015c5	b	u	0	WRAM	
+0015c6	b	u	0	WRAM	
+0015c7	b	u	0	WRAM	
+0015c8	b	u	0	WRAM	
+0015c9	b	u	0	WRAM	
+0015ca	b	u	0	WRAM	
+0015cb	b	u	0	WRAM	
+0015cc	b	u	0	WRAM	
+0015cd	b	u	0	WRAM	
+0015ce	b	u	0	WRAM	
+0015cf	b	u	0	WRAM	
+0015d0	b	u	0	WRAM	Status ? (1 Spawning) 
+0015d1	b	u	0	WRAM	
+0015d2	b	u	0	WRAM	this might be the object id 
+0015d3	b	u	0	WRAM	
+0015d4	b	u	0	WRAM	Grounded/Airborn (4/0) 
+0015d5	b	u	0	WRAM	
+0015d6	b	u	0	WRAM	this causes bouncing on somulo health 
+0015d7	b	u	0	WRAM	Contact Damage 
+0015d8	b	u	0	WRAM	something to do with the sprite 
+0015d9	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+0015da	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+0015db	b	u	0	WRAM	this makes the colors go crazy 
+0015dc	b	u	0	WRAM	
+0015dd	b	u	0	WRAM	
+0015de	b	u	0	WRAM	some kind of timer 
+0015df	b	u	0	WRAM	
+0015e0	w	u	0	WRAM	X (Coarse) Copy 
+0015e1	b	u	0	WRAM	
+0015e2	b	u	0	WRAM	Some Y Attribute 
+0015e3	b	u	0	WRAM	
+0015e4	b	u	0	WRAM	changing graphics 
+0015e5	b	u	0	WRAM	changing graphics 
+0015e6	b	u	0	WRAM	
+0015e7	b	u	0	WRAM	
+0015e8	b	u	0	WRAM	
+0015e9	b	u	0	WRAM	
+0015ea	b	u	0	WRAM	
+0015eb	b	u	0	WRAM	
+0015ec	b	u	0	WRAM	
+0015ed	b	u	0	WRAM	
+0015ee	b	u	0	WRAM	
+0015ef	b	u	0	WRAM	
+0015f0	w	u	0	WRAM	X Movement Speed 
+0015f2	b	u	0	WRAM	
+0015f3	b	u	0	WRAM	
+0015f4	b	u	0	WRAM	
+0015f5	b	u	0	WRAM	
+0015f6	b	u	0	WRAM	
+0015f7	b	u	0	WRAM	
+0015f8	b	u	0	WRAM	if this value changes you hit the thing 
+0015f9	b	u	0	WRAM	if this value changes you hit the thing 
+0015fa	b	u	0	WRAM	if this value changes it falls through the floor 
+0015fb	b	u	0	WRAM	if this value changes it falls through the floor 
+0015fc	b	u	0	WRAM	
+0015fd	b	u	0	WRAM	
+0015fe	b	u	0	WRAM	
+0015ff	b	u	0	WRAM	
+001600	b	u	0	WRAM	
+001601	w	u	0	WRAM	X (Coarse) 
+001603	b	u	0	WRAM	
+001604	w	u	0	WRAM	Y (Coarse) 
+001606	b	u	0	WRAM	HP 
+001607	b	u	0	WRAM	
+001608	b	u	0	WRAM	
+001609	b	u	0	WRAM	
+00160a	b	u	0	WRAM	timer on level switch when picking up health? 
+00160b	b	u	0	WRAM	Despawn Timers 
+00160c	b	u	0	WRAM	
+00160d	b	u	0	WRAM	
+00160e	b	u	0	WRAM	
+00160f	b	u	0	WRAM	
+001610	b	u	0	WRAM	
+001611	b	u	0	WRAM	
+001612	b	u	0	WRAM	
+001613	b	u	0	WRAM	
+001614	b	u	0	WRAM	
+001615	b	u	0	WRAM	
+001616	b	u	0	WRAM	
+001617	b	u	0	WRAM	
+001618	b	u	0	WRAM	
+001619	b	u	0	WRAM	
+00161a	b	u	0	WRAM	
+00161b	b	u	0	WRAM	
+00161c	b	u	0	WRAM	
+00161d	b	u	0	WRAM	
+00161e	b	u	0	WRAM	
+00161f	b	u	0	WRAM	
+001620	b	u	0	WRAM	Status ? (1 Spawning) 
+001621	b	u	0	WRAM	
+001622	b	u	0	WRAM	this might be the object id 
+001623	b	u	0	WRAM	
+001624	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001625	b	u	0	WRAM	
+001626	b	u	0	WRAM	this causes bouncing on somulo health 
+001627	b	u	0	WRAM	Contact Damage 
+001628	b	u	0	WRAM	something to do with the sprite 
+001629	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00162a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00162b	b	u	0	WRAM	this makes the colors go crazy 
+00162c	b	u	0	WRAM	
+00162d	b	u	0	WRAM	
+00162e	b	u	0	WRAM	some kind of timer 
+00162f	b	u	0	WRAM	
+001630	w	u	0	WRAM	X (Coarse) Copy 
+001631	b	u	0	WRAM	
+001632	b	u	0	WRAM	Some Y Attribute 
+001633	b	u	0	WRAM	
+001634	b	u	0	WRAM	changing graphics 
+001635	b	u	0	WRAM	changing graphics 
+001636	b	u	0	WRAM	
+001637	b	u	0	WRAM	
+001638	b	u	0	WRAM	
+001639	b	u	0	WRAM	
+00163a	b	u	0	WRAM	
+00163b	b	u	0	WRAM	
+00163c	b	u	0	WRAM	
+00163d	b	u	0	WRAM	
+00163e	b	u	0	WRAM	
+00163f	b	u	0	WRAM	
+001640	w	u	0	WRAM	X Movement Speed 
+001642	b	u	0	WRAM	
+001643	b	u	0	WRAM	
+001644	b	u	0	WRAM	
+001645	b	u	0	WRAM	
+001646	b	u	0	WRAM	
+001647	b	u	0	WRAM	
+001648	b	u	0	WRAM	if this value changes you hit the thing 
+001649	b	u	0	WRAM	if this value changes you hit the thing 
+00164a	b	u	0	WRAM	if this value changes it falls through the floor 
+00164b	b	u	0	WRAM	if this value changes it falls through the floor 
+00164c	b	u	0	WRAM	
+00164d	b	u	0	WRAM	
+00164e	b	u	0	WRAM	
+00164f	b	u	0	WRAM	
+001650	b	u	0	WRAM	
+001651	w	u	0	WRAM	X (Coarse) 
+001653	b	u	0	WRAM	
+001654	w	u	0	WRAM	Y (Coarse) 
+001656	b	u	0	WRAM	HP 
+001657	b	u	0	WRAM	
+001658	b	u	0	WRAM	
+001659	b	u	0	WRAM	
+00165a	b	u	0	WRAM	timer on level switch when picking up health? 
+00165b	b	u	0	WRAM	Despawn Timers 
+00165c	b	u	0	WRAM	
+00165d	b	u	0	WRAM	
+00165e	b	u	0	WRAM	
+00165f	b	u	0	WRAM	
+001660	b	u	0	WRAM	
+001661	b	u	0	WRAM	
+001662	b	u	0	WRAM	
+001663	b	u	0	WRAM	
+001664	b	u	0	WRAM	
+001665	b	u	0	WRAM	
+001666	b	u	0	WRAM	
+001667	b	u	0	WRAM	
+001668	b	u	0	WRAM	
+001669	b	u	0	WRAM	
+00166a	b	u	0	WRAM	
+00166b	b	u	0	WRAM	
+00166c	b	u	0	WRAM	
+00166d	b	u	0	WRAM	
+00166e	b	u	0	WRAM	
+00166f	b	u	0	WRAM	
+001670	b	u	0	WRAM	Status ? (1 Spawning) 
+001671	b	u	0	WRAM	
+001672	b	u	0	WRAM	this might be the object id 
+001673	b	u	0	WRAM	
+001674	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001675	b	u	0	WRAM	
+001676	b	u	0	WRAM	this causes bouncing on somulo health 
+001677	b	u	0	WRAM	Contact Damage 
+001678	b	u	0	WRAM	something to do with the sprite 
+001679	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00167a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00167b	b	u	0	WRAM	this makes the colors go crazy 
+00167c	b	u	0	WRAM	
+00167d	b	u	0	WRAM	
+00167e	b	u	0	WRAM	some kind of timer 
+00167f	b	u	0	WRAM	
+001680	w	u	0	WRAM	X (Coarse) Copy 
+001681	b	u	0	WRAM	
+001682	b	u	0	WRAM	Some Y Attribute 
+001683	b	u	0	WRAM	
+001684	b	u	0	WRAM	changing graphics 
+001685	b	u	0	WRAM	changing graphics 
+001686	b	u	0	WRAM	
+001687	b	u	0	WRAM	
+001688	b	u	0	WRAM	
+001689	b	u	0	WRAM	
+00168a	b	u	0	WRAM	
+00168b	b	u	0	WRAM	
+00168c	b	u	0	WRAM	
+00168d	b	u	0	WRAM	
+00168e	b	u	0	WRAM	
+00168f	b	u	0	WRAM	
+001690	w	u	0	WRAM	X Movement Speed 
+001692	b	u	0	WRAM	
+001693	b	u	0	WRAM	
+001694	b	u	0	WRAM	
+001695	b	u	0	WRAM	
+001696	b	u	0	WRAM	
+001697	b	u	0	WRAM	
+001698	b	u	0	WRAM	if this value changes you hit the thing 
+001699	b	u	0	WRAM	if this value changes you hit the thing 
+00169a	b	u	0	WRAM	if this value changes it falls through the floor 
+00169b	b	u	0	WRAM	if this value changes it falls through the floor 
+00169c	b	u	0	WRAM	
+00169d	b	u	0	WRAM	
+00169e	b	u	0	WRAM	
+00169f	b	u	0	WRAM	
+0016a0	b	u	0	WRAM	
+0016a1	w	u	0	WRAM	X (Coarse) 
+0016a3	b	u	0	WRAM	
+0016a4	w	u	0	WRAM	Y (Coarse) 
+0016a6	b	u	0	WRAM	HP 
+0016a7	b	u	0	WRAM	
+0016a8	b	u	0	WRAM	
+0016a9	b	u	0	WRAM	
+0016aa	b	u	0	WRAM	timer on level switch when picking up health? 
+0016ab	b	u	0	WRAM	Despawn Timers 
+0016ac	b	u	0	WRAM	
+0016ad	b	u	0	WRAM	
+0016ae	b	u	0	WRAM	
+0016af	b	u	0	WRAM	
+0016b0	b	u	0	WRAM	
+0016b1	b	u	0	WRAM	
+0016b2	b	u	0	WRAM	
+0016b3	b	u	0	WRAM	
+0016b4	b	u	0	WRAM	
+0016b5	b	u	0	WRAM	
+0016b6	b	u	0	WRAM	
+0016b7	b	u	0	WRAM	
+0016b8	b	u	0	WRAM	
+0016b9	b	u	0	WRAM	
+0016ba	b	u	0	WRAM	
+0016bb	b	u	0	WRAM	
+0016bc	b	u	0	WRAM	
+0016bd	b	u	0	WRAM	
+0016be	b	u	0	WRAM	
+0016bf	b	u	0	WRAM	
+0016c0	b	u	0	WRAM	Status ? (1 Spawning) 
+0016c1	b	u	0	WRAM	
+0016c2	b	u	0	WRAM	this might be the object id 
+0016c3	b	u	0	WRAM	
+0016c4	b	u	0	WRAM	Grounded/Airborn (4/0) 
+0016c5	b	u	0	WRAM	
+0016c6	b	u	0	WRAM	this causes bouncing on somulo health 
+0016c7	b	u	0	WRAM	Contact Damage 
+0016c8	b	u	0	WRAM	something to do with the sprite 
+0016c9	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+0016ca	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+0016cb	b	u	0	WRAM	this makes the colors go crazy 
+0016cc	b	u	0	WRAM	
+0016cd	b	u	0	WRAM	
+0016ce	b	u	0	WRAM	some kind of timer 
+0016cf	b	u	0	WRAM	
+0016d0	w	u	0	WRAM	X (Coarse) Copy 
+0016d1	b	u	0	WRAM	
+0016d2	b	u	0	WRAM	Some Y Attribute 
+0016d3	b	u	0	WRAM	
+0016d4	b	u	0	WRAM	changing graphics 
+0016d5	b	u	0	WRAM	changing graphics 
+0016d6	b	u	0	WRAM	
+0016d7	b	u	0	WRAM	
+0016d8	b	u	0	WRAM	
+0016d9	b	u	0	WRAM	
+0016da	b	u	0	WRAM	
+0016db	b	u	0	WRAM	
+0016dc	b	u	0	WRAM	
+0016dd	b	u	0	WRAM	
+0016de	b	u	0	WRAM	
+0016df	b	u	0	WRAM	
+0016e0	w	u	0	WRAM	X Movement Speed 
+0016e2	b	u	0	WRAM	
+0016e3	b	u	0	WRAM	
+0016e4	b	u	0	WRAM	
+0016e5	b	u	0	WRAM	
+0016e6	b	u	0	WRAM	
+0016e7	b	u	0	WRAM	
+0016e8	b	u	0	WRAM	if this value changes you hit the thing 
+0016e9	b	u	0	WRAM	if this value changes you hit the thing 
+0016ea	b	u	0	WRAM	if this value changes it falls through the floor 
+0016eb	b	u	0	WRAM	if this value changes it falls through the floor 
+0016ec	b	u	0	WRAM	
+0016ed	b	u	0	WRAM	
+0016ee	b	u	0	WRAM	
+0016ef	b	u	0	WRAM	
+0016f0	b	u	0	WRAM	
+0016f1	w	u	0	WRAM	X (Coarse) 
+0016f3	b	u	0	WRAM	
+0016f4	w	u	0	WRAM	Y (Coarse) 
+0016f6	b	u	0	WRAM	HP 
+0016f7	b	u	0	WRAM	
+0016f8	b	u	0	WRAM	
+0016f9	b	u	0	WRAM	
+0016fa	b	u	0	WRAM	timer on level switch when picking up health? 
+0016fb	b	u	0	WRAM	Despawn Timers 
+0016fc	b	u	0	WRAM	
+0016fd	b	u	0	WRAM	
+0016fe	b	u	0	WRAM	
+0016ff	b	u	0	WRAM	
+001700	b	u	0	WRAM	
+001701	b	u	0	WRAM	
+001702	b	u	0	WRAM	
+001703	b	u	0	WRAM	
+001704	b	u	0	WRAM	
+001705	b	u	0	WRAM	
+001706	b	u	0	WRAM	
+001707	b	u	0	WRAM	
+001708	b	u	0	WRAM	
+001709	b	u	0	WRAM	
+00170a	b	u	0	WRAM	
+00170b	b	u	0	WRAM	
+00170c	b	u	0	WRAM	
+00170d	b	u	0	WRAM	
+00170e	b	u	0	WRAM	
+00170f	b	u	0	WRAM	
+001710	b	u	0	WRAM	Status ? (1 Spawning) 
+001711	b	u	0	WRAM	
+001712	b	u	0	WRAM	this might be the object id 
+001713	b	u	0	WRAM	
+001714	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001715	b	u	0	WRAM	
+001716	b	u	0	WRAM	this causes bouncing on somulo health 
+001717	b	u	0	WRAM	Contact Damage 
+001718	b	u	0	WRAM	something to do with the sprite 
+001719	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00171a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00171b	b	u	0	WRAM	this makes the colors go crazy 
+00171c	b	u	0	WRAM	
+00171d	b	u	0	WRAM	
+00171e	b	u	0	WRAM	some kind of timer 
+00171f	b	u	0	WRAM	
+001720	w	u	0	WRAM	X (Coarse) Copy 
+001721	b	u	0	WRAM	
+001722	b	u	0	WRAM	Some Y Attribute 
+001723	b	u	0	WRAM	
+001724	b	u	0	WRAM	changing graphics 
+001725	b	u	0	WRAM	changing graphics 
+001726	b	u	0	WRAM	
+001727	b	u	0	WRAM	
+001728	b	u	0	WRAM	
+001729	b	u	0	WRAM	
+00172a	b	u	0	WRAM	
+00172b	b	u	0	WRAM	
+00172c	b	u	0	WRAM	
+00172d	b	u	0	WRAM	
+00172e	b	u	0	WRAM	
+00172f	b	u	0	WRAM	
+001730	w	u	0	WRAM	X Movement Speed 
+001732	b	u	0	WRAM	
+001733	b	u	0	WRAM	
+001734	b	u	0	WRAM	
+001735	b	u	0	WRAM	
+001736	b	u	0	WRAM	
+001737	b	u	0	WRAM	
+001738	b	u	0	WRAM	if this value changes you hit the thing 
+001739	b	u	0	WRAM	if this value changes you hit the thing 
+00173a	b	u	0	WRAM	if this value changes it falls through the floor 
+00173b	b	u	0	WRAM	if this value changes it falls through the floor 
+00173c	b	u	0	WRAM	
+00173d	b	u	0	WRAM	
+00173e	b	u	0	WRAM	
+00173f	b	u	0	WRAM	
+001740	b	u	0	WRAM	
+001741	w	u	0	WRAM	X (Coarse) 
+001743	b	u	0	WRAM	
+001744	w	u	0	WRAM	Y (Coarse) 
+001746	b	u	0	WRAM	HP 
+001747	b	u	0	WRAM	
+001748	b	u	0	WRAM	
+001749	b	u	0	WRAM	
+00174a	b	u	0	WRAM	timer on level switch when picking up health? 
+00174b	b	u	0	WRAM	Despawn Timers 
+00174c	b	u	0	WRAM	
+00174d	b	u	0	WRAM	
+00174e	b	u	0	WRAM	
+00174f	b	u	0	WRAM	
+001750	b	u	0	WRAM	
+001751	b	u	0	WRAM	
+001752	b	u	0	WRAM	
+001753	b	u	0	WRAM	
+001754	b	u	0	WRAM	
+001755	b	u	0	WRAM	
+001756	b	u	0	WRAM	
+001757	b	u	0	WRAM	
+001758	b	u	0	WRAM	
+001759	b	u	0	WRAM	
+00175a	b	u	0	WRAM	
+00175b	b	u	0	WRAM	
+00175c	b	u	0	WRAM	
+00175d	b	u	0	WRAM	
+00175e	b	u	0	WRAM	
+00175f	b	u	0	WRAM	
+001760	b	u	0	WRAM	Status ? (1 Spawning) 
+001761	b	u	0	WRAM	
+001762	b	u	0	WRAM	this might be the object id 
+001763	b	u	0	WRAM	
+001764	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001765	b	u	0	WRAM	
+001766	b	u	0	WRAM	this causes bouncing on somulo health 
+001767	b	u	0	WRAM	Contact Damage 
+001768	b	u	0	WRAM	something to do with the sprite 
+001769	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00176a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00176b	b	u	0	WRAM	this makes the colors go crazy 
+00176c	b	u	0	WRAM	
+00176d	b	u	0	WRAM	
+00176e	b	u	0	WRAM	some kind of timer 
+00176f	b	u	0	WRAM	
+001770	w	u	0	WRAM	X (Coarse) Copy 
+001771	b	u	0	WRAM	
+001772	b	u	0	WRAM	Some Y Attribute 
+001773	b	u	0	WRAM	
+001774	b	u	0	WRAM	changing graphics 
+001775	b	u	0	WRAM	changing graphics 
+001776	b	u	0	WRAM	
+001777	b	u	0	WRAM	
+001778	b	u	0	WRAM	
+001779	b	u	0	WRAM	
+00177a	b	u	0	WRAM	
+00177b	b	u	0	WRAM	
+00177c	b	u	0	WRAM	
+00177d	b	u	0	WRAM	
+00177e	b	u	0	WRAM	
+00177f	b	u	0	WRAM	
+001780	w	u	0	WRAM	X Movement Speed 
+001782	b	u	0	WRAM	
+001783	b	u	0	WRAM	
+001784	b	u	0	WRAM	
+001785	b	u	0	WRAM	
+001786	b	u	0	WRAM	
+001787	b	u	0	WRAM	
+001788	b	u	0	WRAM	if this value changes you hit the thing 
+001789	b	u	0	WRAM	if this value changes you hit the thing 
+00178a	b	u	0	WRAM	if this value changes it falls through the floor 
+00178b	b	u	0	WRAM	if this value changes it falls through the floor 
+00178c	b	u	0	WRAM	
+00178d	b	u	0	WRAM	
+00178e	b	u	0	WRAM	
+00178f	b	u	0	WRAM	
+001790	b	u	0	WRAM	
+001791	w	u	0	WRAM	X (Coarse) 
+001793	b	u	0	WRAM	
+001794	w	u	0	WRAM	Y (Coarse) 
+001796	b	u	0	WRAM	HP 
+001797	b	u	0	WRAM	
+001798	b	u	0	WRAM	
+001799	b	u	0	WRAM	
+00179a	b	u	0	WRAM	timer on level switch when picking up health? 
+00179b	b	u	0	WRAM	Despawn Timers 
+00179c	b	u	0	WRAM	
+00179d	b	u	0	WRAM	
+00179e	b	u	0	WRAM	
+00179f	b	u	0	WRAM	
+0017a0	b	u	0	WRAM	
+0017a1	b	u	0	WRAM	
+0017a2	b	u	0	WRAM	
+0017a3	b	u	0	WRAM	
+0017a4	b	u	0	WRAM	
+0017a5	b	u	0	WRAM	
+0017a6	b	u	0	WRAM	
+0017a7	b	u	0	WRAM	
+0017a8	b	u	0	WRAM	
+0017a9	b	u	0	WRAM	
+0017aa	b	u	0	WRAM	
+0017ab	b	u	0	WRAM	
+0017ac	b	u	0	WRAM	
+0017ad	b	u	0	WRAM	
+0017ae	b	u	0	WRAM	
+0017af	b	u	0	WRAM	
+0017b0	b	u	0	WRAM	Status ? (1 Spawning) 
+0017b1	b	u	0	WRAM	
+0017b2	b	u	0	WRAM	this might be the object id 
+0017b3	b	u	0	WRAM	
+0017b4	b	u	0	WRAM	Grounded/Airborn (4/0) 
+0017b5	b	u	0	WRAM	
+0017b6	b	u	0	WRAM	this causes bouncing on somulo health 
+0017b7	b	u	0	WRAM	Contact Damage 
+0017b8	b	u	0	WRAM	something to do with the sprite 
+0017b9	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+0017ba	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+0017bb	b	u	0	WRAM	this makes the colors go crazy 
+0017bc	b	u	0	WRAM	
+0017bd	b	u	0	WRAM	
+0017be	b	u	0	WRAM	some kind of timer 
+0017bf	b	u	0	WRAM	
+0017c0	w	u	0	WRAM	X (Coarse) Copy 
+0017c1	b	u	0	WRAM	
+0017c2	b	u	0	WRAM	Some Y Attribute 
+0017c3	b	u	0	WRAM	
+0017c4	b	u	0	WRAM	changing graphics 
+0017c5	b	u	0	WRAM	changing graphics 
+0017c6	b	u	0	WRAM	
+0017c7	b	u	0	WRAM	
+0017c8	b	u	0	WRAM	
+0017c9	b	u	0	WRAM	
+0017ca	b	u	0	WRAM	
+0017cb	b	u	0	WRAM	
+0017cc	b	u	0	WRAM	
+0017cd	b	u	0	WRAM	
+0017ce	b	u	0	WRAM	
+0017cf	b	u	0	WRAM	
+0017d0	w	u	0	WRAM	X Movement Speed 
+0017d2	b	u	0	WRAM	
+0017d3	b	u	0	WRAM	
+0017d4	b	u	0	WRAM	
+0017d5	b	u	0	WRAM	
+0017d6	b	u	0	WRAM	
+0017d7	b	u	0	WRAM	
+0017d8	b	u	0	WRAM	if this value changes you hit the thing 
+0017d9	b	u	0	WRAM	if this value changes you hit the thing 
+0017da	b	u	0	WRAM	if this value changes it falls through the floor 
+0017db	b	u	0	WRAM	if this value changes it falls through the floor 
+0017dc	b	u	0	WRAM	
+0017dd	b	u	0	WRAM	
+0017de	b	u	0	WRAM	
+0017df	b	u	0	WRAM	
+0017e0	b	u	0	WRAM	
+0017e1	w	u	0	WRAM	X (Coarse) 
+0017e3	b	u	0	WRAM	
+0017e4	w	u	0	WRAM	Y (Coarse) 
+0017e6	b	u	0	WRAM	HP 
+0017e7	b	u	0	WRAM	
+0017e8	b	u	0	WRAM	
+0017e9	b	u	0	WRAM	
+0017ea	b	u	0	WRAM	timer on level switch when picking up health? 
+0017eb	b	u	0	WRAM	Despawn Timers 
+0017ec	b	u	0	WRAM	
+0017ed	b	u	0	WRAM	
+0017ee	b	u	0	WRAM	
+0017ef	b	u	0	WRAM	
+0017f0	b	u	0	WRAM	
+0017f1	b	u	0	WRAM	
+0017f2	b	u	0	WRAM	
+0017f3	b	u	0	WRAM	
+0017f4	b	u	0	WRAM	
+0017f5	b	u	0	WRAM	
+0017f6	b	u	0	WRAM	
+0017f7	b	u	0	WRAM	
+0017f8	b	u	0	WRAM	
+0017f9	b	u	0	WRAM	
+0017fa	b	u	0	WRAM	
+0017fb	b	u	0	WRAM	
+0017fc	b	u	0	WRAM	
+0017fd	b	u	0	WRAM	
+0017fe	b	u	0	WRAM	
+0017ff	b	u	0	WRAM	
+001800	b	u	0	WRAM	Status ? (1 Spawning) 
+001801	b	u	0	WRAM	
+001802	b	u	0	WRAM	this might be the object id 
+001803	b	u	0	WRAM	
+001804	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001805	b	u	0	WRAM	
+001806	b	u	0	WRAM	this causes bouncing on somulo health 
+001807	b	u	0	WRAM	Contact Damage 
+001808	b	u	0	WRAM	something to do with the sprite 
+001809	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00180a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00180b	b	u	0	WRAM	this makes the colors go crazy 
+00180c	b	u	0	WRAM	
+00180d	b	u	0	WRAM	
+00180e	b	u	0	WRAM	some kind of timer 
+00180f	b	u	0	WRAM	
+001810	w	u	0	WRAM	X (Coarse) Copy 
+001811	b	u	0	WRAM	
+001812	b	u	0	WRAM	Some Y Attribute 
+001813	b	u	0	WRAM	
+001814	b	u	0	WRAM	changing graphics 
+001815	b	u	0	WRAM	changing graphics 
+001816	b	u	0	WRAM	
+001817	b	u	0	WRAM	
+001818	b	u	0	WRAM	
+001819	b	u	0	WRAM	
+00181a	b	u	0	WRAM	
+00181b	b	u	0	WRAM	
+00181c	b	u	0	WRAM	
+00181d	b	u	0	WRAM	
+00181e	b	u	0	WRAM	
+00181f	b	u	0	WRAM	
+001820	w	u	0	WRAM	X Movement Speed 
+001822	b	u	0	WRAM	
+001823	b	u	0	WRAM	
+001824	b	u	0	WRAM	
+001825	b	u	0	WRAM	
+001826	b	u	0	WRAM	
+001827	b	u	0	WRAM	
+001828	b	u	0	WRAM	if this value changes you hit the thing 
+001829	b	u	0	WRAM	if this value changes you hit the thing 
+00182a	b	u	0	WRAM	if this value changes it falls through the floor 
+00182b	b	u	0	WRAM	if this value changes it falls through the floor 
+00182c	b	u	0	WRAM	
+00182d	b	u	0	WRAM	
+00182e	b	u	0	WRAM	
+00182f	b	u	0	WRAM	
+001830	b	u	0	WRAM	
+001831	w	u	0	WRAM	X (Coarse) 
+001833	b	u	0	WRAM	
+001834	w	u	0	WRAM	Y (Coarse) 
+001836	b	u	0	WRAM	HP 
+001837	b	u	0	WRAM	
+001838	b	u	0	WRAM	
+001839	b	u	0	WRAM	
+00183a	b	u	0	WRAM	timer on level switch when picking up health? 
+00183b	b	u	0	WRAM	Despawn Timers 
+00183c	b	u	0	WRAM	
+00183d	b	u	0	WRAM	
+00183e	b	u	0	WRAM	
+00183f	b	u	0	WRAM	
+001840	b	u	0	WRAM	
+001841	b	u	0	WRAM	
+001842	b	u	0	WRAM	
+001843	b	u	0	WRAM	
+001844	b	u	0	WRAM	
+001845	b	u	0	WRAM	
+001846	b	u	0	WRAM	
+001847	b	u	0	WRAM	
+001848	b	u	0	WRAM	
+001849	b	u	0	WRAM	
+00184a	b	u	0	WRAM	
+00184b	b	u	0	WRAM	
+00184c	b	u	0	WRAM	
+00184d	b	u	0	WRAM	
+00184e	b	u	0	WRAM	
+00184f	b	u	0	WRAM	
+001850	b	u	0	WRAM	Status ? (1 Spawning) 
+001851	b	u	0	WRAM	
+001852	b	u	0	WRAM	this might be the object id 
+001853	b	u	0	WRAM	
+001854	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001855	b	u	0	WRAM	
+001856	b	u	0	WRAM	this causes bouncing on somulo health 
+001857	b	u	0	WRAM	Contact Damage 
+001858	b	u	0	WRAM	something to do with the sprite 
+001859	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00185a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00185b	b	u	0	WRAM	this makes the colors go crazy 
+00185c	b	u	0	WRAM	
+00185d	b	u	0	WRAM	
+00185e	b	u	0	WRAM	some kind of timer 
+00185f	b	u	0	WRAM	
+001860	w	u	0	WRAM	X (Coarse) Copy 
+001861	b	u	0	WRAM	
+001862	b	u	0	WRAM	Some Y Attribute 
+001863	b	u	0	WRAM	
+001864	b	u	0	WRAM	changing graphics 
+001865	b	u	0	WRAM	changing graphics 
+001866	b	u	0	WRAM	
+001867	b	u	0	WRAM	
+001868	b	u	0	WRAM	
+001869	b	u	0	WRAM	
+00186a	b	u	0	WRAM	
+00186b	b	u	0	WRAM	
+00186c	b	u	0	WRAM	
+00186d	b	u	0	WRAM	
+00186e	b	u	0	WRAM	
+00186f	b	u	0	WRAM	
+001870	w	u	0	WRAM	X Movement Speed 
+001872	b	u	0	WRAM	
+001873	b	u	0	WRAM	
+001874	b	u	0	WRAM	
+001875	b	u	0	WRAM	
+001876	b	u	0	WRAM	
+001877	b	u	0	WRAM	
+001878	b	u	0	WRAM	if this value changes you hit the thing 
+001879	b	u	0	WRAM	if this value changes you hit the thing 
+00187a	b	u	0	WRAM	if this value changes it falls through the floor 
+00187b	b	u	0	WRAM	if this value changes it falls through the floor 
+00187c	b	u	0	WRAM	
+00187d	b	u	0	WRAM	
+00187e	b	u	0	WRAM	
+00187f	b	u	0	WRAM	
+001880	b	u	0	WRAM	
+001881	w	u	0	WRAM	X (Coarse) 
+001883	b	u	0	WRAM	
+001884	w	u	0	WRAM	Y (Coarse) 
+001886	b	u	0	WRAM	HP 
+001887	b	u	0	WRAM	
+001888	b	u	0	WRAM	
+001889	b	u	0	WRAM	
+00188a	b	u	0	WRAM	timer on level switch when picking up health? 
+00188b	b	u	0	WRAM	Despawn Timers 
+00188c	b	u	0	WRAM	
+00188d	b	u	0	WRAM	
+00188e	b	u	0	WRAM	
+00188f	b	u	0	WRAM	
+001890	b	u	0	WRAM	
+001891	b	u	0	WRAM	
+001892	b	u	0	WRAM	
+001893	b	u	0	WRAM	
+001894	b	u	0	WRAM	
+001895	b	u	0	WRAM	
+001896	b	u	0	WRAM	
+001897	b	u	0	WRAM	
+001898	b	u	0	WRAM	
+001899	b	u	0	WRAM	
+00189a	b	u	0	WRAM	
+00189b	b	u	0	WRAM	
+00189c	b	u	0	WRAM	
+00189d	b	u	0	WRAM	
+00189e	b	u	0	WRAM	
+00189f	b	u	0	WRAM	
+0018a0	b	u	0	WRAM	Status ? (1 Spawning) 
+0018a1	b	u	0	WRAM	
+0018a2	b	u	0	WRAM	this might be the object id 
+0018a3	b	u	0	WRAM	
+0018a4	b	u	0	WRAM	Grounded/Airborn (4/0) 
+0018a5	b	u	0	WRAM	
+0018a6	b	u	0	WRAM	this causes bouncing on somulo health 
+0018a7	b	u	0	WRAM	Contact Damage 
+0018a8	b	u	0	WRAM	something to do with the sprite 
+0018a9	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+0018aa	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+0018ab	b	u	0	WRAM	this makes the colors go crazy 
+0018ac	b	u	0	WRAM	
+0018ad	b	u	0	WRAM	
+0018ae	b	u	0	WRAM	some kind of timer 
+0018af	b	u	0	WRAM	
+0018b0	w	u	0	WRAM	X (Coarse) Copy 
+0018b1	b	u	0	WRAM	
+0018b2	b	u	0	WRAM	Some Y Attribute 
+0018b3	b	u	0	WRAM	
+0018b4	b	u	0	WRAM	changing graphics 
+0018b5	b	u	0	WRAM	changing graphics 
+0018b6	b	u	0	WRAM	
+0018b7	b	u	0	WRAM	
+0018b8	b	u	0	WRAM	
+0018b9	b	u	0	WRAM	
+0018ba	b	u	0	WRAM	
+0018bb	b	u	0	WRAM	
+0018bc	b	u	0	WRAM	
+0018bd	b	u	0	WRAM	
+0018be	b	u	0	WRAM	
+0018bf	b	u	0	WRAM	
+0018c0	w	u	0	WRAM	X Movement Speed 
+0018c2	b	u	0	WRAM	
+0018c3	b	u	0	WRAM	
+0018c4	b	u	0	WRAM	
+0018c5	b	u	0	WRAM	
+0018c6	b	u	0	WRAM	
+0018c7	b	u	0	WRAM	
+0018c8	b	u	0	WRAM	if this value changes you hit the thing 
+0018c9	b	u	0	WRAM	if this value changes you hit the thing 
+0018ca	b	u	0	WRAM	if this value changes it falls through the floor 
+0018cb	b	u	0	WRAM	if this value changes it falls through the floor 
+0018cc	b	u	0	WRAM	
+0018cd	b	u	0	WRAM	
+0018ce	b	u	0	WRAM	
+0018cf	b	u	0	WRAM	
+0018d0	b	u	0	WRAM	
+0018d1	w	u	0	WRAM	X (Coarse) 
+0018d3	b	u	0	WRAM	
+0018d4	w	u	0	WRAM	Y (Coarse) 
+0018d6	b	u	0	WRAM	HP 
+0018d7	b	u	0	WRAM	
+0018d8	b	u	0	WRAM	
+0018d9	b	u	0	WRAM	
+0018da	b	u	0	WRAM	timer on level switch when picking up health? 
+0018db	b	u	0	WRAM	Despawn Timers 
+0018dc	b	u	0	WRAM	
+0018dd	b	u	0	WRAM	
+0018de	b	u	0	WRAM	
+0018df	b	u	0	WRAM	
+0018e0	b	u	0	WRAM	
+0018e1	b	u	0	WRAM	
+0018e2	b	u	0	WRAM	
+0018e3	b	u	0	WRAM	
+0018e4	b	u	0	WRAM	
+0018e5	b	u	0	WRAM	
+0018e6	b	u	0	WRAM	
+0018e7	b	u	0	WRAM	
+0018e8	b	u	0	WRAM	
+0018e9	b	u	0	WRAM	
+0018ea	b	u	0	WRAM	
+0018eb	b	u	0	WRAM	
+0018ec	b	u	0	WRAM	
+0018ed	b	u	0	WRAM	
+0018ee	b	u	0	WRAM	
+0018ef	b	u	0	WRAM	
+0018f0	b	u	0	WRAM	Status ? (1 Spawning) 
+0018f1	b	u	0	WRAM	
+0018f2	b	u	0	WRAM	this might be the object id 
+0018f3	b	u	0	WRAM	
+0018f4	b	u	0	WRAM	Grounded/Airborn (4/0) 
+0018f5	b	u	0	WRAM	
+0018f6	b	u	0	WRAM	this causes bouncing on somulo health 
+0018f7	b	u	0	WRAM	Contact Damage 
+0018f8	b	u	0	WRAM	something to do with the sprite 
+0018f9	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+0018fa	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+0018fb	b	u	0	WRAM	this makes the colors go crazy 
+0018fc	b	u	0	WRAM	
+0018fd	b	u	0	WRAM	
+0018fe	b	u	0	WRAM	some kind of timer 
+0018ff	b	u	0	WRAM	
+001900	w	u	0	WRAM	X (Coarse) Copy 
+001901	b	u	0	WRAM	
+001902	b	u	0	WRAM	Some Y Attribute 
+001903	b	u	0	WRAM	
+001904	b	u	0	WRAM	changing graphics 
+001905	b	u	0	WRAM	changing graphics 
+001906	b	u	0	WRAM	
+001907	b	u	0	WRAM	
+001908	b	u	0	WRAM	
+001909	b	u	0	WRAM	
+00190a	b	u	0	WRAM	
+00190b	b	u	0	WRAM	
+00190c	b	u	0	WRAM	
+00190d	b	u	0	WRAM	
+00190e	b	u	0	WRAM	
+00190f	b	u	0	WRAM	
+001910	w	u	0	WRAM	X Movement Speed 
+001912	b	u	0	WRAM	
+001913	b	u	0	WRAM	
+001914	b	u	0	WRAM	
+001915	b	u	0	WRAM	
+001916	b	u	0	WRAM	
+001917	b	u	0	WRAM	
+001918	b	u	0	WRAM	if this value changes you hit the thing 
+001919	b	u	0	WRAM	if this value changes you hit the thing 
+00191a	b	u	0	WRAM	if this value changes it falls through the floor 
+00191b	b	u	0	WRAM	if this value changes it falls through the floor 
+00191c	b	u	0	WRAM	
+00191d	b	u	0	WRAM	
+00191e	b	u	0	WRAM	
+00191f	b	u	0	WRAM	
+001920	b	u	0	WRAM	
+001921	w	u	0	WRAM	X (Coarse) 
+001923	b	u	0	WRAM	
+001924	w	u	0	WRAM	Y (Coarse) 
+001926	b	u	0	WRAM	HP 
+001927	b	u	0	WRAM	
+001928	b	u	0	WRAM	
+001929	b	u	0	WRAM	
+00192a	b	u	0	WRAM	timer on level switch when picking up health? 
+00192b	b	u	0	WRAM	Despawn Timers 
+00192c	b	u	0	WRAM	
+00192d	b	u	0	WRAM	
+00192e	b	u	0	WRAM	
+00192f	b	u	0	WRAM	
+001930	b	u	0	WRAM	
+001931	b	u	0	WRAM	
+001932	b	u	0	WRAM	
+001933	b	u	0	WRAM	
+001934	b	u	0	WRAM	
+001935	b	u	0	WRAM	
+001936	b	u	0	WRAM	
+001937	b	u	0	WRAM	
+001938	b	u	0	WRAM	
+001939	b	u	0	WRAM	
+00193a	b	u	0	WRAM	
+00193b	b	u	0	WRAM	
+00193c	b	u	0	WRAM	
+00193d	b	u	0	WRAM	
+00193e	b	u	0	WRAM	
+00193f	b	u	0	WRAM	
+001940	b	u	0	WRAM	Status ? (1 Spawning) 
+001941	b	u	0	WRAM	
+001942	b	u	0	WRAM	this might be the object id 
+001943	b	u	0	WRAM	
+001944	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001945	b	u	0	WRAM	
+001946	b	u	0	WRAM	this causes bouncing on somulo health 
+001947	b	u	0	WRAM	Contact Damage 
+001948	b	u	0	WRAM	something to do with the sprite 
+001949	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00194a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00194b	b	u	0	WRAM	this makes the colors go crazy 
+00194c	b	u	0	WRAM	
+00194d	b	u	0	WRAM	
+00194e	b	u	0	WRAM	some kind of timer 
+00194f	b	u	0	WRAM	
+001950	w	u	0	WRAM	X (Coarse) Copy 
+001951	b	u	0	WRAM	
+001952	b	u	0	WRAM	Some Y Attribute 
+001953	b	u	0	WRAM	
+001954	b	u	0	WRAM	changing graphics 
+001955	b	u	0	WRAM	changing graphics 
+001956	b	u	0	WRAM	
+001957	b	u	0	WRAM	
+001958	b	u	0	WRAM	
+001959	b	u	0	WRAM	
+00195a	b	u	0	WRAM	
+00195b	b	u	0	WRAM	
+00195c	b	u	0	WRAM	
+00195d	b	u	0	WRAM	
+00195e	b	u	0	WRAM	
+00195f	b	u	0	WRAM	
+001960	w	u	0	WRAM	X Movement Speed 
+001962	b	u	0	WRAM	
+001963	b	u	0	WRAM	
+001964	b	u	0	WRAM	
+001965	b	u	0	WRAM	
+001966	b	u	0	WRAM	
+001967	b	u	0	WRAM	
+001968	b	u	0	WRAM	if this value changes you hit the thing 
+001969	b	u	0	WRAM	if this value changes you hit the thing 
+00196a	b	u	0	WRAM	if this value changes it falls through the floor 
+00196b	b	u	0	WRAM	if this value changes it falls through the floor 
+00196c	b	u	0	WRAM	
+00196d	b	u	0	WRAM	
+00196e	b	u	0	WRAM	
+00196f	b	u	0	WRAM	
+001970	b	u	0	WRAM	
+001971	w	u	0	WRAM	X (Coarse) 
+001973	b	u	0	WRAM	
+001974	w	u	0	WRAM	Y (Coarse) 
+001976	b	u	0	WRAM	HP 
+001977	b	u	0	WRAM	
+001978	b	u	0	WRAM	
+001979	b	u	0	WRAM	
+00197a	b	u	0	WRAM	timer on level switch when picking up health? 
+00197b	b	u	0	WRAM	Despawn Timers 
+00197c	b	u	0	WRAM	
+00197d	b	u	0	WRAM	
+00197e	b	u	0	WRAM	
+00197f	b	u	0	WRAM	
+001980	b	u	0	WRAM	
+001981	b	u	0	WRAM	
+001982	b	u	0	WRAM	
+001983	b	u	0	WRAM	
+001984	b	u	0	WRAM	
+001985	b	u	0	WRAM	
+001986	b	u	0	WRAM	
+001987	b	u	0	WRAM	
+001988	b	u	0	WRAM	
+001989	b	u	0	WRAM	
+00198a	b	u	0	WRAM	
+00198b	b	u	0	WRAM	
+00198c	b	u	0	WRAM	
+00198d	b	u	0	WRAM	
+00198e	b	u	0	WRAM	
+00198f	b	u	0	WRAM	
+001990	b	u	0	WRAM	Status ? (1 Spawning) 
+001991	b	u	0	WRAM	
+001992	b	u	0	WRAM	this might be the object id 
+001993	b	u	0	WRAM	
+001994	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001995	b	u	0	WRAM	
+001996	b	u	0	WRAM	this causes bouncing on somulo health 
+001997	b	u	0	WRAM	Contact Damage 
+001998	b	u	0	WRAM	something to do with the sprite 
+001999	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+00199a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+00199b	b	u	0	WRAM	this makes the colors go crazy 
+00199c	b	u	0	WRAM	
+00199d	b	u	0	WRAM	
+00199e	b	u	0	WRAM	some kind of timer 
+00199f	b	u	0	WRAM	
+0019a0	w	u	0	WRAM	X (Coarse) Copy 
+0019a1	b	u	0	WRAM	
+0019a2	b	u	0	WRAM	Some Y Attribute 
+0019a3	b	u	0	WRAM	
+0019a4	b	u	0	WRAM	changing graphics 
+0019a5	b	u	0	WRAM	changing graphics 
+0019a6	b	u	0	WRAM	
+0019a7	b	u	0	WRAM	
+0019a8	b	u	0	WRAM	
+0019a9	b	u	0	WRAM	
+0019aa	b	u	0	WRAM	
+0019ab	b	u	0	WRAM	
+0019ac	b	u	0	WRAM	
+0019ad	b	u	0	WRAM	
+0019ae	b	u	0	WRAM	
+0019af	b	u	0	WRAM	
+0019b0	w	u	0	WRAM	X Movement Speed 
+0019b2	b	u	0	WRAM	
+0019b3	b	u	0	WRAM	
+0019b4	b	u	0	WRAM	
+0019b5	b	u	0	WRAM	
+0019b6	b	u	0	WRAM	
+0019b7	b	u	0	WRAM	
+0019b8	b	u	0	WRAM	if this value changes you hit the thing 
+0019b9	b	u	0	WRAM	if this value changes you hit the thing 
+0019ba	b	u	0	WRAM	if this value changes it falls through the floor 
+0019bb	b	u	0	WRAM	if this value changes it falls through the floor 
+0019bc	b	u	0	WRAM	
+0019bd	b	u	0	WRAM	
+0019be	b	u	0	WRAM	
+0019bf	b	u	0	WRAM	
+0019c0	b	u	0	WRAM	
+0019c1	w	u	0	WRAM	X (Coarse) 
+0019c3	b	u	0	WRAM	
+0019c4	w	u	0	WRAM	Y (Coarse) 
+0019c6	b	u	0	WRAM	HP 
+0019c7	b	u	0	WRAM	
+0019c8	b	u	0	WRAM	
+0019c9	b	u	0	WRAM	
+0019ca	b	u	0	WRAM	timer on level switch when picking up health? 
+0019cb	b	u	0	WRAM	Despawn Timers 
+0019cc	b	u	0	WRAM	
+0019cd	b	u	0	WRAM	
+0019ce	b	u	0	WRAM	
+0019cf	b	u	0	WRAM	
+0019d0	b	u	0	WRAM	
+0019d1	b	u	0	WRAM	
+0019d2	b	u	0	WRAM	
+0019d3	b	u	0	WRAM	
+0019d4	b	u	0	WRAM	
+0019d5	b	u	0	WRAM	
+0019d6	b	u	0	WRAM	
+0019d7	b	u	0	WRAM	
+0019d8	b	u	0	WRAM	
+0019d9	b	u	0	WRAM	
+0019da	b	u	0	WRAM	
+0019db	b	u	0	WRAM	
+0019dc	b	u	0	WRAM	
+0019dd	b	u	0	WRAM	
+0019de	b	u	0	WRAM	
+0019df	b	u	0	WRAM	
+0019e0	b	u	0	WRAM	Status ? (1 Spawning) 
+0019e1	b	u	0	WRAM	
+0019e2	b	u	0	WRAM	this might be the object id 
+0019e3	b	u	0	WRAM	
+0019e4	b	u	0	WRAM	Grounded/Airborn (4/0) 
+0019e5	b	u	0	WRAM	
+0019e6	b	u	0	WRAM	this causes bouncing on somulo health 
+0019e7	b	u	0	WRAM	Contact Damage 
+0019e8	b	u	0	WRAM	something to do with the sprite 
+0019e9	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+0019ea	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+0019eb	b	u	0	WRAM	this makes the colors go crazy 
+0019ec	b	u	0	WRAM	
+0019ed	b	u	0	WRAM	
+0019ee	b	u	0	WRAM	some kind of timer 
+0019ef	b	u	0	WRAM	
+0019f0	w	u	0	WRAM	X (Coarse) Copy 
+0019f1	b	u	0	WRAM	
+0019f2	b	u	0	WRAM	Some Y Attribute 
+0019f3	b	u	0	WRAM	
+0019f4	b	u	0	WRAM	changing graphics 
+0019f5	b	u	0	WRAM	changing graphics 
+0019f6	b	u	0	WRAM	
+0019f7	b	u	0	WRAM	
+0019f8	b	u	0	WRAM	
+0019f9	b	u	0	WRAM	
+0019fa	b	u	0	WRAM	
+0019fb	b	u	0	WRAM	
+0019fc	b	u	0	WRAM	
+0019fd	b	u	0	WRAM	
+0019fe	b	u	0	WRAM	
+0019ff	b	u	0	WRAM	
+001a00	w	u	0	WRAM	X Movement Speed 
+001a02	b	u	0	WRAM	
+001a03	b	u	0	WRAM	
+001a04	b	u	0	WRAM	
+001a05	b	u	0	WRAM	
+001a06	b	u	0	WRAM	
+001a07	b	u	0	WRAM	
+001a08	b	u	0	WRAM	if this value changes you hit the thing 
+001a09	b	u	0	WRAM	if this value changes you hit the thing 
+001a0a	b	u	0	WRAM	if this value changes it falls through the floor 
+001a0b	b	u	0	WRAM	if this value changes it falls through the floor 
+001a0c	b	u	0	WRAM	
+001a0d	b	u	0	WRAM	
+001a0e	b	u	0	WRAM	
+001a0f	b	u	0	WRAM	
+001a10	b	u	0	WRAM	
+001a11	w	u	0	WRAM	X (Coarse) 
+001a13	b	u	0	WRAM	
+001a14	w	u	0	WRAM	Y (Coarse) 
+001a16	b	u	0	WRAM	HP 
+001a17	b	u	0	WRAM	
+001a18	b	u	0	WRAM	
+001a19	b	u	0	WRAM	
+001a1a	b	u	0	WRAM	timer on level switch when picking up health? 
+001a1b	b	u	0	WRAM	Despawn Timers 
+001a1c	b	u	0	WRAM	
+001a1d	b	u	0	WRAM	
+001a1e	b	u	0	WRAM	
+001a1f	b	u	0	WRAM	
+001a20	b	u	0	WRAM	
+001a21	b	u	0	WRAM	
+001a22	b	u	0	WRAM	
+001a23	b	u	0	WRAM	
+001a24	b	u	0	WRAM	
+001a25	b	u	0	WRAM	
+001a26	b	u	0	WRAM	
+001a27	b	u	0	WRAM	
+001a28	b	u	0	WRAM	
+001a29	b	u	0	WRAM	
+001a2a	b	u	0	WRAM	
+001a2b	b	u	0	WRAM	
+001a2c	b	u	0	WRAM	
+001a2d	b	u	0	WRAM	
+001a2e	b	u	0	WRAM	
+001a2f	b	u	0	WRAM	
+001a30	b	u	0	WRAM	Status ? (1 Spawning) 
+001a31	b	u	0	WRAM	
+001a32	b	u	0	WRAM	this might be the object id 
+001a33	b	u	0	WRAM	
+001a34	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001a35	b	u	0	WRAM	
+001a36	b	u	0	WRAM	this causes bouncing on somulo health 
+001a37	b	u	0	WRAM	Contact Damage 
+001a38	b	u	0	WRAM	something to do with the sprite 
+001a39	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+001a3a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+001a3b	b	u	0	WRAM	this makes the colors go crazy 
+001a3c	b	u	0	WRAM	
+001a3d	b	u	0	WRAM	
+001a3e	b	u	0	WRAM	some kind of timer 
+001a3f	b	u	0	WRAM	
+001a40	w	u	0	WRAM	X (Coarse) Copy 
+001a41	b	u	0	WRAM	
+001a42	b	u	0	WRAM	Some Y Attribute 
+001a43	b	u	0	WRAM	
+001a44	b	u	0	WRAM	changing graphics 
+001a45	b	u	0	WRAM	changing graphics 
+001a46	b	u	0	WRAM	
+001a47	b	u	0	WRAM	
+001a48	b	u	0	WRAM	
+001a49	b	u	0	WRAM	
+001a4a	b	u	0	WRAM	
+001a4b	b	u	0	WRAM	
+001a4c	b	u	0	WRAM	
+001a4d	b	u	0	WRAM	
+001a4e	b	u	0	WRAM	
+001a4f	b	u	0	WRAM	
+001a50	w	u	0	WRAM	X Movement Speed 
+001a52	b	u	0	WRAM	
+001a53	b	u	0	WRAM	
+001a54	b	u	0	WRAM	
+001a55	b	u	0	WRAM	
+001a56	b	u	0	WRAM	
+001a57	b	u	0	WRAM	
+001a58	b	u	0	WRAM	if this value changes you hit the thing 
+001a59	b	u	0	WRAM	if this value changes you hit the thing 
+001a5a	b	u	0	WRAM	if this value changes it falls through the floor 
+001a5b	b	u	0	WRAM	if this value changes it falls through the floor 
+001a5c	b	u	0	WRAM	
+001a5d	b	u	0	WRAM	
+001a5e	b	u	0	WRAM	
+001a5f	b	u	0	WRAM	
+001a60	b	u	0	WRAM	
+001a61	w	u	0	WRAM	X (Coarse) 
+001a63	b	u	0	WRAM	
+001a64	w	u	0	WRAM	Y (Coarse) 
+001a66	b	u	0	WRAM	HP 
+001a67	b	u	0	WRAM	
+001a68	b	u	0	WRAM	
+001a69	b	u	0	WRAM	
+001a6a	b	u	0	WRAM	timer on level switch when picking up health? 
+001a6b	b	u	0	WRAM	Despawn Timers 
+001a6c	b	u	0	WRAM	
+001a6d	b	u	0	WRAM	
+001a6e	b	u	0	WRAM	
+001a6f	b	u	0	WRAM	
+001a70	b	u	0	WRAM	
+001a71	b	u	0	WRAM	
+001a72	b	u	0	WRAM	
+001a73	b	u	0	WRAM	
+001a74	b	u	0	WRAM	
+001a75	b	u	0	WRAM	
+001a76	b	u	0	WRAM	
+001a77	b	u	0	WRAM	
+001a78	b	u	0	WRAM	
+001a79	b	u	0	WRAM	
+001a7a	b	u	0	WRAM	
+001a7b	b	u	0	WRAM	
+001a7c	b	u	0	WRAM	
+001a7d	b	u	0	WRAM	
+001a7e	b	u	0	WRAM	
+001a7f	b	u	0	WRAM	
+001a80	b	u	0	WRAM	Status ? (1 Spawning) 
+001a81	b	u	0	WRAM	
+001a82	b	u	0	WRAM	this might be the object id 
+001a83	b	u	0	WRAM	
+001a84	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001a85	b	u	0	WRAM	
+001a86	b	u	0	WRAM	this causes bouncing on somulo health 
+001a87	b	u	0	WRAM	Contact Damage 
+001a88	b	u	0	WRAM	something to do with the sprite 
+001a89	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+001a8a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+001a8b	b	u	0	WRAM	this makes the colors go crazy 
+001a8c	b	u	0	WRAM	
+001a8d	b	u	0	WRAM	
+001a8e	b	u	0	WRAM	some kind of timer 
+001a8f	b	u	0	WRAM	
+001a90	w	u	0	WRAM	X (Coarse) Copy 
+001a91	b	u	0	WRAM	
+001a92	b	u	0	WRAM	Some Y Attribute 
+001a93	b	u	0	WRAM	
+001a94	b	u	0	WRAM	changing graphics 
+001a95	b	u	0	WRAM	changing graphics 
+001a96	b	u	0	WRAM	
+001a97	b	u	0	WRAM	
+001a98	b	u	0	WRAM	
+001a99	b	u	0	WRAM	
+001a9a	b	u	0	WRAM	
+001a9b	b	u	0	WRAM	
+001a9c	b	u	0	WRAM	
+001a9d	b	u	0	WRAM	
+001a9e	b	u	0	WRAM	
+001a9f	b	u	0	WRAM	
+001aa0	w	u	0	WRAM	X Movement Speed 
+001aa2	b	u	0	WRAM	
+001aa3	b	u	0	WRAM	
+001aa4	b	u	0	WRAM	
+001aa5	b	u	0	WRAM	
+001aa6	b	u	0	WRAM	
+001aa7	b	u	0	WRAM	
+001aa8	b	u	0	WRAM	if this value changes you hit the thing 
+001aa9	b	u	0	WRAM	if this value changes you hit the thing 
+001aaa	b	u	0	WRAM	if this value changes it falls through the floor 
+001aab	b	u	0	WRAM	if this value changes it falls through the floor 
+001aac	b	u	0	WRAM	
+001aad	b	u	0	WRAM	
+001aae	b	u	0	WRAM	
+001aaf	b	u	0	WRAM	
+001ab0	b	u	0	WRAM	
+001ab1	w	u	0	WRAM	X (Coarse) 
+001ab3	b	u	0	WRAM	
+001ab4	w	u	0	WRAM	Y (Coarse) 
+001ab6	b	u	0	WRAM	HP 
+001ab7	b	u	0	WRAM	
+001ab8	b	u	0	WRAM	
+001ab9	b	u	0	WRAM	
+001aba	b	u	0	WRAM	timer on level switch when picking up health? 
+001abb	b	u	0	WRAM	Despawn Timers 
+001abc	b	u	0	WRAM	
+001abd	b	u	0	WRAM	
+001abe	b	u	0	WRAM	
+001abf	b	u	0	WRAM	
+001ac0	b	u	0	WRAM	
+001ac1	b	u	0	WRAM	
+001ac2	b	u	0	WRAM	
+001ac3	b	u	0	WRAM	
+001ac4	b	u	0	WRAM	
+001ac5	b	u	0	WRAM	
+001ac6	b	u	0	WRAM	
+001ac7	b	u	0	WRAM	
+001ac8	b	u	0	WRAM	
+001ac9	b	u	0	WRAM	
+001aca	b	u	0	WRAM	
+001acb	b	u	0	WRAM	
+001acc	b	u	0	WRAM	
+001acd	b	u	0	WRAM	
+001ace	b	u	0	WRAM	
+001acf	b	u	0	WRAM	
+001ad0	b	u	0	WRAM	Status ? (1 Spawning) 
+001ad1	b	u	0	WRAM	
+001ad2	b	u	0	WRAM	this might be the object id 
+001ad3	b	u	0	WRAM	
+001ad4	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001ad5	b	u	0	WRAM	
+001ad6	b	u	0	WRAM	this causes bouncing on somulo health 
+001ad7	b	u	0	WRAM	Contact Damage 
+001ad8	b	u	0	WRAM	something to do with the sprite 
+001ad9	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+001ada	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+001adb	b	u	0	WRAM	this makes the colors go crazy 
+001adc	b	u	0	WRAM	
+001add	b	u	0	WRAM	
+001ade	b	u	0	WRAM	some kind of timer 
+001adf	b	u	0	WRAM	
+001ae0	w	u	0	WRAM	X (Coarse) Copy 
+001ae1	b	u	0	WRAM	
+001ae2	b	u	0	WRAM	Some Y Attribute 
+001ae3	b	u	0	WRAM	
+001ae4	b	u	0	WRAM	changing graphics 
+001ae5	b	u	0	WRAM	changing graphics 
+001ae6	b	u	0	WRAM	
+001ae7	b	u	0	WRAM	
+001ae8	b	u	0	WRAM	
+001ae9	b	u	0	WRAM	
+001aea	b	u	0	WRAM	
+001aeb	b	u	0	WRAM	
+001aec	b	u	0	WRAM	
+001aed	b	u	0	WRAM	
+001aee	b	u	0	WRAM	
+001aef	b	u	0	WRAM	
+001af0	w	u	0	WRAM	X Movement Speed 
+001af2	b	u	0	WRAM	
+001af3	b	u	0	WRAM	
+001af4	b	u	0	WRAM	
+001af5	b	u	0	WRAM	
+001af6	b	u	0	WRAM	
+001af7	b	u	0	WRAM	
+001af8	b	u	0	WRAM	if this value changes you hit the thing 
+001af9	b	u	0	WRAM	if this value changes you hit the thing 
+001afa	b	u	0	WRAM	if this value changes it falls through the floor 
+001afb	b	u	0	WRAM	if this value changes it falls through the floor 
+001afc	b	u	0	WRAM	
+001afd	b	u	0	WRAM	
+001afe	b	u	0	WRAM	
+001aff	b	u	0	WRAM	
+001b00	b	u	0	WRAM	
+001b01	w	u	0	WRAM	X (Coarse) 
+001b03	b	u	0	WRAM	
+001b04	w	u	0	WRAM	Y (Coarse) 
+001b06	b	u	0	WRAM	HP 
+001b07	b	u	0	WRAM	
+001b08	b	u	0	WRAM	
+001b09	b	u	0	WRAM	
+001b0a	b	u	0	WRAM	timer on level switch when picking up health? 
+001b0b	b	u	0	WRAM	Despawn Timers 
+001b0c	b	u	0	WRAM	
+001b0d	b	u	0	WRAM	
+001b0e	b	u	0	WRAM	
+001b0f	b	u	0	WRAM	
+001b10	b	u	0	WRAM	
+001b11	b	u	0	WRAM	
+001b12	b	u	0	WRAM	
+001b13	b	u	0	WRAM	
+001b14	b	u	0	WRAM	
+001b15	b	u	0	WRAM	
+001b16	b	u	0	WRAM	
+001b17	b	u	0	WRAM	
+001b18	b	u	0	WRAM	
+001b19	b	u	0	WRAM	
+001b1a	b	u	0	WRAM	
+001b1b	b	u	0	WRAM	
+001b1c	b	u	0	WRAM	
+001b1d	b	u	0	WRAM	
+001b1e	b	u	0	WRAM	
+001b1f	b	u	0	WRAM	
+001b20	b	u	0	WRAM	Status ? (1 Spawning) 
+001b21	b	u	0	WRAM	
+001b22	b	u	0	WRAM	this might be the object id 
+001b23	b	u	0	WRAM	
+001b24	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001b25	b	u	0	WRAM	
+001b26	b	u	0	WRAM	this causes bouncing on somulo health 
+001b27	b	u	0	WRAM	Contact Damage 
+001b28	b	u	0	WRAM	something to do with the sprite 
+001b29	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+001b2a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+001b2b	b	u	0	WRAM	this makes the colors go crazy 
+001b2c	b	u	0	WRAM	
+001b2d	b	u	0	WRAM	
+001b2e	b	u	0	WRAM	some kind of timer 
+001b2f	b	u	0	WRAM	
+001b30	w	u	0	WRAM	X (Coarse) Copy 
+001b31	b	u	0	WRAM	
+001b32	b	u	0	WRAM	Some Y Attribute 
+001b33	b	u	0	WRAM	
+001b34	b	u	0	WRAM	changing graphics 
+001b35	b	u	0	WRAM	changing graphics 
+001b36	b	u	0	WRAM	
+001b37	b	u	0	WRAM	
+001b38	b	u	0	WRAM	
+001b39	b	u	0	WRAM	
+001b3a	b	u	0	WRAM	
+001b3b	b	u	0	WRAM	
+001b3c	b	u	0	WRAM	
+001b3d	b	u	0	WRAM	
+001b3e	b	u	0	WRAM	
+001b3f	b	u	0	WRAM	
+001b40	w	u	0	WRAM	X Movement Speed 
+001b42	b	u	0	WRAM	
+001b43	b	u	0	WRAM	
+001b44	b	u	0	WRAM	
+001b45	b	u	0	WRAM	
+001b46	b	u	0	WRAM	
+001b47	b	u	0	WRAM	
+001b48	b	u	0	WRAM	if this value changes you hit the thing 
+001b49	b	u	0	WRAM	if this value changes you hit the thing 
+001b4a	b	u	0	WRAM	if this value changes it falls through the floor 
+001b4b	b	u	0	WRAM	if this value changes it falls through the floor 
+001b4c	b	u	0	WRAM	
+001b4d	b	u	0	WRAM	
+001b4e	b	u	0	WRAM	
+001b4f	b	u	0	WRAM	
+001b50	b	u	0	WRAM	
+001b51	w	u	0	WRAM	X (Coarse) 
+001b53	b	u	0	WRAM	
+001b54	w	u	0	WRAM	Y (Coarse) 
+001b56	b	u	0	WRAM	HP 
+001b57	b	u	0	WRAM	
+001b58	b	u	0	WRAM	
+001b59	b	u	0	WRAM	
+001b5a	b	u	0	WRAM	timer on level switch when picking up health? 
+001b5b	b	u	0	WRAM	Despawn Timers 
+001b5c	b	u	0	WRAM	
+001b5d	b	u	0	WRAM	
+001b5e	b	u	0	WRAM	
+001b5f	b	u	0	WRAM	
+001b60	b	u	0	WRAM	
+001b61	b	u	0	WRAM	
+001b62	b	u	0	WRAM	
+001b63	b	u	0	WRAM	
+001b64	b	u	0	WRAM	
+001b65	b	u	0	WRAM	
+001b66	b	u	0	WRAM	
+001b67	b	u	0	WRAM	
+001b68	b	u	0	WRAM	
+001b69	b	u	0	WRAM	
+001b6a	b	u	0	WRAM	
+001b6b	b	u	0	WRAM	
+001b6c	b	u	0	WRAM	
+001b6d	b	u	0	WRAM	
+001b6e	b	u	0	WRAM	
+001b6f	b	u	0	WRAM	
+001b70	b	u	0	WRAM	Status ? (1 Spawning) 
+001b71	b	u	0	WRAM	
+001b72	b	u	0	WRAM	this might be the object id 
+001b73	b	u	0	WRAM	
+001b74	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001b75	b	u	0	WRAM	
+001b76	b	u	0	WRAM	this causes bouncing on somulo health 
+001b77	b	u	0	WRAM	Contact Damage 
+001b78	b	u	0	WRAM	something to do with the sprite 
+001b79	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+001b7a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+001b7b	b	u	0	WRAM	this makes the colors go crazy 
+001b7c	b	u	0	WRAM	
+001b7d	b	u	0	WRAM	
+001b7e	b	u	0	WRAM	some kind of timer 
+001b7f	b	u	0	WRAM	
+001b80	w	u	0	WRAM	X (Coarse) Copy 
+001b81	b	u	0	WRAM	
+001b82	b	u	0	WRAM	Some Y Attribute 
+001b83	b	u	0	WRAM	
+001b84	b	u	0	WRAM	changing graphics 
+001b85	b	u	0	WRAM	changing graphics 
+001b86	b	u	0	WRAM	
+001b87	b	u	0	WRAM	
+001b88	b	u	0	WRAM	
+001b89	b	u	0	WRAM	
+001b8a	b	u	0	WRAM	
+001b8b	b	u	0	WRAM	
+001b8c	b	u	0	WRAM	
+001b8d	b	u	0	WRAM	
+001b8e	b	u	0	WRAM	
+001b8f	b	u	0	WRAM	
+001b90	w	u	0	WRAM	X Movement Speed 
+001b92	b	u	0	WRAM	
+001b93	b	u	0	WRAM	
+001b94	b	u	0	WRAM	
+001b95	b	u	0	WRAM	
+001b96	b	u	0	WRAM	
+001b97	b	u	0	WRAM	
+001b98	b	u	0	WRAM	if this value changes you hit the thing 
+001b99	b	u	0	WRAM	if this value changes you hit the thing 
+001b9a	b	u	0	WRAM	if this value changes it falls through the floor 
+001b9b	b	u	0	WRAM	if this value changes it falls through the floor 
+001b9c	b	u	0	WRAM	
+001b9d	b	u	0	WRAM	
+001b9e	b	u	0	WRAM	
+001b9f	b	u	0	WRAM	
+001ba0	b	u	0	WRAM	
+001ba1	w	u	0	WRAM	X (Coarse) 
+001ba3	b	u	0	WRAM	
+001ba4	w	u	0	WRAM	Y (Coarse) 
+001ba6	b	u	0	WRAM	HP 
+001ba7	b	u	0	WRAM	
+001ba8	b	u	0	WRAM	
+001ba9	b	u	0	WRAM	
+001baa	b	u	0	WRAM	timer on level switch when picking up health? 
+001bab	b	u	0	WRAM	Despawn Timers 
+001bac	b	u	0	WRAM	
+001bad	b	u	0	WRAM	
+001bae	b	u	0	WRAM	
+001baf	b	u	0	WRAM	
+001bb0	b	u	0	WRAM	
+001bb1	b	u	0	WRAM	
+001bb2	b	u	0	WRAM	
+001bb3	b	u	0	WRAM	
+001bb4	b	u	0	WRAM	
+001bb5	b	u	0	WRAM	
+001bb6	b	u	0	WRAM	
+001bb7	b	u	0	WRAM	
+001bb8	b	u	0	WRAM	
+001bb9	b	u	0	WRAM	
+001bba	b	u	0	WRAM	
+001bbb	b	u	0	WRAM	
+001bbc	b	u	0	WRAM	
+001bbd	b	u	0	WRAM	
+001bbe	b	u	0	WRAM	
+001bbf	b	u	0	WRAM	
+001bc0	b	u	0	WRAM	Status ? (1 Spawning) 
+001bc1	b	u	0	WRAM	
+001bc2	b	u	0	WRAM	this might be the object id 
+001bc3	b	u	0	WRAM	
+001bc4	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001bc5	b	u	0	WRAM	
+001bc6	b	u	0	WRAM	this causes bouncing on somulo health 
+001bc7	b	u	0	WRAM	Contact Damage 
+001bc8	b	u	0	WRAM	something to do with the sprite 
+001bc9	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+001bca	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+001bcb	b	u	0	WRAM	this makes the colors go crazy 
+001bcc	b	u	0	WRAM	
+001bcd	b	u	0	WRAM	
+001bce	b	u	0	WRAM	some kind of timer 
+001bcf	b	u	0	WRAM	
+001bd0	w	u	0	WRAM	X (Coarse) Copy 
+001bd1	b	u	0	WRAM	
+001bd2	b	u	0	WRAM	Some Y Attribute 
+001bd3	b	u	0	WRAM	
+001bd4	b	u	0	WRAM	changing graphics 
+001bd5	b	u	0	WRAM	changing graphics 
+001bd6	b	u	0	WRAM	
+001bd7	b	u	0	WRAM	
+001bd8	b	u	0	WRAM	
+001bd9	b	u	0	WRAM	
+001bda	b	u	0	WRAM	
+001bdb	b	u	0	WRAM	
+001bdc	b	u	0	WRAM	
+001bdd	b	u	0	WRAM	
+001bde	b	u	0	WRAM	
+001bdf	b	u	0	WRAM	
+001be0	w	u	0	WRAM	X Movement Speed 
+001be2	b	u	0	WRAM	
+001be3	b	u	0	WRAM	
+001be4	b	u	0	WRAM	
+001be5	b	u	0	WRAM	
+001be6	b	u	0	WRAM	
+001be7	b	u	0	WRAM	
+001be8	b	u	0	WRAM	if this value changes you hit the thing 
+001be9	b	u	0	WRAM	if this value changes you hit the thing 
+001bea	b	u	0	WRAM	if this value changes it falls through the floor 
+001beb	b	u	0	WRAM	if this value changes it falls through the floor 
+001bec	b	u	0	WRAM	
+001bed	b	u	0	WRAM	
+001bee	b	u	0	WRAM	
+001bef	b	u	0	WRAM	
+001bf0	b	u	0	WRAM	
+001bf1	w	u	0	WRAM	X (Coarse) 
+001bf3	b	u	0	WRAM	
+001bf4	w	u	0	WRAM	Y (Coarse) 
+001bf6	b	u	0	WRAM	HP 
+001bf7	b	u	0	WRAM	
+001bf8	b	u	0	WRAM	
+001bf9	b	u	0	WRAM	
+001bfa	b	u	0	WRAM	timer on level switch when picking up health? 
+001bfb	b	u	0	WRAM	Despawn Timers 
+001bfc	b	u	0	WRAM	
+001bfd	b	u	0	WRAM	
+001bfe	b	u	0	WRAM	
+001bff	b	u	0	WRAM	
+001c00	b	u	0	WRAM	
+001c01	b	u	0	WRAM	
+001c02	b	u	0	WRAM	
+001c03	b	u	0	WRAM	
+001c04	b	u	0	WRAM	
+001c05	b	u	0	WRAM	
+001c06	b	u	0	WRAM	
+001c07	b	u	0	WRAM	
+001c08	b	u	0	WRAM	
+001c09	b	u	0	WRAM	
+001c0a	b	u	0	WRAM	
+001c0b	b	u	0	WRAM	
+001c0c	b	u	0	WRAM	
+001c0d	b	u	0	WRAM	
+001c0e	b	u	0	WRAM	
+001c0f	b	u	0	WRAM	
+001c10	b	u	0	WRAM	Status ? (1 Spawning) 
+001c11	b	u	0	WRAM	
+001c12	b	u	0	WRAM	this might be the object id 
+001c13	b	u	0	WRAM	
+001c14	b	u	0	WRAM	Grounded/Airborn (4/0) 
+001c15	b	u	0	WRAM	
+001c16	b	u	0	WRAM	this causes bouncing on somulo health 
+001c17	b	u	0	WRAM	Contact Damage 
+001c18	b	u	0	WRAM	something to do with the sprite 
+001c19	b	u	0	WRAM	Movement or Facing Direction (1 = Right, 2 = Left) 
+001c1a	b	u	0	WRAM	Facing Direction (96 = Right, 32 = Left) 
+001c1b	b	u	0	WRAM	this makes the colors go crazy 
+001c1c	b	u	0	WRAM	
+001c1d	b	u	0	WRAM	
+001c1e	b	u	0	WRAM	some kind of timer 
+001c1f	b	u	0	WRAM	
+001c20	w	u	0	WRAM	X (Coarse) Copy 
+001c21	b	u	0	WRAM	
+001c22	b	u	0	WRAM	Some Y Attribute 
+001c23	b	u	0	WRAM	
+001c24	b	u	0	WRAM	changing graphics 
+001c25	b	u	0	WRAM	changing graphics 
+001c26	b	u	0	WRAM	
+001c27	b	u	0	WRAM	
+001c28	b	u	0	WRAM	
+001c29	b	u	0	WRAM	
+001c2a	b	u	0	WRAM	
+001c2b	b	u	0	WRAM	
+001c2c	b	u	0	WRAM	
+001c2d	b	u	0	WRAM	
+001c2e	b	u	0	WRAM	
+001c2f	b	u	0	WRAM	
+001c30	w	u	0	WRAM	X Movement Speed 
+001c32	b	u	0	WRAM	
+001c33	b	u	0	WRAM	
+001c34	b	u	0	WRAM	
+001c35	b	u	0	WRAM	
+001c36	b	u	0	WRAM	
+001c37	b	u	0	WRAM	
+001c38	b	u	0	WRAM	if this value changes you hit the thing 
+001c39	b	u	0	WRAM	if this value changes you hit the thing 
+001c3a	b	u	0	WRAM	if this value changes it falls through the floor 
+001c3b	b	u	0	WRAM	if this value changes it falls through the floor 
+001c3c	b	u	0	WRAM	
+001c3d	b	u	0	WRAM	
+001c3e	b	u	0	WRAM	
+001c3f	b	u	0	WRAM	
+001c40	b	u	0	WRAM	
+001c41	w	u	0	WRAM	X (Coarse) 
+001c43	b	u	0	WRAM	
+001c44	w	u	0	WRAM	Y (Coarse) 
+001c46	b	u	0	WRAM	HP 
+001c47	b	u	0	WRAM	
+001c48	b	u	0	WRAM	
+001c49	b	u	0	WRAM	
+001c4a	b	u	0	WRAM	timer on level switch when picking up health? 
+001c4b	b	u	0	WRAM	Despawn Timers 
+001c4c	b	u	0	WRAM	
+001c4d	b	u	0	WRAM	
+001c4e	b	u	0	WRAM	
+001c4f	b	u	0	WRAM	
+001c50	b	u	0	WRAM	
+001c51	b	u	0	WRAM	
+001c52	b	u	0	WRAM	
+001c53	b	u	0	WRAM	
+001c54	b	u	0	WRAM	
+001c55	b	u	0	WRAM	
+001c56	b	u	0	WRAM	
+001c57	b	u	0	WRAM	
+001c58	b	u	0	WRAM	
+001c59	b	u	0	WRAM	
+001c5a	b	u	0	WRAM	
+001c5b	b	u	0	WRAM	
+001c5c	b	u	0	WRAM	
+001c5d	b	u	0	WRAM	
+001c5e	b	u	0	WRAM	
+001c5f	b	u	0	WRAM	

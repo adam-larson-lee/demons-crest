@@ -15,8 +15,8 @@ function displayObjectDetails()
     selectedObject = -1;
     for j,obj in ipairs(objects) do
       if (selectedObject < 0 and obj.isAlive()) then
-        if (m.X >= obj.getX() - obj.getXHitbox() and m.X <= obj.getX() + obj.getXHitbox()) then
-          if (m.Y > minY and m.Y >= obj.getY() - obj.topHitbox() and m.Y <= obj.getY() + obj.bottomHitbox()) then
+        if (m.X >= obj.getRelativeX() - obj.getXHitbox() and m.X <= obj.getRelativeX() + obj.getXHitbox()) then
+          if (m.Y > minY and m.Y >= obj.getRelativeY() - obj.topHitbox() and m.Y <= obj.getRelativeY() + obj.bottomHitbox()) then
             display.objectDetails.enabled = true
             selectedObject = j
           end
@@ -29,10 +29,11 @@ function displayObjectDetails()
     local obj = objects[selectedObject]
     if (obj.isAlive()) then
       draw.text(0, 35, 'Object ' .. selectedObject - 1)
-      draw.text(0, 45, obj.getX() .. ', ' .. obj.getY())
+      draw.text(0, 45, 'Position ' .. obj.getX() .. ', ' .. obj.getY())
       draw.text(0, 55, 'Status ' .. obj.getStatus())
       draw.text(0, 65, 'HP ' .. obj.getHp())
-      draw.box(obj.getRelativeX() - obj.getXHitbox(), obj.getY() - obj.topHitbox(), obj.getXHitbox() * 2, obj.topHitbox() + obj.bottomHitbox(), draw.color.green)
+      draw.text(0, 75, 'Hitbox ' .. (obj.getXHitbox() * 2) .. 'x' .. (obj.topHitbox() + obj.bottomHitbox()))
+      draw.box(obj.getRelativeX() - obj.getXHitbox(), obj.getRelativeY() - obj.topHitbox(), obj.getXHitbox() * 2, obj.topHitbox() + obj.bottomHitbox(), draw.color.green)
       draw.text(obj.getRelativeX() - 4, obj.getRelativeY() - obj.topHitbox() - 6, selectedObject - 1)
       draw.pixel(obj.getRelativeX(), obj.getRelativeY(), draw.color.green)
     else
