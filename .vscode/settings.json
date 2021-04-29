@@ -24,6 +24,9 @@
     "viewport",
     "mouse",
     "displayOptions",
-    "display"
+    "display",
+    "displayObjectDetails",
+    "hideObjectDetails",
+    "selectedObject"
   ]
 }

@@ -13,9 +13,11 @@ function displayObjectHitboxes()
 
   for j,obj in ipairs(objects) do
     if (obj.isAlive()) then
-      draw.box(obj.getRelativeX() - obj.getXHitbox(), obj.getY() - obj.topHitbox(), obj.getXHitbox() * 2, obj.topHitbox() + obj.bottomHitbox(), draw.color.white)
-      draw.text(obj.getRelativeX() - 4, obj.getRelativeY() - obj.topHitbox() - 6, j - 1)
-      draw.pixel(obj.getRelativeX(), obj.getRelativeY(), draw.color.red)
+      if (j ~= selectedObject) then
+        draw.box(obj.getRelativeX() - obj.getXHitbox(), obj.getRelativeY() - obj.topHitbox(), obj.getXHitbox() * 2, obj.topHitbox() + obj.bottomHitbox(), draw.color.white)
+        draw.text(obj.getRelativeX() - 4, obj.getRelativeY() - obj.topHitbox() - 6, j - 1)
+        draw.pixel(obj.getRelativeX(), obj.getRelativeY(), draw.color.white)
+      end
     end
   end
 end

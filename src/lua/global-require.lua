@@ -34,9 +34,11 @@ require 'object.firebrand'
 require 'display.joypad-display'
 require 'display.firebrand-hp-display'
 require 'display.enemy-hp-display'
+require 'display.object-details-display'
 require 'display.object-hitbox-display'
 require 'display.display-options'
 
 if (emulator.mesens) then
   display.joypad.enabled = false
+  display.objectDetails.enabled = false
 end

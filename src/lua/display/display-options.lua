@@ -4,6 +4,9 @@ display = {
   },
   hitboxes = {
     enabled = false
+  },
+  objectDetails = {
+    enabled = false
   }
 }
 
@@ -20,8 +23,21 @@ function displayOptions()
   else
     draw.box(108, 1, 8, 8, draw.color.white)
   end
-  if (debounce == 0 and mouse.clicked(108, 0, 116, 8)) then
+
+  if (display.objectDetails.enabled) then
+    draw.box(120, 1, 8, 8, draw.color.green)
+  else
+    draw.box(120, 1, 8, 8, draw.color.white)
+  end
+
+  if (debounce == 0) then
+    if (mouse.clicked(108, 1, 116, 8)) then
     display.hitboxes.enabled = not display.hitboxes.enabled
     debounce = 10
+    elseif (mouse.clicked(120, 1, 128, 8)) then
+      if (display.objectDetails.enabled) then
+        hideObjectDetails()
+      end
+    end
   end
 end

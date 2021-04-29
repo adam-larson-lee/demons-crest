@@ -13,6 +13,8 @@ local displayHud = function ()
     if (display.hitboxes.enabled) then
       displayObjectHitboxes()
     end
+
+    displayObjectDetails()
 end
 
 if (emu.frameadvance) then

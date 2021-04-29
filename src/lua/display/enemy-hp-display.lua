@@ -6,7 +6,7 @@ function displayEnemyHp()
 
   for i,obj in ipairs(objects) do
     if (i > 0 and obj.isAlive() and obj.getHp() > 0) then
-      local objDistance = obj.getX() + obj.getY() - firebrandLocation
+      local objDistance = math.abs(obj.getX() + obj.getY() - firebrandLocation)
       if (objDistance < closestObjectDistance) then
         closestObjectDistance = objDistance
         closestObject = i
