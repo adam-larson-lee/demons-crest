@@ -14,8 +14,8 @@ function displayObjectHitboxes()
   for j,obj in ipairs(objects) do
     if (obj.isAlive()) then
       if (j ~= selectedObject) then
-        draw.box(obj.getRelativeX() - obj.getXHitbox(), obj.getRelativeY() - obj.topHitbox(), obj.getXHitbox() * 2, obj.topHitbox() + obj.bottomHitbox(), draw.color.white)
-        draw.text(obj.getRelativeX() - 4, obj.getRelativeY() - obj.topHitbox() - 6, j - 1)
+        draw.box(obj.getRelativeX() - obj.getXHitbox(), obj.getRelativeY() - obj.topHitbox(), obj.getXHitbox() * 2, obj.topHitbox() + obj.bottomHitbox(), obj.getHp() > 0 and draw.color.white or draw.color.gray)
+        draw.text(obj.getRelativeX() - 4, obj.getRelativeY() - obj.topHitbox() - 6, j - 2)
         draw.pixel(obj.getRelativeX(), obj.getRelativeY(), draw.color.white)
       end
     end

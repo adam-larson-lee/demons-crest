@@ -1,6 +1,7 @@
 draw = {
   color = {
     white = 'White',
+    gray = 'Gray',
     black = 'Black',
     green = 'Green',
     red = 'Red'

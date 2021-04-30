@@ -38,20 +38,37 @@ local function object(address)
       return mem.rom(mem.wram(address + 0x28, 2), 2)
     end,
     getXHitbox = function ()
-      return mem.rom(mem.wram(address + 0x28, 2), 2)
+      local romAddress = mem.wram(address + 0x28, 2);
+      if (romAddress == 0x00) then
+        return 2;
+      end
+      return mem.rom(romAddress, 2)
     end,
     topHitbox = function ()
-      return mem.rom(mem.wram(address + 0x2A, 2), 2)
+      local romAddress = mem.wram(address + 0x2A, 2);
+      if (romAddress == 0x00) then
+        return 2;
+      end
+      return mem.rom(romAddress, 2)
     end,
     bottomHitbox = function ()
-      return mem.rom(mem.wram(address + 0x2A, 2) + 0x02, 2)
+      local baseRomAddress = mem.wram(address + 0x2A, 2);
+      if (baseRomAddress == 0x00) then
+        return 2;
+      end
+      return mem.rom(baseRomAddress + 0x02, 2)
     end
   }
 end
 
 objects = {}
 
-table.insert(objects, object(0x001000))
+firebrand = object(0x001000)
+firebrand.getHp = function ()
+  return mem.wram(0x1000 + 0x62, 1)
+end
+
+table.insert(objects, firebrand)
 
 for i = 0,30 do
   table.insert(objects, object(0x001080 + (0x50 * i)))
