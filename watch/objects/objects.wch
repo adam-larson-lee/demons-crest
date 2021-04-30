@@ -1,4 +1,7 @@
 SystemID SNES
+0	S	_	1		
+0	S	_	1		0
+0	S	_	1		
 001300	b	u	0	WRAM	Status ? (1 Spawning) 
 001301	b	u	0	WRAM	
 001302	b	u	0	WRAM	this might be the object id 
@@ -38,10 +41,10 @@ SystemID SNES
 001325	b	u	0	WRAM	
 001326	b	u	0	WRAM	
 001327	b	u	0	WRAM	
-001328	b	u	0	WRAM	if this value changes you hit the thing 
-001329	b	u	0	WRAM	if this value changes you hit the thing 
-00132a	b	u	0	WRAM	if this value changes it falls through the floor 
-00132b	b	u	0	WRAM	if this value changes it falls through the floor 
+001328	b	u	0	WRAM	Front Hitbox ROM Location 
+001329	b	u	0	WRAM	Back Hitbox ROM Location 
+00132a	b	u	0	WRAM	Top Hitbox ROM Location 
+00132b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00132c	b	u	0	WRAM	
 00132d	b	u	0	WRAM	
 00132e	b	u	0	WRAM	
@@ -76,6 +79,9 @@ SystemID SNES
 00134d	b	u	0	WRAM	
 00134e	b	u	0	WRAM	
 00134f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		1
+0	S	_	1		
 001350	b	u	0	WRAM	Status ? (1 Spawning) 
 001351	b	u	0	WRAM	
 001352	b	u	0	WRAM	this might be the object id 
@@ -115,10 +121,10 @@ SystemID SNES
 001375	b	u	0	WRAM	
 001376	b	u	0	WRAM	
 001377	b	u	0	WRAM	
-001378	b	u	0	WRAM	if this value changes you hit the thing 
-001379	b	u	0	WRAM	if this value changes you hit the thing 
-00137a	b	u	0	WRAM	if this value changes it falls through the floor 
-00137b	b	u	0	WRAM	if this value changes it falls through the floor 
+001378	b	u	0	WRAM	Front Hitbox ROM Location 
+001379	b	u	0	WRAM	Back Hitbox ROM Location 
+00137a	b	u	0	WRAM	Top Hitbox ROM Location 
+00137b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00137c	b	u	0	WRAM	
 00137d	b	u	0	WRAM	
 00137e	b	u	0	WRAM	
@@ -153,6 +159,9 @@ SystemID SNES
 00139d	b	u	0	WRAM	
 00139e	b	u	0	WRAM	
 00139f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		2
+0	S	_	1		
 0013a0	b	u	0	WRAM	Status ? (1 Spawning) 
 0013a1	b	u	0	WRAM	
 0013a2	b	u	0	WRAM	this might be the object id 
@@ -192,10 +201,10 @@ SystemID SNES
 0013c5	b	u	0	WRAM	
 0013c6	b	u	0	WRAM	
 0013c7	b	u	0	WRAM	
-0013c8	b	u	0	WRAM	if this value changes you hit the thing 
-0013c9	b	u	0	WRAM	if this value changes you hit the thing 
-0013ca	b	u	0	WRAM	if this value changes it falls through the floor 
-0013cb	b	u	0	WRAM	if this value changes it falls through the floor 
+0013c8	b	u	0	WRAM	Front Hitbox ROM Location 
+0013c9	b	u	0	WRAM	Back Hitbox ROM Location 
+0013ca	b	u	0	WRAM	Top Hitbox ROM Location 
+0013cb	b	u	0	WRAM	Bottom Hitbox ROM Location 
 0013cc	b	u	0	WRAM	
 0013cd	b	u	0	WRAM	
 0013ce	b	u	0	WRAM	
@@ -230,6 +239,9 @@ SystemID SNES
 0013ed	b	u	0	WRAM	
 0013ee	b	u	0	WRAM	
 0013ef	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		3
+0	S	_	1		
 0013f0	b	u	0	WRAM	Status ? (1 Spawning) 
 0013f1	b	u	0	WRAM	
 0013f2	b	u	0	WRAM	this might be the object id 
@@ -269,10 +281,10 @@ SystemID SNES
 001415	b	u	0	WRAM	
 001416	b	u	0	WRAM	
 001417	b	u	0	WRAM	
-001418	b	u	0	WRAM	if this value changes you hit the thing 
-001419	b	u	0	WRAM	if this value changes you hit the thing 
-00141a	b	u	0	WRAM	if this value changes it falls through the floor 
-00141b	b	u	0	WRAM	if this value changes it falls through the floor 
+001418	b	u	0	WRAM	Front Hitbox ROM Location 
+001419	b	u	0	WRAM	Back Hitbox ROM Location 
+00141a	b	u	0	WRAM	Top Hitbox ROM Location 
+00141b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00141c	b	u	0	WRAM	
 00141d	b	u	0	WRAM	
 00141e	b	u	0	WRAM	
@@ -307,6 +319,9 @@ SystemID SNES
 00143d	b	u	0	WRAM	
 00143e	b	u	0	WRAM	
 00143f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		4
+0	S	_	1		
 001440	b	u	0	WRAM	Status ? (1 Spawning) 
 001441	b	u	0	WRAM	
 001442	b	u	0	WRAM	this might be the object id 
@@ -346,10 +361,10 @@ SystemID SNES
 001465	b	u	0	WRAM	
 001466	b	u	0	WRAM	
 001467	b	u	0	WRAM	
-001468	b	u	0	WRAM	if this value changes you hit the thing 
-001469	b	u	0	WRAM	if this value changes you hit the thing 
-00146a	b	u	0	WRAM	if this value changes it falls through the floor 
-00146b	b	u	0	WRAM	if this value changes it falls through the floor 
+001468	b	u	0	WRAM	Front Hitbox ROM Location 
+001469	b	u	0	WRAM	Back Hitbox ROM Location 
+00146a	b	u	0	WRAM	Top Hitbox ROM Location 
+00146b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00146c	b	u	0	WRAM	
 00146d	b	u	0	WRAM	
 00146e	b	u	0	WRAM	
@@ -384,6 +399,9 @@ SystemID SNES
 00148d	b	u	0	WRAM	
 00148e	b	u	0	WRAM	
 00148f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		5
+0	S	_	1		
 001490	b	u	0	WRAM	Status ? (1 Spawning) 
 001491	b	u	0	WRAM	
 001492	b	u	0	WRAM	this might be the object id 
@@ -423,10 +441,10 @@ SystemID SNES
 0014b5	b	u	0	WRAM	
 0014b6	b	u	0	WRAM	
 0014b7	b	u	0	WRAM	
-0014b8	b	u	0	WRAM	if this value changes you hit the thing 
-0014b9	b	u	0	WRAM	if this value changes you hit the thing 
-0014ba	b	u	0	WRAM	if this value changes it falls through the floor 
-0014bb	b	u	0	WRAM	if this value changes it falls through the floor 
+0014b8	b	u	0	WRAM	Front Hitbox ROM Location 
+0014b9	b	u	0	WRAM	Back Hitbox ROM Location 
+0014ba	b	u	0	WRAM	Top Hitbox ROM Location 
+0014bb	b	u	0	WRAM	Bottom Hitbox ROM Location 
 0014bc	b	u	0	WRAM	
 0014bd	b	u	0	WRAM	
 0014be	b	u	0	WRAM	
@@ -461,6 +479,9 @@ SystemID SNES
 0014dd	b	u	0	WRAM	
 0014de	b	u	0	WRAM	
 0014df	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		6
+0	S	_	1		
 0014e0	b	u	0	WRAM	Status ? (1 Spawning) 
 0014e1	b	u	0	WRAM	
 0014e2	b	u	0	WRAM	this might be the object id 
@@ -500,10 +521,10 @@ SystemID SNES
 001505	b	u	0	WRAM	
 001506	b	u	0	WRAM	
 001507	b	u	0	WRAM	
-001508	b	u	0	WRAM	if this value changes you hit the thing 
-001509	b	u	0	WRAM	if this value changes you hit the thing 
-00150a	b	u	0	WRAM	if this value changes it falls through the floor 
-00150b	b	u	0	WRAM	if this value changes it falls through the floor 
+001508	b	u	0	WRAM	Front Hitbox ROM Location 
+001509	b	u	0	WRAM	Back Hitbox ROM Location 
+00150a	b	u	0	WRAM	Top Hitbox ROM Location 
+00150b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00150c	b	u	0	WRAM	
 00150d	b	u	0	WRAM	
 00150e	b	u	0	WRAM	
@@ -538,6 +559,9 @@ SystemID SNES
 00152d	b	u	0	WRAM	
 00152e	b	u	0	WRAM	
 00152f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		7
+0	S	_	1		
 001530	b	u	0	WRAM	Status ? (1 Spawning) 
 001531	b	u	0	WRAM	
 001532	b	u	0	WRAM	this might be the object id 
@@ -577,10 +601,10 @@ SystemID SNES
 001555	b	u	0	WRAM	
 001556	b	u	0	WRAM	
 001557	b	u	0	WRAM	
-001558	b	u	0	WRAM	if this value changes you hit the thing 
-001559	b	u	0	WRAM	if this value changes you hit the thing 
-00155a	b	u	0	WRAM	if this value changes it falls through the floor 
-00155b	b	u	0	WRAM	if this value changes it falls through the floor 
+001558	b	u	0	WRAM	Front Hitbox ROM Location 
+001559	b	u	0	WRAM	Back Hitbox ROM Location 
+00155a	b	u	0	WRAM	Top Hitbox ROM Location 
+00155b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00155c	b	u	0	WRAM	
 00155d	b	u	0	WRAM	
 00155e	b	u	0	WRAM	
@@ -615,6 +639,9 @@ SystemID SNES
 00157d	b	u	0	WRAM	
 00157e	b	u	0	WRAM	
 00157f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		8
+0	S	_	1		
 001580	b	u	0	WRAM	Status ? (1 Spawning) 
 001581	b	u	0	WRAM	
 001582	b	u	0	WRAM	this might be the object id 
@@ -654,10 +681,10 @@ SystemID SNES
 0015a5	b	u	0	WRAM	
 0015a6	b	u	0	WRAM	
 0015a7	b	u	0	WRAM	
-0015a8	b	u	0	WRAM	if this value changes you hit the thing 
-0015a9	b	u	0	WRAM	if this value changes you hit the thing 
-0015aa	b	u	0	WRAM	if this value changes it falls through the floor 
-0015ab	b	u	0	WRAM	if this value changes it falls through the floor 
+0015a8	b	u	0	WRAM	Front Hitbox ROM Location 
+0015a9	b	u	0	WRAM	Back Hitbox ROM Location 
+0015aa	b	u	0	WRAM	Top Hitbox ROM Location 
+0015ab	b	u	0	WRAM	Bottom Hitbox ROM Location 
 0015ac	b	u	0	WRAM	
 0015ad	b	u	0	WRAM	
 0015ae	b	u	0	WRAM	
@@ -692,6 +719,9 @@ SystemID SNES
 0015cd	b	u	0	WRAM	
 0015ce	b	u	0	WRAM	
 0015cf	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		9
+0	S	_	1		
 0015d0	b	u	0	WRAM	Status ? (1 Spawning) 
 0015d1	b	u	0	WRAM	
 0015d2	b	u	0	WRAM	this might be the object id 
@@ -731,10 +761,10 @@ SystemID SNES
 0015f5	b	u	0	WRAM	
 0015f6	b	u	0	WRAM	
 0015f7	b	u	0	WRAM	
-0015f8	b	u	0	WRAM	if this value changes you hit the thing 
-0015f9	b	u	0	WRAM	if this value changes you hit the thing 
-0015fa	b	u	0	WRAM	if this value changes it falls through the floor 
-0015fb	b	u	0	WRAM	if this value changes it falls through the floor 
+0015f8	b	u	0	WRAM	Front Hitbox ROM Location 
+0015f9	b	u	0	WRAM	Back Hitbox ROM Location 
+0015fa	b	u	0	WRAM	Top Hitbox ROM Location 
+0015fb	b	u	0	WRAM	Bottom Hitbox ROM Location 
 0015fc	b	u	0	WRAM	
 0015fd	b	u	0	WRAM	
 0015fe	b	u	0	WRAM	
@@ -769,6 +799,9 @@ SystemID SNES
 00161d	b	u	0	WRAM	
 00161e	b	u	0	WRAM	
 00161f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		10
+0	S	_	1		
 001620	b	u	0	WRAM	Status ? (1 Spawning) 
 001621	b	u	0	WRAM	
 001622	b	u	0	WRAM	this might be the object id 
@@ -808,10 +841,10 @@ SystemID SNES
 001645	b	u	0	WRAM	
 001646	b	u	0	WRAM	
 001647	b	u	0	WRAM	
-001648	b	u	0	WRAM	if this value changes you hit the thing 
-001649	b	u	0	WRAM	if this value changes you hit the thing 
-00164a	b	u	0	WRAM	if this value changes it falls through the floor 
-00164b	b	u	0	WRAM	if this value changes it falls through the floor 
+001648	b	u	0	WRAM	Front Hitbox ROM Location 
+001649	b	u	0	WRAM	Back Hitbox ROM Location 
+00164a	b	u	0	WRAM	Top Hitbox ROM Location 
+00164b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00164c	b	u	0	WRAM	
 00164d	b	u	0	WRAM	
 00164e	b	u	0	WRAM	
@@ -846,6 +879,9 @@ SystemID SNES
 00166d	b	u	0	WRAM	
 00166e	b	u	0	WRAM	
 00166f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		11
+0	S	_	1		
 001670	b	u	0	WRAM	Status ? (1 Spawning) 
 001671	b	u	0	WRAM	
 001672	b	u	0	WRAM	this might be the object id 
@@ -885,10 +921,10 @@ SystemID SNES
 001695	b	u	0	WRAM	
 001696	b	u	0	WRAM	
 001697	b	u	0	WRAM	
-001698	b	u	0	WRAM	if this value changes you hit the thing 
-001699	b	u	0	WRAM	if this value changes you hit the thing 
-00169a	b	u	0	WRAM	if this value changes it falls through the floor 
-00169b	b	u	0	WRAM	if this value changes it falls through the floor 
+001698	b	u	0	WRAM	Front Hitbox ROM Location 
+001699	b	u	0	WRAM	Back Hitbox ROM Location 
+00169a	b	u	0	WRAM	Top Hitbox ROM Location 
+00169b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00169c	b	u	0	WRAM	
 00169d	b	u	0	WRAM	
 00169e	b	u	0	WRAM	
@@ -923,6 +959,9 @@ SystemID SNES
 0016bd	b	u	0	WRAM	
 0016be	b	u	0	WRAM	
 0016bf	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		12
+0	S	_	1		
 0016c0	b	u	0	WRAM	Status ? (1 Spawning) 
 0016c1	b	u	0	WRAM	
 0016c2	b	u	0	WRAM	this might be the object id 
@@ -962,10 +1001,10 @@ SystemID SNES
 0016e5	b	u	0	WRAM	
 0016e6	b	u	0	WRAM	
 0016e7	b	u	0	WRAM	
-0016e8	b	u	0	WRAM	if this value changes you hit the thing 
-0016e9	b	u	0	WRAM	if this value changes you hit the thing 
-0016ea	b	u	0	WRAM	if this value changes it falls through the floor 
-0016eb	b	u	0	WRAM	if this value changes it falls through the floor 
+0016e8	b	u	0	WRAM	Front Hitbox ROM Location 
+0016e9	b	u	0	WRAM	Back Hitbox ROM Location 
+0016ea	b	u	0	WRAM	Top Hitbox ROM Location 
+0016eb	b	u	0	WRAM	Bottom Hitbox ROM Location 
 0016ec	b	u	0	WRAM	
 0016ed	b	u	0	WRAM	
 0016ee	b	u	0	WRAM	
@@ -1000,6 +1039,9 @@ SystemID SNES
 00170d	b	u	0	WRAM	
 00170e	b	u	0	WRAM	
 00170f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		13
+0	S	_	1		
 001710	b	u	0	WRAM	Status ? (1 Spawning) 
 001711	b	u	0	WRAM	
 001712	b	u	0	WRAM	this might be the object id 
@@ -1039,10 +1081,10 @@ SystemID SNES
 001735	b	u	0	WRAM	
 001736	b	u	0	WRAM	
 001737	b	u	0	WRAM	
-001738	b	u	0	WRAM	if this value changes you hit the thing 
-001739	b	u	0	WRAM	if this value changes you hit the thing 
-00173a	b	u	0	WRAM	if this value changes it falls through the floor 
-00173b	b	u	0	WRAM	if this value changes it falls through the floor 
+001738	b	u	0	WRAM	Front Hitbox ROM Location 
+001739	b	u	0	WRAM	Back Hitbox ROM Location 
+00173a	b	u	0	WRAM	Top Hitbox ROM Location 
+00173b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00173c	b	u	0	WRAM	
 00173d	b	u	0	WRAM	
 00173e	b	u	0	WRAM	
@@ -1077,6 +1119,9 @@ SystemID SNES
 00175d	b	u	0	WRAM	
 00175e	b	u	0	WRAM	
 00175f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		14
+0	S	_	1		
 001760	b	u	0	WRAM	Status ? (1 Spawning) 
 001761	b	u	0	WRAM	
 001762	b	u	0	WRAM	this might be the object id 
@@ -1116,10 +1161,10 @@ SystemID SNES
 001785	b	u	0	WRAM	
 001786	b	u	0	WRAM	
 001787	b	u	0	WRAM	
-001788	b	u	0	WRAM	if this value changes you hit the thing 
-001789	b	u	0	WRAM	if this value changes you hit the thing 
-00178a	b	u	0	WRAM	if this value changes it falls through the floor 
-00178b	b	u	0	WRAM	if this value changes it falls through the floor 
+001788	b	u	0	WRAM	Front Hitbox ROM Location 
+001789	b	u	0	WRAM	Back Hitbox ROM Location 
+00178a	b	u	0	WRAM	Top Hitbox ROM Location 
+00178b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00178c	b	u	0	WRAM	
 00178d	b	u	0	WRAM	
 00178e	b	u	0	WRAM	
@@ -1154,6 +1199,9 @@ SystemID SNES
 0017ad	b	u	0	WRAM	
 0017ae	b	u	0	WRAM	
 0017af	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		15
+0	S	_	1		
 0017b0	b	u	0	WRAM	Status ? (1 Spawning) 
 0017b1	b	u	0	WRAM	
 0017b2	b	u	0	WRAM	this might be the object id 
@@ -1193,10 +1241,10 @@ SystemID SNES
 0017d5	b	u	0	WRAM	
 0017d6	b	u	0	WRAM	
 0017d7	b	u	0	WRAM	
-0017d8	b	u	0	WRAM	if this value changes you hit the thing 
-0017d9	b	u	0	WRAM	if this value changes you hit the thing 
-0017da	b	u	0	WRAM	if this value changes it falls through the floor 
-0017db	b	u	0	WRAM	if this value changes it falls through the floor 
+0017d8	b	u	0	WRAM	Front Hitbox ROM Location 
+0017d9	b	u	0	WRAM	Back Hitbox ROM Location 
+0017da	b	u	0	WRAM	Top Hitbox ROM Location 
+0017db	b	u	0	WRAM	Bottom Hitbox ROM Location 
 0017dc	b	u	0	WRAM	
 0017dd	b	u	0	WRAM	
 0017de	b	u	0	WRAM	
@@ -1231,6 +1279,9 @@ SystemID SNES
 0017fd	b	u	0	WRAM	
 0017fe	b	u	0	WRAM	
 0017ff	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		16
+0	S	_	1		
 001800	b	u	0	WRAM	Status ? (1 Spawning) 
 001801	b	u	0	WRAM	
 001802	b	u	0	WRAM	this might be the object id 
@@ -1270,10 +1321,10 @@ SystemID SNES
 001825	b	u	0	WRAM	
 001826	b	u	0	WRAM	
 001827	b	u	0	WRAM	
-001828	b	u	0	WRAM	if this value changes you hit the thing 
-001829	b	u	0	WRAM	if this value changes you hit the thing 
-00182a	b	u	0	WRAM	if this value changes it falls through the floor 
-00182b	b	u	0	WRAM	if this value changes it falls through the floor 
+001828	b	u	0	WRAM	Front Hitbox ROM Location 
+001829	b	u	0	WRAM	Back Hitbox ROM Location 
+00182a	b	u	0	WRAM	Top Hitbox ROM Location 
+00182b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00182c	b	u	0	WRAM	
 00182d	b	u	0	WRAM	
 00182e	b	u	0	WRAM	
@@ -1308,6 +1359,9 @@ SystemID SNES
 00184d	b	u	0	WRAM	
 00184e	b	u	0	WRAM	
 00184f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		17
+0	S	_	1		
 001850	b	u	0	WRAM	Status ? (1 Spawning) 
 001851	b	u	0	WRAM	
 001852	b	u	0	WRAM	this might be the object id 
@@ -1347,10 +1401,10 @@ SystemID SNES
 001875	b	u	0	WRAM	
 001876	b	u	0	WRAM	
 001877	b	u	0	WRAM	
-001878	b	u	0	WRAM	if this value changes you hit the thing 
-001879	b	u	0	WRAM	if this value changes you hit the thing 
-00187a	b	u	0	WRAM	if this value changes it falls through the floor 
-00187b	b	u	0	WRAM	if this value changes it falls through the floor 
+001878	b	u	0	WRAM	Front Hitbox ROM Location 
+001879	b	u	0	WRAM	Back Hitbox ROM Location 
+00187a	b	u	0	WRAM	Top Hitbox ROM Location 
+00187b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00187c	b	u	0	WRAM	
 00187d	b	u	0	WRAM	
 00187e	b	u	0	WRAM	
@@ -1385,6 +1439,9 @@ SystemID SNES
 00189d	b	u	0	WRAM	
 00189e	b	u	0	WRAM	
 00189f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		18
+0	S	_	1		
 0018a0	b	u	0	WRAM	Status ? (1 Spawning) 
 0018a1	b	u	0	WRAM	
 0018a2	b	u	0	WRAM	this might be the object id 
@@ -1424,10 +1481,10 @@ SystemID SNES
 0018c5	b	u	0	WRAM	
 0018c6	b	u	0	WRAM	
 0018c7	b	u	0	WRAM	
-0018c8	b	u	0	WRAM	if this value changes you hit the thing 
-0018c9	b	u	0	WRAM	if this value changes you hit the thing 
-0018ca	b	u	0	WRAM	if this value changes it falls through the floor 
-0018cb	b	u	0	WRAM	if this value changes it falls through the floor 
+0018c8	b	u	0	WRAM	Front Hitbox ROM Location 
+0018c9	b	u	0	WRAM	Back Hitbox ROM Location 
+0018ca	b	u	0	WRAM	Top Hitbox ROM Location 
+0018cb	b	u	0	WRAM	Bottom Hitbox ROM Location 
 0018cc	b	u	0	WRAM	
 0018cd	b	u	0	WRAM	
 0018ce	b	u	0	WRAM	
@@ -1462,6 +1519,9 @@ SystemID SNES
 0018ed	b	u	0	WRAM	
 0018ee	b	u	0	WRAM	
 0018ef	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		19
+0	S	_	1		
 0018f0	b	u	0	WRAM	Status ? (1 Spawning) 
 0018f1	b	u	0	WRAM	
 0018f2	b	u	0	WRAM	this might be the object id 
@@ -1501,10 +1561,10 @@ SystemID SNES
 001915	b	u	0	WRAM	
 001916	b	u	0	WRAM	
 001917	b	u	0	WRAM	
-001918	b	u	0	WRAM	if this value changes you hit the thing 
-001919	b	u	0	WRAM	if this value changes you hit the thing 
-00191a	b	u	0	WRAM	if this value changes it falls through the floor 
-00191b	b	u	0	WRAM	if this value changes it falls through the floor 
+001918	b	u	0	WRAM	Front Hitbox ROM Location 
+001919	b	u	0	WRAM	Back Hitbox ROM Location 
+00191a	b	u	0	WRAM	Top Hitbox ROM Location 
+00191b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00191c	b	u	0	WRAM	
 00191d	b	u	0	WRAM	
 00191e	b	u	0	WRAM	
@@ -1539,6 +1599,9 @@ SystemID SNES
 00193d	b	u	0	WRAM	
 00193e	b	u	0	WRAM	
 00193f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		20
+0	S	_	1		
 001940	b	u	0	WRAM	Status ? (1 Spawning) 
 001941	b	u	0	WRAM	
 001942	b	u	0	WRAM	this might be the object id 
@@ -1578,10 +1641,10 @@ SystemID SNES
 001965	b	u	0	WRAM	
 001966	b	u	0	WRAM	
 001967	b	u	0	WRAM	
-001968	b	u	0	WRAM	if this value changes you hit the thing 
-001969	b	u	0	WRAM	if this value changes you hit the thing 
-00196a	b	u	0	WRAM	if this value changes it falls through the floor 
-00196b	b	u	0	WRAM	if this value changes it falls through the floor 
+001968	b	u	0	WRAM	Front Hitbox ROM Location 
+001969	b	u	0	WRAM	Back Hitbox ROM Location 
+00196a	b	u	0	WRAM	Top Hitbox ROM Location 
+00196b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 00196c	b	u	0	WRAM	
 00196d	b	u	0	WRAM	
 00196e	b	u	0	WRAM	
@@ -1616,6 +1679,9 @@ SystemID SNES
 00198d	b	u	0	WRAM	
 00198e	b	u	0	WRAM	
 00198f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		21
+0	S	_	1		
 001990	b	u	0	WRAM	Status ? (1 Spawning) 
 001991	b	u	0	WRAM	
 001992	b	u	0	WRAM	this might be the object id 
@@ -1655,10 +1721,10 @@ SystemID SNES
 0019b5	b	u	0	WRAM	
 0019b6	b	u	0	WRAM	
 0019b7	b	u	0	WRAM	
-0019b8	b	u	0	WRAM	if this value changes you hit the thing 
-0019b9	b	u	0	WRAM	if this value changes you hit the thing 
-0019ba	b	u	0	WRAM	if this value changes it falls through the floor 
-0019bb	b	u	0	WRAM	if this value changes it falls through the floor 
+0019b8	b	u	0	WRAM	Front Hitbox ROM Location 
+0019b9	b	u	0	WRAM	Back Hitbox ROM Location 
+0019ba	b	u	0	WRAM	Top Hitbox ROM Location 
+0019bb	b	u	0	WRAM	Bottom Hitbox ROM Location 
 0019bc	b	u	0	WRAM	
 0019bd	b	u	0	WRAM	
 0019be	b	u	0	WRAM	
@@ -1693,6 +1759,9 @@ SystemID SNES
 0019dd	b	u	0	WRAM	
 0019de	b	u	0	WRAM	
 0019df	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		22
+0	S	_	1		
 0019e0	b	u	0	WRAM	Status ? (1 Spawning) 
 0019e1	b	u	0	WRAM	
 0019e2	b	u	0	WRAM	this might be the object id 
@@ -1732,10 +1801,10 @@ SystemID SNES
 001a05	b	u	0	WRAM	
 001a06	b	u	0	WRAM	
 001a07	b	u	0	WRAM	
-001a08	b	u	0	WRAM	if this value changes you hit the thing 
-001a09	b	u	0	WRAM	if this value changes you hit the thing 
-001a0a	b	u	0	WRAM	if this value changes it falls through the floor 
-001a0b	b	u	0	WRAM	if this value changes it falls through the floor 
+001a08	b	u	0	WRAM	Front Hitbox ROM Location 
+001a09	b	u	0	WRAM	Back Hitbox ROM Location 
+001a0a	b	u	0	WRAM	Top Hitbox ROM Location 
+001a0b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 001a0c	b	u	0	WRAM	
 001a0d	b	u	0	WRAM	
 001a0e	b	u	0	WRAM	
@@ -1770,6 +1839,9 @@ SystemID SNES
 001a2d	b	u	0	WRAM	
 001a2e	b	u	0	WRAM	
 001a2f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		23
+0	S	_	1		
 001a30	b	u	0	WRAM	Status ? (1 Spawning) 
 001a31	b	u	0	WRAM	
 001a32	b	u	0	WRAM	this might be the object id 
@@ -1809,10 +1881,10 @@ SystemID SNES
 001a55	b	u	0	WRAM	
 001a56	b	u	0	WRAM	
 001a57	b	u	0	WRAM	
-001a58	b	u	0	WRAM	if this value changes you hit the thing 
-001a59	b	u	0	WRAM	if this value changes you hit the thing 
-001a5a	b	u	0	WRAM	if this value changes it falls through the floor 
-001a5b	b	u	0	WRAM	if this value changes it falls through the floor 
+001a58	b	u	0	WRAM	Front Hitbox ROM Location 
+001a59	b	u	0	WRAM	Back Hitbox ROM Location 
+001a5a	b	u	0	WRAM	Top Hitbox ROM Location 
+001a5b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 001a5c	b	u	0	WRAM	
 001a5d	b	u	0	WRAM	
 001a5e	b	u	0	WRAM	
@@ -1847,6 +1919,9 @@ SystemID SNES
 001a7d	b	u	0	WRAM	
 001a7e	b	u	0	WRAM	
 001a7f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		24
+0	S	_	1		
 001a80	b	u	0	WRAM	Status ? (1 Spawning) 
 001a81	b	u	0	WRAM	
 001a82	b	u	0	WRAM	this might be the object id 
@@ -1886,10 +1961,10 @@ SystemID SNES
 001aa5	b	u	0	WRAM	
 001aa6	b	u	0	WRAM	
 001aa7	b	u	0	WRAM	
-001aa8	b	u	0	WRAM	if this value changes you hit the thing 
-001aa9	b	u	0	WRAM	if this value changes you hit the thing 
-001aaa	b	u	0	WRAM	if this value changes it falls through the floor 
-001aab	b	u	0	WRAM	if this value changes it falls through the floor 
+001aa8	b	u	0	WRAM	Front Hitbox ROM Location 
+001aa9	b	u	0	WRAM	Back Hitbox ROM Location 
+001aaa	b	u	0	WRAM	Top Hitbox ROM Location 
+001aab	b	u	0	WRAM	Bottom Hitbox ROM Location 
 001aac	b	u	0	WRAM	
 001aad	b	u	0	WRAM	
 001aae	b	u	0	WRAM	
@@ -1924,6 +1999,9 @@ SystemID SNES
 001acd	b	u	0	WRAM	
 001ace	b	u	0	WRAM	
 001acf	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		25
+0	S	_	1		
 001ad0	b	u	0	WRAM	Status ? (1 Spawning) 
 001ad1	b	u	0	WRAM	
 001ad2	b	u	0	WRAM	this might be the object id 
@@ -1963,10 +2041,10 @@ SystemID SNES
 001af5	b	u	0	WRAM	
 001af6	b	u	0	WRAM	
 001af7	b	u	0	WRAM	
-001af8	b	u	0	WRAM	if this value changes you hit the thing 
-001af9	b	u	0	WRAM	if this value changes you hit the thing 
-001afa	b	u	0	WRAM	if this value changes it falls through the floor 
-001afb	b	u	0	WRAM	if this value changes it falls through the floor 
+001af8	b	u	0	WRAM	Front Hitbox ROM Location 
+001af9	b	u	0	WRAM	Back Hitbox ROM Location 
+001afa	b	u	0	WRAM	Top Hitbox ROM Location 
+001afb	b	u	0	WRAM	Bottom Hitbox ROM Location 
 001afc	b	u	0	WRAM	
 001afd	b	u	0	WRAM	
 001afe	b	u	0	WRAM	
@@ -2001,6 +2079,9 @@ SystemID SNES
 001b1d	b	u	0	WRAM	
 001b1e	b	u	0	WRAM	
 001b1f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		26
+0	S	_	1		
 001b20	b	u	0	WRAM	Status ? (1 Spawning) 
 001b21	b	u	0	WRAM	
 001b22	b	u	0	WRAM	this might be the object id 
@@ -2040,10 +2121,10 @@ SystemID SNES
 001b45	b	u	0	WRAM	
 001b46	b	u	0	WRAM	
 001b47	b	u	0	WRAM	
-001b48	b	u	0	WRAM	if this value changes you hit the thing 
-001b49	b	u	0	WRAM	if this value changes you hit the thing 
-001b4a	b	u	0	WRAM	if this value changes it falls through the floor 
-001b4b	b	u	0	WRAM	if this value changes it falls through the floor 
+001b48	b	u	0	WRAM	Front Hitbox ROM Location 
+001b49	b	u	0	WRAM	Back Hitbox ROM Location 
+001b4a	b	u	0	WRAM	Top Hitbox ROM Location 
+001b4b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 001b4c	b	u	0	WRAM	
 001b4d	b	u	0	WRAM	
 001b4e	b	u	0	WRAM	
@@ -2078,6 +2159,9 @@ SystemID SNES
 001b6d	b	u	0	WRAM	
 001b6e	b	u	0	WRAM	
 001b6f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		27
+0	S	_	1		
 001b70	b	u	0	WRAM	Status ? (1 Spawning) 
 001b71	b	u	0	WRAM	
 001b72	b	u	0	WRAM	this might be the object id 
@@ -2117,10 +2201,10 @@ SystemID SNES
 001b95	b	u	0	WRAM	
 001b96	b	u	0	WRAM	
 001b97	b	u	0	WRAM	
-001b98	b	u	0	WRAM	if this value changes you hit the thing 
-001b99	b	u	0	WRAM	if this value changes you hit the thing 
-001b9a	b	u	0	WRAM	if this value changes it falls through the floor 
-001b9b	b	u	0	WRAM	if this value changes it falls through the floor 
+001b98	b	u	0	WRAM	Front Hitbox ROM Location 
+001b99	b	u	0	WRAM	Back Hitbox ROM Location 
+001b9a	b	u	0	WRAM	Top Hitbox ROM Location 
+001b9b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 001b9c	b	u	0	WRAM	
 001b9d	b	u	0	WRAM	
 001b9e	b	u	0	WRAM	
@@ -2155,6 +2239,9 @@ SystemID SNES
 001bbd	b	u	0	WRAM	
 001bbe	b	u	0	WRAM	
 001bbf	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		28
+0	S	_	1		
 001bc0	b	u	0	WRAM	Status ? (1 Spawning) 
 001bc1	b	u	0	WRAM	
 001bc2	b	u	0	WRAM	this might be the object id 
@@ -2194,10 +2281,10 @@ SystemID SNES
 001be5	b	u	0	WRAM	
 001be6	b	u	0	WRAM	
 001be7	b	u	0	WRAM	
-001be8	b	u	0	WRAM	if this value changes you hit the thing 
-001be9	b	u	0	WRAM	if this value changes you hit the thing 
-001bea	b	u	0	WRAM	if this value changes it falls through the floor 
-001beb	b	u	0	WRAM	if this value changes it falls through the floor 
+001be8	b	u	0	WRAM	Front Hitbox ROM Location 
+001be9	b	u	0	WRAM	Back Hitbox ROM Location 
+001bea	b	u	0	WRAM	Top Hitbox ROM Location 
+001beb	b	u	0	WRAM	Bottom Hitbox ROM Location 
 001bec	b	u	0	WRAM	
 001bed	b	u	0	WRAM	
 001bee	b	u	0	WRAM	
@@ -2232,6 +2319,9 @@ SystemID SNES
 001c0d	b	u	0	WRAM	
 001c0e	b	u	0	WRAM	
 001c0f	b	u	0	WRAM	
+0	S	_	1		
+0	S	_	1		29
+0	S	_	1		
 001c10	b	u	0	WRAM	Status ? (1 Spawning) 
 001c11	b	u	0	WRAM	
 001c12	b	u	0	WRAM	this might be the object id 
@@ -2271,10 +2361,10 @@ SystemID SNES
 001c35	b	u	0	WRAM	
 001c36	b	u	0	WRAM	
 001c37	b	u	0	WRAM	
-001c38	b	u	0	WRAM	if this value changes you hit the thing 
-001c39	b	u	0	WRAM	if this value changes you hit the thing 
-001c3a	b	u	0	WRAM	if this value changes it falls through the floor 
-001c3b	b	u	0	WRAM	if this value changes it falls through the floor 
+001c38	b	u	0	WRAM	Front Hitbox ROM Location 
+001c39	b	u	0	WRAM	Back Hitbox ROM Location 
+001c3a	b	u	0	WRAM	Top Hitbox ROM Location 
+001c3b	b	u	0	WRAM	Bottom Hitbox ROM Location 
 001c3c	b	u	0	WRAM	
 001c3d	b	u	0	WRAM	
 001c3e	b	u	0	WRAM	

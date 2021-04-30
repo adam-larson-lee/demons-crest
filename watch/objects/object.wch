@@ -38,10 +38,10 @@ SystemID SNES
 001325	b	u	0	WRAM	
 001326	b	u	0	WRAM	
 001327	b	u	0	WRAM	
-001328	b	u	0	WRAM	if this value changes you hit the thing
-001329	b	u	0	WRAM	if this value changes you hit the thing
-00132A	b	u	0	WRAM	if this value changes it falls through the floor
-00132B	b	u	0	WRAM	if this value changes it falls through the floor
+001328	b	u	0	WRAM	Front Hitbox ROM Location
+001329	b	u	0	WRAM	Back Hitbox ROM Location
+00132A	b	u	0	WRAM	Top Hitbox ROM Location
+00132B	b	u	0	WRAM	Bottom Hitbox ROM Location
 00132C	b	u	0	WRAM	
 00132D	b	u	0	WRAM	
 00132E	b	u	0	WRAM	

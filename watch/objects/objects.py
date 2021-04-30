@@ -19,6 +19,14 @@ for objectFileLine in objectFile:
   objectWatches.append(objectFileLine.split())
 
 for x in range(objects):
+  objectsFile.write('0\tS\t_\t1\t\t')
+  objectsFile.write('\n')
+  objectsFile.write('0\tS\t_\t1\t\t')
+  objectsFile.write(str(x))
+  objectsFile.write('\n')
+  objectsFile.write('0\tS\t_\t1\t\t')
+  objectsFile.write('\n')
+
   for objectWatch in objectWatches:
     if objectWatch and objectWatch[0] != 'SystemID':
       objectsFile.write(hex(int(objectWatch[0], 16) + (x * objectSize))[2:].zfill(6))
