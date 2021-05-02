@@ -1,5 +1,14 @@
 local function object(address)
   return {
+    getValue = function (offset, bytes)
+      return mem.wram(address + offset, bytes)
+    end,
+    getBase = function ()
+      return address
+    end,
+    getStatus = function ()
+      return mem.wram(address, 1)
+    end,
     isAlive = function ()
       return mem.wram(address, 1) > 0
     end,
@@ -21,9 +30,6 @@ local function object(address)
     end,
     getRelativeY = function ()
       return mem.wram(address + 0x34, 2) - viewport.getY()
-    end,
-    getStatus = function ()
-      return mem.wram(address, 1)
     end,
     rightHitbox = function ()
       if (mem.wram(address + 0x09, 1) == 1 or mem.wram(address + 0x39, 1) == 1) then
@@ -70,6 +76,7 @@ end
 
 table.insert(objects, firebrand)
 
-for i = 0,30 do
+-- there are 40 objects max
+for i = 0,39 do
   table.insert(objects, object(0x001080 + (0x50 * i)))
 end
