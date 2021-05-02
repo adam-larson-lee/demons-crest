@@ -1,5 +1,5 @@
 SystemID SNES
-001300	b	u	0	WRAM	Status ? (1 Spawning)
+001300	b	h	0	WRAM	Status ? (1 Spawning)
 001301	b	u	0	WRAM	
 001302	b	u	0	WRAM	this might be the object id
 001303	b	u	0	WRAM	
@@ -15,7 +15,7 @@ SystemID SNES
 00130D	b	u	0	WRAM	
 00130E	b	u	0	WRAM	some kind of timer
 00130F	b	u	0	WRAM	
-001310	w	u	0	WRAM	X (Coarse) Copy
+001310	w	u	0	WRAM	Some X Attribute
 001311	b	u	0	WRAM	
 001312	b	u	0	WRAM	Some Y Attribute
 001313	b	u	0	WRAM	
@@ -38,10 +38,8 @@ SystemID SNES
 001325	b	u	0	WRAM	
 001326	b	u	0	WRAM	
 001327	b	u	0	WRAM	
-001328	b	u	0	WRAM	Front Hitbox ROM Location
-001329	b	u	0	WRAM	Back Hitbox ROM Location
-00132A	b	u	0	WRAM	Top Hitbox ROM Location
-00132B	b	u	0	WRAM	Bottom Hitbox ROM Location
+001328	w	h	0	WRAM	X Hitbox ROM Location
+00132A	w	h	0	WRAM	Y Hitbox ROM Location
 00132C	b	u	0	WRAM	
 00132D	b	u	0	WRAM	
 00132E	b	u	0	WRAM	
@@ -68,12 +66,11 @@ SystemID SNES
 001345	b	u	0	WRAM	
 001346	b	u	0	WRAM	
 001347	b	u	0	WRAM	
-001348	b	u	0	WRAM	
-001349	b	u	0	WRAM	
-00134A	b	u	0	WRAM	
-00134B	b	u	0	WRAM	
+001348	w	u	0	WRAM	Firebrand X
+00134A	w	u	0	WRAM	Firebrand Y
 00134C	b	u	0	WRAM	
 00134D	b	u	0	WRAM	
 00134E	b	u	0	WRAM	
 00134F	b	u	0	WRAM	
+00001E	w	u	0	WRAM	
 

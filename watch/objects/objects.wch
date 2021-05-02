@@ -2,7 +2,7 @@ SystemID SNES
 0	S	_	1		
 0	S	_	1		0
 0	S	_	1		
-001300	b	u	0	WRAM	Status ? (1 Spawning) 
+001300	b	h	0	WRAM	Status ? (1 Spawning) 
 001301	b	u	0	WRAM	
 001302	b	u	0	WRAM	this might be the object id 
 001303	b	u	0	WRAM	
@@ -18,7 +18,7 @@ SystemID SNES
 00130d	b	u	0	WRAM	
 00130e	b	u	0	WRAM	some kind of timer 
 00130f	b	u	0	WRAM	
-001310	w	u	0	WRAM	X (Coarse) Copy 
+001310	w	u	0	WRAM	Some X Attribute 
 001311	b	u	0	WRAM	
 001312	b	u	0	WRAM	Some Y Attribute 
 001313	b	u	0	WRAM	
@@ -41,10 +41,8 @@ SystemID SNES
 001325	b	u	0	WRAM	
 001326	b	u	0	WRAM	
 001327	b	u	0	WRAM	
-001328	b	u	0	WRAM	Front Hitbox ROM Location 
-001329	b	u	0	WRAM	Back Hitbox ROM Location 
-00132a	b	u	0	WRAM	Top Hitbox ROM Location 
-00132b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001328	w	h	0	WRAM	X Hitbox ROM Location 
+00132a	w	h	0	WRAM	Y Hitbox ROM Location 
 00132c	b	u	0	WRAM	
 00132d	b	u	0	WRAM	
 00132e	b	u	0	WRAM	
@@ -71,18 +69,17 @@ SystemID SNES
 001345	b	u	0	WRAM	
 001346	b	u	0	WRAM	
 001347	b	u	0	WRAM	
-001348	b	u	0	WRAM	
-001349	b	u	0	WRAM	
-00134a	b	u	0	WRAM	
-00134b	b	u	0	WRAM	
+001348	w	u	0	WRAM	Firebrand X 
+00134a	w	u	0	WRAM	Firebrand Y 
 00134c	b	u	0	WRAM	
 00134d	b	u	0	WRAM	
 00134e	b	u	0	WRAM	
 00134f	b	u	0	WRAM	
+00001e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		1
 0	S	_	1		
-001350	b	u	0	WRAM	Status ? (1 Spawning) 
+001350	b	h	0	WRAM	Status ? (1 Spawning) 
 001351	b	u	0	WRAM	
 001352	b	u	0	WRAM	this might be the object id 
 001353	b	u	0	WRAM	
@@ -98,7 +95,7 @@ SystemID SNES
 00135d	b	u	0	WRAM	
 00135e	b	u	0	WRAM	some kind of timer 
 00135f	b	u	0	WRAM	
-001360	w	u	0	WRAM	X (Coarse) Copy 
+001360	w	u	0	WRAM	Some X Attribute 
 001361	b	u	0	WRAM	
 001362	b	u	0	WRAM	Some Y Attribute 
 001363	b	u	0	WRAM	
@@ -121,10 +118,8 @@ SystemID SNES
 001375	b	u	0	WRAM	
 001376	b	u	0	WRAM	
 001377	b	u	0	WRAM	
-001378	b	u	0	WRAM	Front Hitbox ROM Location 
-001379	b	u	0	WRAM	Back Hitbox ROM Location 
-00137a	b	u	0	WRAM	Top Hitbox ROM Location 
-00137b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001378	w	h	0	WRAM	X Hitbox ROM Location 
+00137a	w	h	0	WRAM	Y Hitbox ROM Location 
 00137c	b	u	0	WRAM	
 00137d	b	u	0	WRAM	
 00137e	b	u	0	WRAM	
@@ -151,18 +146,17 @@ SystemID SNES
 001395	b	u	0	WRAM	
 001396	b	u	0	WRAM	
 001397	b	u	0	WRAM	
-001398	b	u	0	WRAM	
-001399	b	u	0	WRAM	
-00139a	b	u	0	WRAM	
-00139b	b	u	0	WRAM	
+001398	w	u	0	WRAM	Firebrand X 
+00139a	w	u	0	WRAM	Firebrand Y 
 00139c	b	u	0	WRAM	
 00139d	b	u	0	WRAM	
 00139e	b	u	0	WRAM	
 00139f	b	u	0	WRAM	
+00006e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		2
 0	S	_	1		
-0013a0	b	u	0	WRAM	Status ? (1 Spawning) 
+0013a0	b	h	0	WRAM	Status ? (1 Spawning) 
 0013a1	b	u	0	WRAM	
 0013a2	b	u	0	WRAM	this might be the object id 
 0013a3	b	u	0	WRAM	
@@ -178,7 +172,7 @@ SystemID SNES
 0013ad	b	u	0	WRAM	
 0013ae	b	u	0	WRAM	some kind of timer 
 0013af	b	u	0	WRAM	
-0013b0	w	u	0	WRAM	X (Coarse) Copy 
+0013b0	w	u	0	WRAM	Some X Attribute 
 0013b1	b	u	0	WRAM	
 0013b2	b	u	0	WRAM	Some Y Attribute 
 0013b3	b	u	0	WRAM	
@@ -201,10 +195,8 @@ SystemID SNES
 0013c5	b	u	0	WRAM	
 0013c6	b	u	0	WRAM	
 0013c7	b	u	0	WRAM	
-0013c8	b	u	0	WRAM	Front Hitbox ROM Location 
-0013c9	b	u	0	WRAM	Back Hitbox ROM Location 
-0013ca	b	u	0	WRAM	Top Hitbox ROM Location 
-0013cb	b	u	0	WRAM	Bottom Hitbox ROM Location 
+0013c8	w	h	0	WRAM	X Hitbox ROM Location 
+0013ca	w	h	0	WRAM	Y Hitbox ROM Location 
 0013cc	b	u	0	WRAM	
 0013cd	b	u	0	WRAM	
 0013ce	b	u	0	WRAM	
@@ -231,18 +223,17 @@ SystemID SNES
 0013e5	b	u	0	WRAM	
 0013e6	b	u	0	WRAM	
 0013e7	b	u	0	WRAM	
-0013e8	b	u	0	WRAM	
-0013e9	b	u	0	WRAM	
-0013ea	b	u	0	WRAM	
-0013eb	b	u	0	WRAM	
+0013e8	w	u	0	WRAM	Firebrand X 
+0013ea	w	u	0	WRAM	Firebrand Y 
 0013ec	b	u	0	WRAM	
 0013ed	b	u	0	WRAM	
 0013ee	b	u	0	WRAM	
 0013ef	b	u	0	WRAM	
+0000be	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		3
 0	S	_	1		
-0013f0	b	u	0	WRAM	Status ? (1 Spawning) 
+0013f0	b	h	0	WRAM	Status ? (1 Spawning) 
 0013f1	b	u	0	WRAM	
 0013f2	b	u	0	WRAM	this might be the object id 
 0013f3	b	u	0	WRAM	
@@ -258,7 +249,7 @@ SystemID SNES
 0013fd	b	u	0	WRAM	
 0013fe	b	u	0	WRAM	some kind of timer 
 0013ff	b	u	0	WRAM	
-001400	w	u	0	WRAM	X (Coarse) Copy 
+001400	w	u	0	WRAM	Some X Attribute 
 001401	b	u	0	WRAM	
 001402	b	u	0	WRAM	Some Y Attribute 
 001403	b	u	0	WRAM	
@@ -281,10 +272,8 @@ SystemID SNES
 001415	b	u	0	WRAM	
 001416	b	u	0	WRAM	
 001417	b	u	0	WRAM	
-001418	b	u	0	WRAM	Front Hitbox ROM Location 
-001419	b	u	0	WRAM	Back Hitbox ROM Location 
-00141a	b	u	0	WRAM	Top Hitbox ROM Location 
-00141b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001418	w	h	0	WRAM	X Hitbox ROM Location 
+00141a	w	h	0	WRAM	Y Hitbox ROM Location 
 00141c	b	u	0	WRAM	
 00141d	b	u	0	WRAM	
 00141e	b	u	0	WRAM	
@@ -311,18 +300,17 @@ SystemID SNES
 001435	b	u	0	WRAM	
 001436	b	u	0	WRAM	
 001437	b	u	0	WRAM	
-001438	b	u	0	WRAM	
-001439	b	u	0	WRAM	
-00143a	b	u	0	WRAM	
-00143b	b	u	0	WRAM	
+001438	w	u	0	WRAM	Firebrand X 
+00143a	w	u	0	WRAM	Firebrand Y 
 00143c	b	u	0	WRAM	
 00143d	b	u	0	WRAM	
 00143e	b	u	0	WRAM	
 00143f	b	u	0	WRAM	
+00010e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		4
 0	S	_	1		
-001440	b	u	0	WRAM	Status ? (1 Spawning) 
+001440	b	h	0	WRAM	Status ? (1 Spawning) 
 001441	b	u	0	WRAM	
 001442	b	u	0	WRAM	this might be the object id 
 001443	b	u	0	WRAM	
@@ -338,7 +326,7 @@ SystemID SNES
 00144d	b	u	0	WRAM	
 00144e	b	u	0	WRAM	some kind of timer 
 00144f	b	u	0	WRAM	
-001450	w	u	0	WRAM	X (Coarse) Copy 
+001450	w	u	0	WRAM	Some X Attribute 
 001451	b	u	0	WRAM	
 001452	b	u	0	WRAM	Some Y Attribute 
 001453	b	u	0	WRAM	
@@ -361,10 +349,8 @@ SystemID SNES
 001465	b	u	0	WRAM	
 001466	b	u	0	WRAM	
 001467	b	u	0	WRAM	
-001468	b	u	0	WRAM	Front Hitbox ROM Location 
-001469	b	u	0	WRAM	Back Hitbox ROM Location 
-00146a	b	u	0	WRAM	Top Hitbox ROM Location 
-00146b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001468	w	h	0	WRAM	X Hitbox ROM Location 
+00146a	w	h	0	WRAM	Y Hitbox ROM Location 
 00146c	b	u	0	WRAM	
 00146d	b	u	0	WRAM	
 00146e	b	u	0	WRAM	
@@ -391,18 +377,17 @@ SystemID SNES
 001485	b	u	0	WRAM	
 001486	b	u	0	WRAM	
 001487	b	u	0	WRAM	
-001488	b	u	0	WRAM	
-001489	b	u	0	WRAM	
-00148a	b	u	0	WRAM	
-00148b	b	u	0	WRAM	
+001488	w	u	0	WRAM	Firebrand X 
+00148a	w	u	0	WRAM	Firebrand Y 
 00148c	b	u	0	WRAM	
 00148d	b	u	0	WRAM	
 00148e	b	u	0	WRAM	
 00148f	b	u	0	WRAM	
+00015e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		5
 0	S	_	1		
-001490	b	u	0	WRAM	Status ? (1 Spawning) 
+001490	b	h	0	WRAM	Status ? (1 Spawning) 
 001491	b	u	0	WRAM	
 001492	b	u	0	WRAM	this might be the object id 
 001493	b	u	0	WRAM	
@@ -418,7 +403,7 @@ SystemID SNES
 00149d	b	u	0	WRAM	
 00149e	b	u	0	WRAM	some kind of timer 
 00149f	b	u	0	WRAM	
-0014a0	w	u	0	WRAM	X (Coarse) Copy 
+0014a0	w	u	0	WRAM	Some X Attribute 
 0014a1	b	u	0	WRAM	
 0014a2	b	u	0	WRAM	Some Y Attribute 
 0014a3	b	u	0	WRAM	
@@ -441,10 +426,8 @@ SystemID SNES
 0014b5	b	u	0	WRAM	
 0014b6	b	u	0	WRAM	
 0014b7	b	u	0	WRAM	
-0014b8	b	u	0	WRAM	Front Hitbox ROM Location 
-0014b9	b	u	0	WRAM	Back Hitbox ROM Location 
-0014ba	b	u	0	WRAM	Top Hitbox ROM Location 
-0014bb	b	u	0	WRAM	Bottom Hitbox ROM Location 
+0014b8	w	h	0	WRAM	X Hitbox ROM Location 
+0014ba	w	h	0	WRAM	Y Hitbox ROM Location 
 0014bc	b	u	0	WRAM	
 0014bd	b	u	0	WRAM	
 0014be	b	u	0	WRAM	
@@ -471,18 +454,17 @@ SystemID SNES
 0014d5	b	u	0	WRAM	
 0014d6	b	u	0	WRAM	
 0014d7	b	u	0	WRAM	
-0014d8	b	u	0	WRAM	
-0014d9	b	u	0	WRAM	
-0014da	b	u	0	WRAM	
-0014db	b	u	0	WRAM	
+0014d8	w	u	0	WRAM	Firebrand X 
+0014da	w	u	0	WRAM	Firebrand Y 
 0014dc	b	u	0	WRAM	
 0014dd	b	u	0	WRAM	
 0014de	b	u	0	WRAM	
 0014df	b	u	0	WRAM	
+0001ae	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		6
 0	S	_	1		
-0014e0	b	u	0	WRAM	Status ? (1 Spawning) 
+0014e0	b	h	0	WRAM	Status ? (1 Spawning) 
 0014e1	b	u	0	WRAM	
 0014e2	b	u	0	WRAM	this might be the object id 
 0014e3	b	u	0	WRAM	
@@ -498,7 +480,7 @@ SystemID SNES
 0014ed	b	u	0	WRAM	
 0014ee	b	u	0	WRAM	some kind of timer 
 0014ef	b	u	0	WRAM	
-0014f0	w	u	0	WRAM	X (Coarse) Copy 
+0014f0	w	u	0	WRAM	Some X Attribute 
 0014f1	b	u	0	WRAM	
 0014f2	b	u	0	WRAM	Some Y Attribute 
 0014f3	b	u	0	WRAM	
@@ -521,10 +503,8 @@ SystemID SNES
 001505	b	u	0	WRAM	
 001506	b	u	0	WRAM	
 001507	b	u	0	WRAM	
-001508	b	u	0	WRAM	Front Hitbox ROM Location 
-001509	b	u	0	WRAM	Back Hitbox ROM Location 
-00150a	b	u	0	WRAM	Top Hitbox ROM Location 
-00150b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001508	w	h	0	WRAM	X Hitbox ROM Location 
+00150a	w	h	0	WRAM	Y Hitbox ROM Location 
 00150c	b	u	0	WRAM	
 00150d	b	u	0	WRAM	
 00150e	b	u	0	WRAM	
@@ -551,18 +531,17 @@ SystemID SNES
 001525	b	u	0	WRAM	
 001526	b	u	0	WRAM	
 001527	b	u	0	WRAM	
-001528	b	u	0	WRAM	
-001529	b	u	0	WRAM	
-00152a	b	u	0	WRAM	
-00152b	b	u	0	WRAM	
+001528	w	u	0	WRAM	Firebrand X 
+00152a	w	u	0	WRAM	Firebrand Y 
 00152c	b	u	0	WRAM	
 00152d	b	u	0	WRAM	
 00152e	b	u	0	WRAM	
 00152f	b	u	0	WRAM	
+0001fe	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		7
 0	S	_	1		
-001530	b	u	0	WRAM	Status ? (1 Spawning) 
+001530	b	h	0	WRAM	Status ? (1 Spawning) 
 001531	b	u	0	WRAM	
 001532	b	u	0	WRAM	this might be the object id 
 001533	b	u	0	WRAM	
@@ -578,7 +557,7 @@ SystemID SNES
 00153d	b	u	0	WRAM	
 00153e	b	u	0	WRAM	some kind of timer 
 00153f	b	u	0	WRAM	
-001540	w	u	0	WRAM	X (Coarse) Copy 
+001540	w	u	0	WRAM	Some X Attribute 
 001541	b	u	0	WRAM	
 001542	b	u	0	WRAM	Some Y Attribute 
 001543	b	u	0	WRAM	
@@ -601,10 +580,8 @@ SystemID SNES
 001555	b	u	0	WRAM	
 001556	b	u	0	WRAM	
 001557	b	u	0	WRAM	
-001558	b	u	0	WRAM	Front Hitbox ROM Location 
-001559	b	u	0	WRAM	Back Hitbox ROM Location 
-00155a	b	u	0	WRAM	Top Hitbox ROM Location 
-00155b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001558	w	h	0	WRAM	X Hitbox ROM Location 
+00155a	w	h	0	WRAM	Y Hitbox ROM Location 
 00155c	b	u	0	WRAM	
 00155d	b	u	0	WRAM	
 00155e	b	u	0	WRAM	
@@ -631,18 +608,17 @@ SystemID SNES
 001575	b	u	0	WRAM	
 001576	b	u	0	WRAM	
 001577	b	u	0	WRAM	
-001578	b	u	0	WRAM	
-001579	b	u	0	WRAM	
-00157a	b	u	0	WRAM	
-00157b	b	u	0	WRAM	
+001578	w	u	0	WRAM	Firebrand X 
+00157a	w	u	0	WRAM	Firebrand Y 
 00157c	b	u	0	WRAM	
 00157d	b	u	0	WRAM	
 00157e	b	u	0	WRAM	
 00157f	b	u	0	WRAM	
+00024e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		8
 0	S	_	1		
-001580	b	u	0	WRAM	Status ? (1 Spawning) 
+001580	b	h	0	WRAM	Status ? (1 Spawning) 
 001581	b	u	0	WRAM	
 001582	b	u	0	WRAM	this might be the object id 
 001583	b	u	0	WRAM	
@@ -658,7 +634,7 @@ SystemID SNES
 00158d	b	u	0	WRAM	
 00158e	b	u	0	WRAM	some kind of timer 
 00158f	b	u	0	WRAM	
-001590	w	u	0	WRAM	X (Coarse) Copy 
+001590	w	u	0	WRAM	Some X Attribute 
 001591	b	u	0	WRAM	
 001592	b	u	0	WRAM	Some Y Attribute 
 001593	b	u	0	WRAM	
@@ -681,10 +657,8 @@ SystemID SNES
 0015a5	b	u	0	WRAM	
 0015a6	b	u	0	WRAM	
 0015a7	b	u	0	WRAM	
-0015a8	b	u	0	WRAM	Front Hitbox ROM Location 
-0015a9	b	u	0	WRAM	Back Hitbox ROM Location 
-0015aa	b	u	0	WRAM	Top Hitbox ROM Location 
-0015ab	b	u	0	WRAM	Bottom Hitbox ROM Location 
+0015a8	w	h	0	WRAM	X Hitbox ROM Location 
+0015aa	w	h	0	WRAM	Y Hitbox ROM Location 
 0015ac	b	u	0	WRAM	
 0015ad	b	u	0	WRAM	
 0015ae	b	u	0	WRAM	
@@ -711,18 +685,17 @@ SystemID SNES
 0015c5	b	u	0	WRAM	
 0015c6	b	u	0	WRAM	
 0015c7	b	u	0	WRAM	
-0015c8	b	u	0	WRAM	
-0015c9	b	u	0	WRAM	
-0015ca	b	u	0	WRAM	
-0015cb	b	u	0	WRAM	
+0015c8	w	u	0	WRAM	Firebrand X 
+0015ca	w	u	0	WRAM	Firebrand Y 
 0015cc	b	u	0	WRAM	
 0015cd	b	u	0	WRAM	
 0015ce	b	u	0	WRAM	
 0015cf	b	u	0	WRAM	
+00029e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		9
 0	S	_	1		
-0015d0	b	u	0	WRAM	Status ? (1 Spawning) 
+0015d0	b	h	0	WRAM	Status ? (1 Spawning) 
 0015d1	b	u	0	WRAM	
 0015d2	b	u	0	WRAM	this might be the object id 
 0015d3	b	u	0	WRAM	
@@ -738,7 +711,7 @@ SystemID SNES
 0015dd	b	u	0	WRAM	
 0015de	b	u	0	WRAM	some kind of timer 
 0015df	b	u	0	WRAM	
-0015e0	w	u	0	WRAM	X (Coarse) Copy 
+0015e0	w	u	0	WRAM	Some X Attribute 
 0015e1	b	u	0	WRAM	
 0015e2	b	u	0	WRAM	Some Y Attribute 
 0015e3	b	u	0	WRAM	
@@ -761,10 +734,8 @@ SystemID SNES
 0015f5	b	u	0	WRAM	
 0015f6	b	u	0	WRAM	
 0015f7	b	u	0	WRAM	
-0015f8	b	u	0	WRAM	Front Hitbox ROM Location 
-0015f9	b	u	0	WRAM	Back Hitbox ROM Location 
-0015fa	b	u	0	WRAM	Top Hitbox ROM Location 
-0015fb	b	u	0	WRAM	Bottom Hitbox ROM Location 
+0015f8	w	h	0	WRAM	X Hitbox ROM Location 
+0015fa	w	h	0	WRAM	Y Hitbox ROM Location 
 0015fc	b	u	0	WRAM	
 0015fd	b	u	0	WRAM	
 0015fe	b	u	0	WRAM	
@@ -791,18 +762,17 @@ SystemID SNES
 001615	b	u	0	WRAM	
 001616	b	u	0	WRAM	
 001617	b	u	0	WRAM	
-001618	b	u	0	WRAM	
-001619	b	u	0	WRAM	
-00161a	b	u	0	WRAM	
-00161b	b	u	0	WRAM	
+001618	w	u	0	WRAM	Firebrand X 
+00161a	w	u	0	WRAM	Firebrand Y 
 00161c	b	u	0	WRAM	
 00161d	b	u	0	WRAM	
 00161e	b	u	0	WRAM	
 00161f	b	u	0	WRAM	
+0002ee	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		10
 0	S	_	1		
-001620	b	u	0	WRAM	Status ? (1 Spawning) 
+001620	b	h	0	WRAM	Status ? (1 Spawning) 
 001621	b	u	0	WRAM	
 001622	b	u	0	WRAM	this might be the object id 
 001623	b	u	0	WRAM	
@@ -818,7 +788,7 @@ SystemID SNES
 00162d	b	u	0	WRAM	
 00162e	b	u	0	WRAM	some kind of timer 
 00162f	b	u	0	WRAM	
-001630	w	u	0	WRAM	X (Coarse) Copy 
+001630	w	u	0	WRAM	Some X Attribute 
 001631	b	u	0	WRAM	
 001632	b	u	0	WRAM	Some Y Attribute 
 001633	b	u	0	WRAM	
@@ -841,10 +811,8 @@ SystemID SNES
 001645	b	u	0	WRAM	
 001646	b	u	0	WRAM	
 001647	b	u	0	WRAM	
-001648	b	u	0	WRAM	Front Hitbox ROM Location 
-001649	b	u	0	WRAM	Back Hitbox ROM Location 
-00164a	b	u	0	WRAM	Top Hitbox ROM Location 
-00164b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001648	w	h	0	WRAM	X Hitbox ROM Location 
+00164a	w	h	0	WRAM	Y Hitbox ROM Location 
 00164c	b	u	0	WRAM	
 00164d	b	u	0	WRAM	
 00164e	b	u	0	WRAM	
@@ -871,18 +839,17 @@ SystemID SNES
 001665	b	u	0	WRAM	
 001666	b	u	0	WRAM	
 001667	b	u	0	WRAM	
-001668	b	u	0	WRAM	
-001669	b	u	0	WRAM	
-00166a	b	u	0	WRAM	
-00166b	b	u	0	WRAM	
+001668	w	u	0	WRAM	Firebrand X 
+00166a	w	u	0	WRAM	Firebrand Y 
 00166c	b	u	0	WRAM	
 00166d	b	u	0	WRAM	
 00166e	b	u	0	WRAM	
 00166f	b	u	0	WRAM	
+00033e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		11
 0	S	_	1		
-001670	b	u	0	WRAM	Status ? (1 Spawning) 
+001670	b	h	0	WRAM	Status ? (1 Spawning) 
 001671	b	u	0	WRAM	
 001672	b	u	0	WRAM	this might be the object id 
 001673	b	u	0	WRAM	
@@ -898,7 +865,7 @@ SystemID SNES
 00167d	b	u	0	WRAM	
 00167e	b	u	0	WRAM	some kind of timer 
 00167f	b	u	0	WRAM	
-001680	w	u	0	WRAM	X (Coarse) Copy 
+001680	w	u	0	WRAM	Some X Attribute 
 001681	b	u	0	WRAM	
 001682	b	u	0	WRAM	Some Y Attribute 
 001683	b	u	0	WRAM	
@@ -921,10 +888,8 @@ SystemID SNES
 001695	b	u	0	WRAM	
 001696	b	u	0	WRAM	
 001697	b	u	0	WRAM	
-001698	b	u	0	WRAM	Front Hitbox ROM Location 
-001699	b	u	0	WRAM	Back Hitbox ROM Location 
-00169a	b	u	0	WRAM	Top Hitbox ROM Location 
-00169b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001698	w	h	0	WRAM	X Hitbox ROM Location 
+00169a	w	h	0	WRAM	Y Hitbox ROM Location 
 00169c	b	u	0	WRAM	
 00169d	b	u	0	WRAM	
 00169e	b	u	0	WRAM	
@@ -951,18 +916,17 @@ SystemID SNES
 0016b5	b	u	0	WRAM	
 0016b6	b	u	0	WRAM	
 0016b7	b	u	0	WRAM	
-0016b8	b	u	0	WRAM	
-0016b9	b	u	0	WRAM	
-0016ba	b	u	0	WRAM	
-0016bb	b	u	0	WRAM	
+0016b8	w	u	0	WRAM	Firebrand X 
+0016ba	w	u	0	WRAM	Firebrand Y 
 0016bc	b	u	0	WRAM	
 0016bd	b	u	0	WRAM	
 0016be	b	u	0	WRAM	
 0016bf	b	u	0	WRAM	
+00038e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		12
 0	S	_	1		
-0016c0	b	u	0	WRAM	Status ? (1 Spawning) 
+0016c0	b	h	0	WRAM	Status ? (1 Spawning) 
 0016c1	b	u	0	WRAM	
 0016c2	b	u	0	WRAM	this might be the object id 
 0016c3	b	u	0	WRAM	
@@ -978,7 +942,7 @@ SystemID SNES
 0016cd	b	u	0	WRAM	
 0016ce	b	u	0	WRAM	some kind of timer 
 0016cf	b	u	0	WRAM	
-0016d0	w	u	0	WRAM	X (Coarse) Copy 
+0016d0	w	u	0	WRAM	Some X Attribute 
 0016d1	b	u	0	WRAM	
 0016d2	b	u	0	WRAM	Some Y Attribute 
 0016d3	b	u	0	WRAM	
@@ -1001,10 +965,8 @@ SystemID SNES
 0016e5	b	u	0	WRAM	
 0016e6	b	u	0	WRAM	
 0016e7	b	u	0	WRAM	
-0016e8	b	u	0	WRAM	Front Hitbox ROM Location 
-0016e9	b	u	0	WRAM	Back Hitbox ROM Location 
-0016ea	b	u	0	WRAM	Top Hitbox ROM Location 
-0016eb	b	u	0	WRAM	Bottom Hitbox ROM Location 
+0016e8	w	h	0	WRAM	X Hitbox ROM Location 
+0016ea	w	h	0	WRAM	Y Hitbox ROM Location 
 0016ec	b	u	0	WRAM	
 0016ed	b	u	0	WRAM	
 0016ee	b	u	0	WRAM	
@@ -1031,18 +993,17 @@ SystemID SNES
 001705	b	u	0	WRAM	
 001706	b	u	0	WRAM	
 001707	b	u	0	WRAM	
-001708	b	u	0	WRAM	
-001709	b	u	0	WRAM	
-00170a	b	u	0	WRAM	
-00170b	b	u	0	WRAM	
+001708	w	u	0	WRAM	Firebrand X 
+00170a	w	u	0	WRAM	Firebrand Y 
 00170c	b	u	0	WRAM	
 00170d	b	u	0	WRAM	
 00170e	b	u	0	WRAM	
 00170f	b	u	0	WRAM	
+0003de	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		13
 0	S	_	1		
-001710	b	u	0	WRAM	Status ? (1 Spawning) 
+001710	b	h	0	WRAM	Status ? (1 Spawning) 
 001711	b	u	0	WRAM	
 001712	b	u	0	WRAM	this might be the object id 
 001713	b	u	0	WRAM	
@@ -1058,7 +1019,7 @@ SystemID SNES
 00171d	b	u	0	WRAM	
 00171e	b	u	0	WRAM	some kind of timer 
 00171f	b	u	0	WRAM	
-001720	w	u	0	WRAM	X (Coarse) Copy 
+001720	w	u	0	WRAM	Some X Attribute 
 001721	b	u	0	WRAM	
 001722	b	u	0	WRAM	Some Y Attribute 
 001723	b	u	0	WRAM	
@@ -1081,10 +1042,8 @@ SystemID SNES
 001735	b	u	0	WRAM	
 001736	b	u	0	WRAM	
 001737	b	u	0	WRAM	
-001738	b	u	0	WRAM	Front Hitbox ROM Location 
-001739	b	u	0	WRAM	Back Hitbox ROM Location 
-00173a	b	u	0	WRAM	Top Hitbox ROM Location 
-00173b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001738	w	h	0	WRAM	X Hitbox ROM Location 
+00173a	w	h	0	WRAM	Y Hitbox ROM Location 
 00173c	b	u	0	WRAM	
 00173d	b	u	0	WRAM	
 00173e	b	u	0	WRAM	
@@ -1111,18 +1070,17 @@ SystemID SNES
 001755	b	u	0	WRAM	
 001756	b	u	0	WRAM	
 001757	b	u	0	WRAM	
-001758	b	u	0	WRAM	
-001759	b	u	0	WRAM	
-00175a	b	u	0	WRAM	
-00175b	b	u	0	WRAM	
+001758	w	u	0	WRAM	Firebrand X 
+00175a	w	u	0	WRAM	Firebrand Y 
 00175c	b	u	0	WRAM	
 00175d	b	u	0	WRAM	
 00175e	b	u	0	WRAM	
 00175f	b	u	0	WRAM	
+00042e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		14
 0	S	_	1		
-001760	b	u	0	WRAM	Status ? (1 Spawning) 
+001760	b	h	0	WRAM	Status ? (1 Spawning) 
 001761	b	u	0	WRAM	
 001762	b	u	0	WRAM	this might be the object id 
 001763	b	u	0	WRAM	
@@ -1138,7 +1096,7 @@ SystemID SNES
 00176d	b	u	0	WRAM	
 00176e	b	u	0	WRAM	some kind of timer 
 00176f	b	u	0	WRAM	
-001770	w	u	0	WRAM	X (Coarse) Copy 
+001770	w	u	0	WRAM	Some X Attribute 
 001771	b	u	0	WRAM	
 001772	b	u	0	WRAM	Some Y Attribute 
 001773	b	u	0	WRAM	
@@ -1161,10 +1119,8 @@ SystemID SNES
 001785	b	u	0	WRAM	
 001786	b	u	0	WRAM	
 001787	b	u	0	WRAM	
-001788	b	u	0	WRAM	Front Hitbox ROM Location 
-001789	b	u	0	WRAM	Back Hitbox ROM Location 
-00178a	b	u	0	WRAM	Top Hitbox ROM Location 
-00178b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001788	w	h	0	WRAM	X Hitbox ROM Location 
+00178a	w	h	0	WRAM	Y Hitbox ROM Location 
 00178c	b	u	0	WRAM	
 00178d	b	u	0	WRAM	
 00178e	b	u	0	WRAM	
@@ -1191,18 +1147,17 @@ SystemID SNES
 0017a5	b	u	0	WRAM	
 0017a6	b	u	0	WRAM	
 0017a7	b	u	0	WRAM	
-0017a8	b	u	0	WRAM	
-0017a9	b	u	0	WRAM	
-0017aa	b	u	0	WRAM	
-0017ab	b	u	0	WRAM	
+0017a8	w	u	0	WRAM	Firebrand X 
+0017aa	w	u	0	WRAM	Firebrand Y 
 0017ac	b	u	0	WRAM	
 0017ad	b	u	0	WRAM	
 0017ae	b	u	0	WRAM	
 0017af	b	u	0	WRAM	
+00047e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		15
 0	S	_	1		
-0017b0	b	u	0	WRAM	Status ? (1 Spawning) 
+0017b0	b	h	0	WRAM	Status ? (1 Spawning) 
 0017b1	b	u	0	WRAM	
 0017b2	b	u	0	WRAM	this might be the object id 
 0017b3	b	u	0	WRAM	
@@ -1218,7 +1173,7 @@ SystemID SNES
 0017bd	b	u	0	WRAM	
 0017be	b	u	0	WRAM	some kind of timer 
 0017bf	b	u	0	WRAM	
-0017c0	w	u	0	WRAM	X (Coarse) Copy 
+0017c0	w	u	0	WRAM	Some X Attribute 
 0017c1	b	u	0	WRAM	
 0017c2	b	u	0	WRAM	Some Y Attribute 
 0017c3	b	u	0	WRAM	
@@ -1241,10 +1196,8 @@ SystemID SNES
 0017d5	b	u	0	WRAM	
 0017d6	b	u	0	WRAM	
 0017d7	b	u	0	WRAM	
-0017d8	b	u	0	WRAM	Front Hitbox ROM Location 
-0017d9	b	u	0	WRAM	Back Hitbox ROM Location 
-0017da	b	u	0	WRAM	Top Hitbox ROM Location 
-0017db	b	u	0	WRAM	Bottom Hitbox ROM Location 
+0017d8	w	h	0	WRAM	X Hitbox ROM Location 
+0017da	w	h	0	WRAM	Y Hitbox ROM Location 
 0017dc	b	u	0	WRAM	
 0017dd	b	u	0	WRAM	
 0017de	b	u	0	WRAM	
@@ -1271,18 +1224,17 @@ SystemID SNES
 0017f5	b	u	0	WRAM	
 0017f6	b	u	0	WRAM	
 0017f7	b	u	0	WRAM	
-0017f8	b	u	0	WRAM	
-0017f9	b	u	0	WRAM	
-0017fa	b	u	0	WRAM	
-0017fb	b	u	0	WRAM	
+0017f8	w	u	0	WRAM	Firebrand X 
+0017fa	w	u	0	WRAM	Firebrand Y 
 0017fc	b	u	0	WRAM	
 0017fd	b	u	0	WRAM	
 0017fe	b	u	0	WRAM	
 0017ff	b	u	0	WRAM	
+0004ce	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		16
 0	S	_	1		
-001800	b	u	0	WRAM	Status ? (1 Spawning) 
+001800	b	h	0	WRAM	Status ? (1 Spawning) 
 001801	b	u	0	WRAM	
 001802	b	u	0	WRAM	this might be the object id 
 001803	b	u	0	WRAM	
@@ -1298,7 +1250,7 @@ SystemID SNES
 00180d	b	u	0	WRAM	
 00180e	b	u	0	WRAM	some kind of timer 
 00180f	b	u	0	WRAM	
-001810	w	u	0	WRAM	X (Coarse) Copy 
+001810	w	u	0	WRAM	Some X Attribute 
 001811	b	u	0	WRAM	
 001812	b	u	0	WRAM	Some Y Attribute 
 001813	b	u	0	WRAM	
@@ -1321,10 +1273,8 @@ SystemID SNES
 001825	b	u	0	WRAM	
 001826	b	u	0	WRAM	
 001827	b	u	0	WRAM	
-001828	b	u	0	WRAM	Front Hitbox ROM Location 
-001829	b	u	0	WRAM	Back Hitbox ROM Location 
-00182a	b	u	0	WRAM	Top Hitbox ROM Location 
-00182b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001828	w	h	0	WRAM	X Hitbox ROM Location 
+00182a	w	h	0	WRAM	Y Hitbox ROM Location 
 00182c	b	u	0	WRAM	
 00182d	b	u	0	WRAM	
 00182e	b	u	0	WRAM	
@@ -1351,18 +1301,17 @@ SystemID SNES
 001845	b	u	0	WRAM	
 001846	b	u	0	WRAM	
 001847	b	u	0	WRAM	
-001848	b	u	0	WRAM	
-001849	b	u	0	WRAM	
-00184a	b	u	0	WRAM	
-00184b	b	u	0	WRAM	
+001848	w	u	0	WRAM	Firebrand X 
+00184a	w	u	0	WRAM	Firebrand Y 
 00184c	b	u	0	WRAM	
 00184d	b	u	0	WRAM	
 00184e	b	u	0	WRAM	
 00184f	b	u	0	WRAM	
+00051e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		17
 0	S	_	1		
-001850	b	u	0	WRAM	Status ? (1 Spawning) 
+001850	b	h	0	WRAM	Status ? (1 Spawning) 
 001851	b	u	0	WRAM	
 001852	b	u	0	WRAM	this might be the object id 
 001853	b	u	0	WRAM	
@@ -1378,7 +1327,7 @@ SystemID SNES
 00185d	b	u	0	WRAM	
 00185e	b	u	0	WRAM	some kind of timer 
 00185f	b	u	0	WRAM	
-001860	w	u	0	WRAM	X (Coarse) Copy 
+001860	w	u	0	WRAM	Some X Attribute 
 001861	b	u	0	WRAM	
 001862	b	u	0	WRAM	Some Y Attribute 
 001863	b	u	0	WRAM	
@@ -1401,10 +1350,8 @@ SystemID SNES
 001875	b	u	0	WRAM	
 001876	b	u	0	WRAM	
 001877	b	u	0	WRAM	
-001878	b	u	0	WRAM	Front Hitbox ROM Location 
-001879	b	u	0	WRAM	Back Hitbox ROM Location 
-00187a	b	u	0	WRAM	Top Hitbox ROM Location 
-00187b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001878	w	h	0	WRAM	X Hitbox ROM Location 
+00187a	w	h	0	WRAM	Y Hitbox ROM Location 
 00187c	b	u	0	WRAM	
 00187d	b	u	0	WRAM	
 00187e	b	u	0	WRAM	
@@ -1431,18 +1378,17 @@ SystemID SNES
 001895	b	u	0	WRAM	
 001896	b	u	0	WRAM	
 001897	b	u	0	WRAM	
-001898	b	u	0	WRAM	
-001899	b	u	0	WRAM	
-00189a	b	u	0	WRAM	
-00189b	b	u	0	WRAM	
+001898	w	u	0	WRAM	Firebrand X 
+00189a	w	u	0	WRAM	Firebrand Y 
 00189c	b	u	0	WRAM	
 00189d	b	u	0	WRAM	
 00189e	b	u	0	WRAM	
 00189f	b	u	0	WRAM	
+00056e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		18
 0	S	_	1		
-0018a0	b	u	0	WRAM	Status ? (1 Spawning) 
+0018a0	b	h	0	WRAM	Status ? (1 Spawning) 
 0018a1	b	u	0	WRAM	
 0018a2	b	u	0	WRAM	this might be the object id 
 0018a3	b	u	0	WRAM	
@@ -1458,7 +1404,7 @@ SystemID SNES
 0018ad	b	u	0	WRAM	
 0018ae	b	u	0	WRAM	some kind of timer 
 0018af	b	u	0	WRAM	
-0018b0	w	u	0	WRAM	X (Coarse) Copy 
+0018b0	w	u	0	WRAM	Some X Attribute 
 0018b1	b	u	0	WRAM	
 0018b2	b	u	0	WRAM	Some Y Attribute 
 0018b3	b	u	0	WRAM	
@@ -1481,10 +1427,8 @@ SystemID SNES
 0018c5	b	u	0	WRAM	
 0018c6	b	u	0	WRAM	
 0018c7	b	u	0	WRAM	
-0018c8	b	u	0	WRAM	Front Hitbox ROM Location 
-0018c9	b	u	0	WRAM	Back Hitbox ROM Location 
-0018ca	b	u	0	WRAM	Top Hitbox ROM Location 
-0018cb	b	u	0	WRAM	Bottom Hitbox ROM Location 
+0018c8	w	h	0	WRAM	X Hitbox ROM Location 
+0018ca	w	h	0	WRAM	Y Hitbox ROM Location 
 0018cc	b	u	0	WRAM	
 0018cd	b	u	0	WRAM	
 0018ce	b	u	0	WRAM	
@@ -1511,18 +1455,17 @@ SystemID SNES
 0018e5	b	u	0	WRAM	
 0018e6	b	u	0	WRAM	
 0018e7	b	u	0	WRAM	
-0018e8	b	u	0	WRAM	
-0018e9	b	u	0	WRAM	
-0018ea	b	u	0	WRAM	
-0018eb	b	u	0	WRAM	
+0018e8	w	u	0	WRAM	Firebrand X 
+0018ea	w	u	0	WRAM	Firebrand Y 
 0018ec	b	u	0	WRAM	
 0018ed	b	u	0	WRAM	
 0018ee	b	u	0	WRAM	
 0018ef	b	u	0	WRAM	
+0005be	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		19
 0	S	_	1		
-0018f0	b	u	0	WRAM	Status ? (1 Spawning) 
+0018f0	b	h	0	WRAM	Status ? (1 Spawning) 
 0018f1	b	u	0	WRAM	
 0018f2	b	u	0	WRAM	this might be the object id 
 0018f3	b	u	0	WRAM	
@@ -1538,7 +1481,7 @@ SystemID SNES
 0018fd	b	u	0	WRAM	
 0018fe	b	u	0	WRAM	some kind of timer 
 0018ff	b	u	0	WRAM	
-001900	w	u	0	WRAM	X (Coarse) Copy 
+001900	w	u	0	WRAM	Some X Attribute 
 001901	b	u	0	WRAM	
 001902	b	u	0	WRAM	Some Y Attribute 
 001903	b	u	0	WRAM	
@@ -1561,10 +1504,8 @@ SystemID SNES
 001915	b	u	0	WRAM	
 001916	b	u	0	WRAM	
 001917	b	u	0	WRAM	
-001918	b	u	0	WRAM	Front Hitbox ROM Location 
-001919	b	u	0	WRAM	Back Hitbox ROM Location 
-00191a	b	u	0	WRAM	Top Hitbox ROM Location 
-00191b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001918	w	h	0	WRAM	X Hitbox ROM Location 
+00191a	w	h	0	WRAM	Y Hitbox ROM Location 
 00191c	b	u	0	WRAM	
 00191d	b	u	0	WRAM	
 00191e	b	u	0	WRAM	
@@ -1591,18 +1532,17 @@ SystemID SNES
 001935	b	u	0	WRAM	
 001936	b	u	0	WRAM	
 001937	b	u	0	WRAM	
-001938	b	u	0	WRAM	
-001939	b	u	0	WRAM	
-00193a	b	u	0	WRAM	
-00193b	b	u	0	WRAM	
+001938	w	u	0	WRAM	Firebrand X 
+00193a	w	u	0	WRAM	Firebrand Y 
 00193c	b	u	0	WRAM	
 00193d	b	u	0	WRAM	
 00193e	b	u	0	WRAM	
 00193f	b	u	0	WRAM	
+00060e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		20
 0	S	_	1		
-001940	b	u	0	WRAM	Status ? (1 Spawning) 
+001940	b	h	0	WRAM	Status ? (1 Spawning) 
 001941	b	u	0	WRAM	
 001942	b	u	0	WRAM	this might be the object id 
 001943	b	u	0	WRAM	
@@ -1618,7 +1558,7 @@ SystemID SNES
 00194d	b	u	0	WRAM	
 00194e	b	u	0	WRAM	some kind of timer 
 00194f	b	u	0	WRAM	
-001950	w	u	0	WRAM	X (Coarse) Copy 
+001950	w	u	0	WRAM	Some X Attribute 
 001951	b	u	0	WRAM	
 001952	b	u	0	WRAM	Some Y Attribute 
 001953	b	u	0	WRAM	
@@ -1641,10 +1581,8 @@ SystemID SNES
 001965	b	u	0	WRAM	
 001966	b	u	0	WRAM	
 001967	b	u	0	WRAM	
-001968	b	u	0	WRAM	Front Hitbox ROM Location 
-001969	b	u	0	WRAM	Back Hitbox ROM Location 
-00196a	b	u	0	WRAM	Top Hitbox ROM Location 
-00196b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001968	w	h	0	WRAM	X Hitbox ROM Location 
+00196a	w	h	0	WRAM	Y Hitbox ROM Location 
 00196c	b	u	0	WRAM	
 00196d	b	u	0	WRAM	
 00196e	b	u	0	WRAM	
@@ -1671,18 +1609,17 @@ SystemID SNES
 001985	b	u	0	WRAM	
 001986	b	u	0	WRAM	
 001987	b	u	0	WRAM	
-001988	b	u	0	WRAM	
-001989	b	u	0	WRAM	
-00198a	b	u	0	WRAM	
-00198b	b	u	0	WRAM	
+001988	w	u	0	WRAM	Firebrand X 
+00198a	w	u	0	WRAM	Firebrand Y 
 00198c	b	u	0	WRAM	
 00198d	b	u	0	WRAM	
 00198e	b	u	0	WRAM	
 00198f	b	u	0	WRAM	
+00065e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		21
 0	S	_	1		
-001990	b	u	0	WRAM	Status ? (1 Spawning) 
+001990	b	h	0	WRAM	Status ? (1 Spawning) 
 001991	b	u	0	WRAM	
 001992	b	u	0	WRAM	this might be the object id 
 001993	b	u	0	WRAM	
@@ -1698,7 +1635,7 @@ SystemID SNES
 00199d	b	u	0	WRAM	
 00199e	b	u	0	WRAM	some kind of timer 
 00199f	b	u	0	WRAM	
-0019a0	w	u	0	WRAM	X (Coarse) Copy 
+0019a0	w	u	0	WRAM	Some X Attribute 
 0019a1	b	u	0	WRAM	
 0019a2	b	u	0	WRAM	Some Y Attribute 
 0019a3	b	u	0	WRAM	
@@ -1721,10 +1658,8 @@ SystemID SNES
 0019b5	b	u	0	WRAM	
 0019b6	b	u	0	WRAM	
 0019b7	b	u	0	WRAM	
-0019b8	b	u	0	WRAM	Front Hitbox ROM Location 
-0019b9	b	u	0	WRAM	Back Hitbox ROM Location 
-0019ba	b	u	0	WRAM	Top Hitbox ROM Location 
-0019bb	b	u	0	WRAM	Bottom Hitbox ROM Location 
+0019b8	w	h	0	WRAM	X Hitbox ROM Location 
+0019ba	w	h	0	WRAM	Y Hitbox ROM Location 
 0019bc	b	u	0	WRAM	
 0019bd	b	u	0	WRAM	
 0019be	b	u	0	WRAM	
@@ -1751,18 +1686,17 @@ SystemID SNES
 0019d5	b	u	0	WRAM	
 0019d6	b	u	0	WRAM	
 0019d7	b	u	0	WRAM	
-0019d8	b	u	0	WRAM	
-0019d9	b	u	0	WRAM	
-0019da	b	u	0	WRAM	
-0019db	b	u	0	WRAM	
+0019d8	w	u	0	WRAM	Firebrand X 
+0019da	w	u	0	WRAM	Firebrand Y 
 0019dc	b	u	0	WRAM	
 0019dd	b	u	0	WRAM	
 0019de	b	u	0	WRAM	
 0019df	b	u	0	WRAM	
+0006ae	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		22
 0	S	_	1		
-0019e0	b	u	0	WRAM	Status ? (1 Spawning) 
+0019e0	b	h	0	WRAM	Status ? (1 Spawning) 
 0019e1	b	u	0	WRAM	
 0019e2	b	u	0	WRAM	this might be the object id 
 0019e3	b	u	0	WRAM	
@@ -1778,7 +1712,7 @@ SystemID SNES
 0019ed	b	u	0	WRAM	
 0019ee	b	u	0	WRAM	some kind of timer 
 0019ef	b	u	0	WRAM	
-0019f0	w	u	0	WRAM	X (Coarse) Copy 
+0019f0	w	u	0	WRAM	Some X Attribute 
 0019f1	b	u	0	WRAM	
 0019f2	b	u	0	WRAM	Some Y Attribute 
 0019f3	b	u	0	WRAM	
@@ -1801,10 +1735,8 @@ SystemID SNES
 001a05	b	u	0	WRAM	
 001a06	b	u	0	WRAM	
 001a07	b	u	0	WRAM	
-001a08	b	u	0	WRAM	Front Hitbox ROM Location 
-001a09	b	u	0	WRAM	Back Hitbox ROM Location 
-001a0a	b	u	0	WRAM	Top Hitbox ROM Location 
-001a0b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001a08	w	h	0	WRAM	X Hitbox ROM Location 
+001a0a	w	h	0	WRAM	Y Hitbox ROM Location 
 001a0c	b	u	0	WRAM	
 001a0d	b	u	0	WRAM	
 001a0e	b	u	0	WRAM	
@@ -1831,18 +1763,17 @@ SystemID SNES
 001a25	b	u	0	WRAM	
 001a26	b	u	0	WRAM	
 001a27	b	u	0	WRAM	
-001a28	b	u	0	WRAM	
-001a29	b	u	0	WRAM	
-001a2a	b	u	0	WRAM	
-001a2b	b	u	0	WRAM	
+001a28	w	u	0	WRAM	Firebrand X 
+001a2a	w	u	0	WRAM	Firebrand Y 
 001a2c	b	u	0	WRAM	
 001a2d	b	u	0	WRAM	
 001a2e	b	u	0	WRAM	
 001a2f	b	u	0	WRAM	
+0006fe	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		23
 0	S	_	1		
-001a30	b	u	0	WRAM	Status ? (1 Spawning) 
+001a30	b	h	0	WRAM	Status ? (1 Spawning) 
 001a31	b	u	0	WRAM	
 001a32	b	u	0	WRAM	this might be the object id 
 001a33	b	u	0	WRAM	
@@ -1858,7 +1789,7 @@ SystemID SNES
 001a3d	b	u	0	WRAM	
 001a3e	b	u	0	WRAM	some kind of timer 
 001a3f	b	u	0	WRAM	
-001a40	w	u	0	WRAM	X (Coarse) Copy 
+001a40	w	u	0	WRAM	Some X Attribute 
 001a41	b	u	0	WRAM	
 001a42	b	u	0	WRAM	Some Y Attribute 
 001a43	b	u	0	WRAM	
@@ -1881,10 +1812,8 @@ SystemID SNES
 001a55	b	u	0	WRAM	
 001a56	b	u	0	WRAM	
 001a57	b	u	0	WRAM	
-001a58	b	u	0	WRAM	Front Hitbox ROM Location 
-001a59	b	u	0	WRAM	Back Hitbox ROM Location 
-001a5a	b	u	0	WRAM	Top Hitbox ROM Location 
-001a5b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001a58	w	h	0	WRAM	X Hitbox ROM Location 
+001a5a	w	h	0	WRAM	Y Hitbox ROM Location 
 001a5c	b	u	0	WRAM	
 001a5d	b	u	0	WRAM	
 001a5e	b	u	0	WRAM	
@@ -1911,18 +1840,17 @@ SystemID SNES
 001a75	b	u	0	WRAM	
 001a76	b	u	0	WRAM	
 001a77	b	u	0	WRAM	
-001a78	b	u	0	WRAM	
-001a79	b	u	0	WRAM	
-001a7a	b	u	0	WRAM	
-001a7b	b	u	0	WRAM	
+001a78	w	u	0	WRAM	Firebrand X 
+001a7a	w	u	0	WRAM	Firebrand Y 
 001a7c	b	u	0	WRAM	
 001a7d	b	u	0	WRAM	
 001a7e	b	u	0	WRAM	
 001a7f	b	u	0	WRAM	
+00074e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		24
 0	S	_	1		
-001a80	b	u	0	WRAM	Status ? (1 Spawning) 
+001a80	b	h	0	WRAM	Status ? (1 Spawning) 
 001a81	b	u	0	WRAM	
 001a82	b	u	0	WRAM	this might be the object id 
 001a83	b	u	0	WRAM	
@@ -1938,7 +1866,7 @@ SystemID SNES
 001a8d	b	u	0	WRAM	
 001a8e	b	u	0	WRAM	some kind of timer 
 001a8f	b	u	0	WRAM	
-001a90	w	u	0	WRAM	X (Coarse) Copy 
+001a90	w	u	0	WRAM	Some X Attribute 
 001a91	b	u	0	WRAM	
 001a92	b	u	0	WRAM	Some Y Attribute 
 001a93	b	u	0	WRAM	
@@ -1961,10 +1889,8 @@ SystemID SNES
 001aa5	b	u	0	WRAM	
 001aa6	b	u	0	WRAM	
 001aa7	b	u	0	WRAM	
-001aa8	b	u	0	WRAM	Front Hitbox ROM Location 
-001aa9	b	u	0	WRAM	Back Hitbox ROM Location 
-001aaa	b	u	0	WRAM	Top Hitbox ROM Location 
-001aab	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001aa8	w	h	0	WRAM	X Hitbox ROM Location 
+001aaa	w	h	0	WRAM	Y Hitbox ROM Location 
 001aac	b	u	0	WRAM	
 001aad	b	u	0	WRAM	
 001aae	b	u	0	WRAM	
@@ -1991,18 +1917,17 @@ SystemID SNES
 001ac5	b	u	0	WRAM	
 001ac6	b	u	0	WRAM	
 001ac7	b	u	0	WRAM	
-001ac8	b	u	0	WRAM	
-001ac9	b	u	0	WRAM	
-001aca	b	u	0	WRAM	
-001acb	b	u	0	WRAM	
+001ac8	w	u	0	WRAM	Firebrand X 
+001aca	w	u	0	WRAM	Firebrand Y 
 001acc	b	u	0	WRAM	
 001acd	b	u	0	WRAM	
 001ace	b	u	0	WRAM	
 001acf	b	u	0	WRAM	
+00079e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		25
 0	S	_	1		
-001ad0	b	u	0	WRAM	Status ? (1 Spawning) 
+001ad0	b	h	0	WRAM	Status ? (1 Spawning) 
 001ad1	b	u	0	WRAM	
 001ad2	b	u	0	WRAM	this might be the object id 
 001ad3	b	u	0	WRAM	
@@ -2018,7 +1943,7 @@ SystemID SNES
 001add	b	u	0	WRAM	
 001ade	b	u	0	WRAM	some kind of timer 
 001adf	b	u	0	WRAM	
-001ae0	w	u	0	WRAM	X (Coarse) Copy 
+001ae0	w	u	0	WRAM	Some X Attribute 
 001ae1	b	u	0	WRAM	
 001ae2	b	u	0	WRAM	Some Y Attribute 
 001ae3	b	u	0	WRAM	
@@ -2041,10 +1966,8 @@ SystemID SNES
 001af5	b	u	0	WRAM	
 001af6	b	u	0	WRAM	
 001af7	b	u	0	WRAM	
-001af8	b	u	0	WRAM	Front Hitbox ROM Location 
-001af9	b	u	0	WRAM	Back Hitbox ROM Location 
-001afa	b	u	0	WRAM	Top Hitbox ROM Location 
-001afb	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001af8	w	h	0	WRAM	X Hitbox ROM Location 
+001afa	w	h	0	WRAM	Y Hitbox ROM Location 
 001afc	b	u	0	WRAM	
 001afd	b	u	0	WRAM	
 001afe	b	u	0	WRAM	
@@ -2071,18 +1994,17 @@ SystemID SNES
 001b15	b	u	0	WRAM	
 001b16	b	u	0	WRAM	
 001b17	b	u	0	WRAM	
-001b18	b	u	0	WRAM	
-001b19	b	u	0	WRAM	
-001b1a	b	u	0	WRAM	
-001b1b	b	u	0	WRAM	
+001b18	w	u	0	WRAM	Firebrand X 
+001b1a	w	u	0	WRAM	Firebrand Y 
 001b1c	b	u	0	WRAM	
 001b1d	b	u	0	WRAM	
 001b1e	b	u	0	WRAM	
 001b1f	b	u	0	WRAM	
+0007ee	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		26
 0	S	_	1		
-001b20	b	u	0	WRAM	Status ? (1 Spawning) 
+001b20	b	h	0	WRAM	Status ? (1 Spawning) 
 001b21	b	u	0	WRAM	
 001b22	b	u	0	WRAM	this might be the object id 
 001b23	b	u	0	WRAM	
@@ -2098,7 +2020,7 @@ SystemID SNES
 001b2d	b	u	0	WRAM	
 001b2e	b	u	0	WRAM	some kind of timer 
 001b2f	b	u	0	WRAM	
-001b30	w	u	0	WRAM	X (Coarse) Copy 
+001b30	w	u	0	WRAM	Some X Attribute 
 001b31	b	u	0	WRAM	
 001b32	b	u	0	WRAM	Some Y Attribute 
 001b33	b	u	0	WRAM	
@@ -2121,10 +2043,8 @@ SystemID SNES
 001b45	b	u	0	WRAM	
 001b46	b	u	0	WRAM	
 001b47	b	u	0	WRAM	
-001b48	b	u	0	WRAM	Front Hitbox ROM Location 
-001b49	b	u	0	WRAM	Back Hitbox ROM Location 
-001b4a	b	u	0	WRAM	Top Hitbox ROM Location 
-001b4b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001b48	w	h	0	WRAM	X Hitbox ROM Location 
+001b4a	w	h	0	WRAM	Y Hitbox ROM Location 
 001b4c	b	u	0	WRAM	
 001b4d	b	u	0	WRAM	
 001b4e	b	u	0	WRAM	
@@ -2151,18 +2071,17 @@ SystemID SNES
 001b65	b	u	0	WRAM	
 001b66	b	u	0	WRAM	
 001b67	b	u	0	WRAM	
-001b68	b	u	0	WRAM	
-001b69	b	u	0	WRAM	
-001b6a	b	u	0	WRAM	
-001b6b	b	u	0	WRAM	
+001b68	w	u	0	WRAM	Firebrand X 
+001b6a	w	u	0	WRAM	Firebrand Y 
 001b6c	b	u	0	WRAM	
 001b6d	b	u	0	WRAM	
 001b6e	b	u	0	WRAM	
 001b6f	b	u	0	WRAM	
+00083e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		27
 0	S	_	1		
-001b70	b	u	0	WRAM	Status ? (1 Spawning) 
+001b70	b	h	0	WRAM	Status ? (1 Spawning) 
 001b71	b	u	0	WRAM	
 001b72	b	u	0	WRAM	this might be the object id 
 001b73	b	u	0	WRAM	
@@ -2178,7 +2097,7 @@ SystemID SNES
 001b7d	b	u	0	WRAM	
 001b7e	b	u	0	WRAM	some kind of timer 
 001b7f	b	u	0	WRAM	
-001b80	w	u	0	WRAM	X (Coarse) Copy 
+001b80	w	u	0	WRAM	Some X Attribute 
 001b81	b	u	0	WRAM	
 001b82	b	u	0	WRAM	Some Y Attribute 
 001b83	b	u	0	WRAM	
@@ -2201,10 +2120,8 @@ SystemID SNES
 001b95	b	u	0	WRAM	
 001b96	b	u	0	WRAM	
 001b97	b	u	0	WRAM	
-001b98	b	u	0	WRAM	Front Hitbox ROM Location 
-001b99	b	u	0	WRAM	Back Hitbox ROM Location 
-001b9a	b	u	0	WRAM	Top Hitbox ROM Location 
-001b9b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001b98	w	h	0	WRAM	X Hitbox ROM Location 
+001b9a	w	h	0	WRAM	Y Hitbox ROM Location 
 001b9c	b	u	0	WRAM	
 001b9d	b	u	0	WRAM	
 001b9e	b	u	0	WRAM	
@@ -2231,18 +2148,17 @@ SystemID SNES
 001bb5	b	u	0	WRAM	
 001bb6	b	u	0	WRAM	
 001bb7	b	u	0	WRAM	
-001bb8	b	u	0	WRAM	
-001bb9	b	u	0	WRAM	
-001bba	b	u	0	WRAM	
-001bbb	b	u	0	WRAM	
+001bb8	w	u	0	WRAM	Firebrand X 
+001bba	w	u	0	WRAM	Firebrand Y 
 001bbc	b	u	0	WRAM	
 001bbd	b	u	0	WRAM	
 001bbe	b	u	0	WRAM	
 001bbf	b	u	0	WRAM	
+00088e	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		28
 0	S	_	1		
-001bc0	b	u	0	WRAM	Status ? (1 Spawning) 
+001bc0	b	h	0	WRAM	Status ? (1 Spawning) 
 001bc1	b	u	0	WRAM	
 001bc2	b	u	0	WRAM	this might be the object id 
 001bc3	b	u	0	WRAM	
@@ -2258,7 +2174,7 @@ SystemID SNES
 001bcd	b	u	0	WRAM	
 001bce	b	u	0	WRAM	some kind of timer 
 001bcf	b	u	0	WRAM	
-001bd0	w	u	0	WRAM	X (Coarse) Copy 
+001bd0	w	u	0	WRAM	Some X Attribute 
 001bd1	b	u	0	WRAM	
 001bd2	b	u	0	WRAM	Some Y Attribute 
 001bd3	b	u	0	WRAM	
@@ -2281,10 +2197,8 @@ SystemID SNES
 001be5	b	u	0	WRAM	
 001be6	b	u	0	WRAM	
 001be7	b	u	0	WRAM	
-001be8	b	u	0	WRAM	Front Hitbox ROM Location 
-001be9	b	u	0	WRAM	Back Hitbox ROM Location 
-001bea	b	u	0	WRAM	Top Hitbox ROM Location 
-001beb	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001be8	w	h	0	WRAM	X Hitbox ROM Location 
+001bea	w	h	0	WRAM	Y Hitbox ROM Location 
 001bec	b	u	0	WRAM	
 001bed	b	u	0	WRAM	
 001bee	b	u	0	WRAM	
@@ -2311,18 +2225,17 @@ SystemID SNES
 001c05	b	u	0	WRAM	
 001c06	b	u	0	WRAM	
 001c07	b	u	0	WRAM	
-001c08	b	u	0	WRAM	
-001c09	b	u	0	WRAM	
-001c0a	b	u	0	WRAM	
-001c0b	b	u	0	WRAM	
+001c08	w	u	0	WRAM	Firebrand X 
+001c0a	w	u	0	WRAM	Firebrand Y 
 001c0c	b	u	0	WRAM	
 001c0d	b	u	0	WRAM	
 001c0e	b	u	0	WRAM	
 001c0f	b	u	0	WRAM	
+0008de	w	u	0	WRAM	
 0	S	_	1		
 0	S	_	1		29
 0	S	_	1		
-001c10	b	u	0	WRAM	Status ? (1 Spawning) 
+001c10	b	h	0	WRAM	Status ? (1 Spawning) 
 001c11	b	u	0	WRAM	
 001c12	b	u	0	WRAM	this might be the object id 
 001c13	b	u	0	WRAM	
@@ -2338,7 +2251,7 @@ SystemID SNES
 001c1d	b	u	0	WRAM	
 001c1e	b	u	0	WRAM	some kind of timer 
 001c1f	b	u	0	WRAM	
-001c20	w	u	0	WRAM	X (Coarse) Copy 
+001c20	w	u	0	WRAM	Some X Attribute 
 001c21	b	u	0	WRAM	
 001c22	b	u	0	WRAM	Some Y Attribute 
 001c23	b	u	0	WRAM	
@@ -2361,10 +2274,8 @@ SystemID SNES
 001c35	b	u	0	WRAM	
 001c36	b	u	0	WRAM	
 001c37	b	u	0	WRAM	
-001c38	b	u	0	WRAM	Front Hitbox ROM Location 
-001c39	b	u	0	WRAM	Back Hitbox ROM Location 
-001c3a	b	u	0	WRAM	Top Hitbox ROM Location 
-001c3b	b	u	0	WRAM	Bottom Hitbox ROM Location 
+001c38	w	h	0	WRAM	X Hitbox ROM Location 
+001c3a	w	h	0	WRAM	Y Hitbox ROM Location 
 001c3c	b	u	0	WRAM	
 001c3d	b	u	0	WRAM	
 001c3e	b	u	0	WRAM	
@@ -2391,11 +2302,10 @@ SystemID SNES
 001c55	b	u	0	WRAM	
 001c56	b	u	0	WRAM	
 001c57	b	u	0	WRAM	
-001c58	b	u	0	WRAM	
-001c59	b	u	0	WRAM	
-001c5a	b	u	0	WRAM	
-001c5b	b	u	0	WRAM	
+001c58	w	u	0	WRAM	Firebrand X 
+001c5a	w	u	0	WRAM	Firebrand Y 
 001c5c	b	u	0	WRAM	
 001c5d	b	u	0	WRAM	
 001c5e	b	u	0	WRAM	
 001c5f	b	u	0	WRAM	
+00092e	w	u	0	WRAM	
