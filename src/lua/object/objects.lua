@@ -12,6 +12,9 @@ local function object(address)
     isAlive = function ()
       return mem.wram(address, 1) > 0
     end,
+    getContactDamage = function ()
+      return mem.wram(address + 0x07, 1)
+    end,
     getHp = function ()
       local hp = mem.wram(address + 0x36, 1)
       if (hp >= 0x80) then
@@ -31,19 +34,19 @@ local function object(address)
     getRelativeY = function ()
       return mem.wram(address + 0x34, 2) - viewport.getY()
     end,
-    rightHitbox = function ()
+    rightHitbox = function () --i not sure exactly how this is used
       if (mem.wram(address + 0x09, 1) == 1 or mem.wram(address + 0x39, 1) == 1) then
         return rom(mem.wram(address + 0x28, 2), 2)
       end
       return rom(mem.wram(address + 0x28, 2) + 0x02, 2)
     end,
-    leftHitbox = function ()
+    leftHitbox = function () -- not sure exactly how this is used
       if (mem.wram(address + 0x09, 1) == 1 or mem.wram(address + 0x39, 1) == 1) then
         return mem.rom(mem.wram(address + 0x28, 2) + 0x02, 2)
       end
       return mem.rom(mem.wram(address + 0x28, 2), 2)
     end,
-    getXHitbox = function ()
+    getXHitbox = function () -- this seems to be used for both left/right
       local romAddress = mem.wram(address + 0x28, 2);
       if (romAddress == 0x00) then
         return 2;
@@ -59,6 +62,20 @@ local function object(address)
     end,
     bottomHitbox = function ()
       local baseRomAddress = mem.wram(address + 0x2A, 2);
+      if (baseRomAddress == 0x00) then
+        return 2;
+      end
+      return mem.rom(baseRomAddress + 0x02, 2)
+    end,
+    topTouchbox = function ()
+      local romAddress = mem.wram(address + 0x28, 2);
+      if (romAddress == 0x00) then
+        return 2;
+      end
+      return mem.rom(romAddress, 2)
+    end,
+    bottomTouchbox = function ()
+      local baseRomAddress = mem.wram(address + 0x28, 2);
       if (baseRomAddress == 0x00) then
         return 2;
       end
