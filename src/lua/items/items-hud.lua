@@ -35,7 +35,6 @@ function itemDashboard()
 
     if (input.getmouse()['X'] > 35 and input.getmouse()['X'] < 75 and input.getmouse()['Y'] > 50 and input.getmouse()['Y'] < 65) then
       if (input.getmouse()['Left']) then
-        print('click')
         giveItem(items.powers.buster)
       end
     end

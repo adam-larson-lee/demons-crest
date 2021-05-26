@@ -41,6 +41,8 @@ SystemID SNES
 001E52	b	b	0	WRAM	Ultimate - Urn 2
 001E53	b	b	0	WRAM	Urn 3 - Talismans
 001E54	w	b	0	WRAM	Max HP+
+001E54	b	b	0	WRAM	Max HP+ (1)
+001E55	b	b	0	WRAM	Max HP+ (2)
 001DD7	b	u	0	WRAM	Boss IFrame Timer (Hippo?)
 001028	w	u	0	WRAM	Firebrand Hitbox ?
 0010B1	w	u	0	WRAM	Projectile 1 X (Coarse)
@@ -49,4 +51,9 @@ SystemID SNES
 001092	w	u	0	WRAM	Projectile 1 Y Relative to View?
 001080	b	u	0	WRAM	Projectile 1 Status
 0010D0	b	u	0	WRAM	Projectile 2 Status
+001DCF	b	u	0	WRAM	Attack Key Config (A=0, X=1, L=2, R=3, B=4, Y=5, SE=6, ST=7)
+001DD0	b	u	0	WRAM	Jump Key Config
+001DD1	b	u	0	WRAM	Magic Key Config
+001DD2	b	u	0	WRAM	Specialty Key Config
+001DD3	b	u	0	WRAM	Menu Key Config
 

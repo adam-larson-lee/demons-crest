@@ -35,16 +35,14 @@ function displayObjectDetails()
         nextDetailY = nextDetailY + 10
       end
 
-      drawDetail('Object ' .. selectedObject - 2)
       drawDetail('Base ' .. string.format('0x%x', obj.getBase()):upper())
       drawDetail('HP ' .. obj.getHp())
       drawDetail('Position ' .. obj.getX() .. ', ' .. obj.getY())
       drawDetail('X HB Loc ' .. string.format('0x%x', obj.getValue(0x28, 2)):upper())
       drawDetail('2E (?) Loc ' .. string.format('0x%x', obj.getValue(0x2E, 2)):upper())
 
-      draw.box(obj.getRelativeX() - obj.getXHitbox(), obj.getRelativeY() - obj.topHitbox(), obj.getXHitbox() * 2, obj.topHitbox() + obj.bottomHitbox(), draw.color.green)
-      draw.text(obj.getRelativeX() - 4, obj.getRelativeY() - obj.topHitbox() - 6, selectedObject - 2)
-      draw.pixel(obj.getRelativeX(), obj.getRelativeY(), draw.color.green)
+      draw.box(obj.getRelativeX() - obj.getXHitbox(), obj.getRelativeY() - obj.topHitbox(), obj.getXHitbox() * 2, obj.topHitbox() + obj.bottomHitbox(), draw.color.white)
+      draw.pixel(obj.getRelativeX(), obj.getRelativeY(), draw.color.white)
     else
       hideObjectDetails()
     end

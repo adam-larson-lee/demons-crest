@@ -28,14 +28,19 @@ end
 require 'util.bitflag'
 require 'util.viewport'
 
+require 'decorator.draw-decorator'
+
 require 'object.objects'
 require 'object.firebrand'
+
+require 'items.items'
 
 require 'display.joypad-display'
 require 'display.firebrand-hp-display'
 require 'display.enemy-hp-display'
 require 'display.object-details-display'
 require 'display.object-hitbox-display'
+require 'display.item-completion-display'
 require 'display.display-options'
 
 if (emulator.mesens) then

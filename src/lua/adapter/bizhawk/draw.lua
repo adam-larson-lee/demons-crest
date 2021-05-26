@@ -4,7 +4,8 @@ draw = {
     gray = 'Gray',
     black = 'Black',
     green = 'Green',
-    red = 'Red'
+    red = 'Red',
+    yellow = 'Yellow'
   },
   box = function(x, y, width, height, borderColor, fillColor)
     gui.drawBox(x, y, x + width, y + height, borderColor, fillColor)

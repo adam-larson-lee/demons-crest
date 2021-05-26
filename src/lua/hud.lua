@@ -9,6 +9,7 @@ local displayHud = function ()
     
     displayFirebrandHp()
     displayEnemyHp()
+    displayItemCompletion()
     
     if (display.hitboxes.enabled) then
       displayObjectHitboxes()

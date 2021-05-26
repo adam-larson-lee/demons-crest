@@ -13,6 +13,8 @@
     "color",
     "drawBox",
     "input",
+    "items",
+    "getItemCompletion",
     "joypad",
     "wram",
     "rom",
@@ -27,6 +29,10 @@
     "display",
     "displayObjectDetails",
     "hideObjectDetails",
-    "selectedObject"
+    "selectedObject",
+    "displayItemCompletion"
+  ],
+  "Lua.diagnostics.disable": [
+    "unused-local"
   ]
 }
