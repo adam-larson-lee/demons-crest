@@ -30,7 +30,17 @@
     "displayObjectDetails",
     "hideObjectDetails",
     "selectedObject",
-    "displayItemCompletion"
+    "displayItemCompletion",
+    "bitflag",
+    "objectHpHud",
+    "hud",
+    "itemDashboard",
+    "client",
+    "displayMenu",
+    "displayIframes",
+    "displayZam",
+    "memoryAddresses",
+    "displaySkullGame"
   ],
   "Lua.diagnostics.disable": [
     "unused-local"

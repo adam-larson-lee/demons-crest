@@ -14,8 +14,8 @@ draw = {
   pixel = function(x, y, color)
     emu.drawPixel(x, y, color)
   end,
-  text = function(x, y, text)
-    emu.drawString(x, y, text, 0xFFFFFF)
+  text = function(x, y, text, color)
+    emu.drawString(x, y, text, color or 0xFFFFFF)
   end,
   clear = function()
     emu.clearScreen()

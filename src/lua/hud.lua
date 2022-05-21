@@ -1,21 +1,35 @@
 require 'global-require'
 
 local displayHud = function ()
-    displayOptions()
+  -- header
+  draw.box(0, 0, 260, 8, draw.color.black, draw.color.black);
+  -- footer
+  draw.box(0, 215, 260, 8, draw.color.black, draw.color.black);
 
-    if (display.joypad.enabled) then
-      displayJoypad()
-    end
-    
-    displayFirebrandHp()
-    displayEnemyHp()
-    displayItemCompletion()
-    
-    if (display.hitboxes.enabled) then
-      displayObjectHitboxes()
-    end
+  displayMenu()
 
-    displayObjectDetails()
+  if (display.joypad.enabled) then
+    displayJoypad()
+  end
+
+  displayFirebrandHp()
+  displayEnemyHp()
+  displayItemCompletion()
+  displayZam()
+
+  if (display.hitboxes.enabled) then
+    displayObjectHitboxes()
+  end
+
+  displayObjectDetails()
+
+  if (display.iframes.enabled) then
+    displayIframes()
+  end
+
+  if (display.levelDetails.enabled) then
+    displaySkullGame()
+  end
 end
 
 if (emu.frameadvance) then

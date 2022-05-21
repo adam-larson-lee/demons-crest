@@ -1,3 +1,5 @@
+-- This method is far to slow to use during regular play right now.
+
 draw.boxes = function (box1, box2, overlapColor)
 
   local getLine = function (x1, y1, x2, y2, color)

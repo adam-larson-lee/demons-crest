@@ -1,4 +1,6 @@
 selectedObject = -1
+local debounce = 0;
+
 
 function hideObjectDetails()
   display.objectDetails.enabled = false
@@ -7,17 +9,28 @@ end
 
 function displayObjectDetails()
 
-  local m = input.getmouse()
+  if (debounce > 0) then
+    debounce = debounce - 1
+  else
 
-  local minY = 9
+    local m = input.getmouse()
 
-  if (m.Left and m.X >= 0 and m.Y >= 0) then
-    for j,obj in ipairs(objects) do
-      if (obj.isAlive()) then
-        if (m.X >= obj.getRelativeX() - obj.getXHitbox() and m.X <= obj.getRelativeX() + obj.getXHitbox()) then
-          if (m.Y > minY and m.Y >= obj.getRelativeY() - obj.topHitbox() and m.Y <= obj.getRelativeY() + obj.bottomHitbox()) then
-            display.objectDetails.enabled = true
-            selectedObject = j
+    local minY = 9
+
+    if (m.Left and m.X >= 0 and m.Y >= 0) then
+      for j,obj in ipairs(objects) do
+        if (obj.isAlive()) then
+          if (m.X >= obj.getRelativeX() - obj.getXHitbox() and m.X <= obj.getRelativeX() + obj.getXHitbox()) then
+            if (m.Y > minY and m.Y >= obj.getRelativeY() - obj.topHitbox() and m.Y <= obj.getRelativeY() + obj.bottomHitbox()) then
+              if (selectedObject == j) then
+                hideObjectDetails()
+                debounce = 10
+              else
+                display.objectDetails.enabled = true
+                selectedObject = j
+                debounce = 10
+              end
+            end
           end
         end
       end

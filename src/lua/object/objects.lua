@@ -80,6 +80,9 @@ local function object(address)
         return 2;
       end
       return mem.rom(baseRomAddress + 0x02, 2)
+    end,
+    getIframes = function ()
+      return mem.wram(address + 0x3C, 1)
     end
   }
 end
@@ -90,6 +93,7 @@ firebrand = object(0x001000)
 firebrand.getHp = function ()
   return mem.wram(0x1000 + 0x62, 1)
 end
+firebrand.isFirebrand = true
 
 table.insert(objects, firebrand)
 

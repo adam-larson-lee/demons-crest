@@ -2,8 +2,8 @@ function displayFirebrandHp()
   local firebrandHp = firebrand.getHp()
 
   if (firebrandHp <= 9) then
-    draw.text(156, 1, firebrandHp)
+    draw.text(148, 1, firebrandHp .. ' HP', draw.color.green)
   else
-    draw.text(153, 1, firebrandHp)
+    draw.text(145, 1, firebrandHp .. ' HP', draw.color.green)
   end
 end

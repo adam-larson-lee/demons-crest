@@ -6,10 +6,12 @@ function displayEnemyHp()
 
   for i,obj in ipairs(objects) do
     if (i > 0 and obj.isAlive() and obj.getHp() > 0) then
-      local objDistance = math.abs(obj.getX() + obj.getY() - firebrandLocation)
-      if (objDistance < closestObjectDistance) then
-        closestObjectDistance = objDistance
-        closestObject = i
+      if (not obj.isFirebrand) then
+        local objDistance = math.abs(obj.getX() + obj.getY() - firebrandLocation)
+        if (objDistance < closestObjectDistance) then
+          closestObjectDistance = objDistance
+          closestObject = i
+        end
       end
     end
   end
@@ -17,9 +19,9 @@ function displayEnemyHp()
   if (closestObject >= 0) then
     local closestObjectHp = objects[closestObject].getHp()
     if (closestObjectHp <= 9) then
-      draw.text(188, 1, closestObjectHp)
+      draw.text(180, 1, closestObjectHp .. ' HP', draw.color.red)
     else
-      draw.text(185, 1, closestObjectHp)
+      draw.text(177, 1, closestObjectHp .. ' HP', draw.color.red)
     end
   end
 end

@@ -56,4 +56,5 @@ SystemID SNES
 001DD1	b	u	0	WRAM	Magic Key Config
 001DD2	b	u	0	WRAM	Specialty Key Config
 001DD3	b	u	0	WRAM	Menu Key Config
+001610	b	u	0	WRAM	Skulls Crushed
 

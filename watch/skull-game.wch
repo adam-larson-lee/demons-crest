@@ -1,0 +1,5 @@
+SystemID SNES
+001610	b	u	0	WRAM	Skulls Crushed (0)
+001DD0	b	u	0	WRAM	Candles Remaining (9)
+001DCE	w	u	0	WRAM	Time Remaining (2400)
+

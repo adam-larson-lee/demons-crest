@@ -2,7 +2,7 @@ local i = 0;
 local showDashboard = false;
 local debounce = false;
 
-require 'items'
+require 'items.lua'
 
 function itemDashboard()
 
