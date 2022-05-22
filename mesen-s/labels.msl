@@ -1,4 +1,6 @@
-﻿PRG:106C4:manage_object_table
+﻿PRG:0D73:landing_on_an_object_maybe
+PRG:1C14:compare_firebrand_to_object_location_maybe
+PRG:106C4:manage_object_table
 PRG:10D88:clear_object
 PRG:1154F:spawn_wall_spider
 PRG:12B11:spawn_rock_platform
@@ -15,16 +17,21 @@ WORK:1062:firebrand_current_hp
 WORK:1063:zam
 WORK:10B1:projectile_1_x
 WORK:10B4:projectile_1_y
-WORK:1300:object_1_status
-WORK:1309:object_1_movement_direction:1 = Right, 2 = Left
-WORK:1320:object_1_move_speed
-WORK:1331-1332:object_1_x
-WORK:1334-1335:object_1_y
-WORK:1336:object_1_hp
-WORK:1350:object_2_status
-WORK:1381:object_2_x
-WORK:1384:object_2_y
-WORK:1431-1432:object_3_x
+WORK:1300:object_0_status
+WORK:1309:object_0_movement_direction:1 = Right, 2 = Left
+WORK:1320:object_0_move_speed
+WORK:1331-1332:object_0_x
+WORK:1334-1335:object_0_y
+WORK:1336:object_0_hp
+WORK:1350:object_1_status
+WORK:1381:object_1_x
+WORK:1384:object_1_y
+WORK:13BC:object_2_x_copy
+WORK:13BE:object_2_y_copy
+WORK:13D1:object_2_x
+WORK:13D4:object_2_y
+WORK:1421:object_3_x
+WORK:1424:object_3_y
 WORK:1DD7:hippogriff_iframe_timer
 SPCRAM:00F0:TEST:Testing functions
 SPCRAM:00F1:CONTROL:I/O and Timer Control

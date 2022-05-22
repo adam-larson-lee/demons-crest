@@ -9,7 +9,7 @@ display = {
     order = 2,
     name = 'Level Info',
     togglable = true,
-    enabled = false,
+    enabled = true,
   },
   hitboxes = {
     order = 3,
@@ -43,7 +43,7 @@ local debounce = 0;
 
 function displayMenu()
 
-  draw.text(108, 1, "MENU", menuOpen and draw.color.green or draw.color.white);
+  draw.text(116, 1, "MENU", menuOpen and draw.color.green or draw.color.white);
 
   if (menuOpen) then
 

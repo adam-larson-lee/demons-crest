@@ -17,8 +17,11 @@ displaySkullGame = function ()
   local timeRemaining = mem.get(memory.timeRemaining);
 
   if (candlesRemaining > 0 and candlesRemaining < 10) then
+    draw.box(185, 50, 56, 8, draw.color.black, draw.color.black);
+    draw.text(185, 51, timeRemaining .. ' frames');
+
     draw.box(185, 60, 22, 8, draw.color.black, draw.color.black);
-    draw.text(185, 61, timeRemaining);
+    draw.text(185, 61, math.ceil(timeRemaining / 60) .. ' s');
 
     draw.box(184, 145, 25, 8, draw.color.black, draw.color.black);
     draw.text(184, 146, skullsCrushed .. '/25');

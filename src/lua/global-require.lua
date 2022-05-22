@@ -28,6 +28,7 @@ end
 require 'util.bitflag'
 require 'util.viewport'
 
+require 'decorator.draw.arrow'
 require 'decorator.draw-decorator'
 require 'decorator.mem-decorator'
 
@@ -43,10 +44,15 @@ require 'display.object-details-display'
 require 'display.object-hitbox-display'
 require 'display.item-completion-display'
 require 'display.iframes-display'
-require 'display.zam-display'
 require 'display.menu'
 
+require 'display.zam-display'
+require 'display.firebrand-position'
+require 'display.viewport'
+
 require 'display.level.skull-game'
+
+require 'display.level.overworld.compass'
 
 if (emulator.mesens) then
   display.joypad.enabled = false

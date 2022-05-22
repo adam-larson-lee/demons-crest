@@ -1,0 +1,10 @@
+SystemID SNES
+0000A2	w	u	0	WRAM	Overwold X
+0000C0	w	u	0	WRAM	Overworld X (Copy)
+0000A6	w	u	0	WRAM	Overwold Y
+0000C4	w	u	0	WRAM	Overwold Y (Copy)
+0	S	_	1		
+0000A8	w	u	0	WRAM	Something about flying height ? 44 max on dive, 64 coming out of level
+0	S	_	1		
+001DDA	w	u	0	WRAM	Overworld Orientation (360 degrees, 0/360 North Y Decreases, Clockwise decreases angle)
+
